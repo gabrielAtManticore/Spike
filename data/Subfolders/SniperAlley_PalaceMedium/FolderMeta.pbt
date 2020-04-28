@@ -1,0 +1,67 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "5605826ff6a249a1942c52e32ad8c0a4"
+  OwnerAccountId: "400d8e7acb154e5bb64368411824b61d"
+  OwnerName: "Bigglebuns"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 321472518781775172
+  value: 7219144239951375020
+}
+AssetIdsOriginalToNew {
+  key: 870877451247546928
+  value: 6984583768539484841
+}
+AssetIdsOriginalToNew {
+  key: 1031736639489708352
+  value: 9681395757750797258
+}
+AssetIdsOriginalToNew {
+  key: 1729204699702136046
+  value: 7638649392397114758
+}
+AssetIdsOriginalToNew {
+  key: 1753462617540859302
+  value: 11051964792686299553
+}
+AssetIdsOriginalToNew {
+  key: 2213622792715670236
+  value: 4296264281534977684
+}
+AssetIdsOriginalToNew {
+  key: 2824340412636174052
+  value: 6148492694898430786
+}
+AssetIdsOriginalToNew {
+  key: 4172744762475052393
+  value: 17969139497180399598
+}
+AssetIdsOriginalToNew {
+  key: 7841420546852530585
+  value: 2345403574509522074
+}
+AssetIdsOriginalToNew {
+  key: 8031840578104544047
+  value: 10659033055300459636
+}
+AssetIdsOriginalToNew {
+  key: 9860078983521623226
+  value: 9701878654355824741
+}
+AssetIdsOriginalToNew {
+  key: 14808705567745252113
+  value: 12750481859335955883
+}
+AssetIdsOriginalToNew {
+  key: 15067162584629066352
+  value: 6450227506466150620
+}
+AssetIdsOriginalToNew {
+  key: 16770550917679346452
+  value: 10837248723726056802
+}
+AssetIdsOriginalToNew {
+  key: 17875320288915075087
+  value: 15281754122639844256
+}

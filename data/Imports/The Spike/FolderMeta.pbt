@@ -1,0 +1,63 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "1f35e6c4c8db47359f010b8729d02a92"
+  OwnerAccountId: "d97586e1f850481da13ee26d5cbddc02"
+  OwnerName: "Chris"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 307406115803496087
+  value: 2574573181898932311
+}
+AssetIdsOriginalToNew {
+  key: 1683114021203363022
+  value: 13401696071391841448
+}
+AssetIdsOriginalToNew {
+  key: 9023864673320310867
+  value: 6202026184987215197
+}
+AssetIdsOriginalToNew {
+  key: 9808348056156093151
+  value: 3007264444492546226
+}
+AssetIdsOriginalToNew {
+  key: 10319409580238848787
+  value: 5188879039550237351
+}
+AssetIdsOriginalToNew {
+  key: 12107734285812188601
+  value: 11435523217775724340
+}
+AssetIdsOriginalToNew {
+  key: 13235592136068060647
+  value: 1259204571281775860
+}
+AssetIdsOriginalToNew {
+  key: 14477085825530360263
+  value: 10231171180917657578
+}
+AssetIdsOriginalToNew {
+  key: 15110084185172534657
+  value: 5130378384565118378
+}
+AssetIdsOriginalToNew {
+  key: 15728676179772725900
+  value: 11505602315535723705
+}
+AssetIdsOriginalToNew {
+  key: 16313312156352177803
+  value: 3823405544296723764
+}
+AssetIdsOriginalToNew {
+  key: 16457923780771098934
+  value: 3713589713668789938
+}
+AssetIdsOriginalToNew {
+  key: 16816408137665850835
+  value: 7531009269356770074
+}
+AssetIdsOriginalToNew {
+  key: 17128979065188018617
+  value: 8199351127299136986
+}
