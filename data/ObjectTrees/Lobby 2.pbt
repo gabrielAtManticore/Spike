@@ -189,16 +189,16 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -2724.99927
-      Y: -6274.99756
+      X: -2673.1875
+      Y: -6355.29102
     }
     Rotation {
       Yaw: -3.05175781e-05
     }
     Scale {
-      X: 1
-      Y: 0.5
-      Z: 0.90948689
+      X: 0.588667095
+      Y: 0.4
+      Z: 0.538949788
     }
   }
   ParentId: 490316817660714688
@@ -472,9 +472,9 @@ Objects {
   Name: "Spawn Points"
   Transform {
     Location {
-      X: 1599.99805
-      Y: -0.00200271304
-      Z: 125
+      X: 1823.20398
+      Y: -122.422203
+      Z: 133.56543
     }
     Rotation {
     }

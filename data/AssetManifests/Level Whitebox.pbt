@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7960692828891376480
-  Name: "Arch"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_001"
-  }
-}
-Assets {
   Id: 6594793957175184293
   Name: "Bricks Rough Stone Floor 02"
   PlatformAssetType: 2
@@ -77,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_panels_002"
+  }
+}
+Assets {
+  Id: 4589371932643678539
+  Name: "Modern Weapon - Grenade Canister 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weapons_grenade_teeth_001"
   }
 }
 Assets {

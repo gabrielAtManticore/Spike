@@ -1,11 +1,193 @@
 Name: "Buy 2"
 RootId: 3101486352721114744
 Objects {
+  Id: 13433452428265138072
+  Name: "Defend Message"
+  Transform {
+    Location {
+      X: 752.599304
+      Y: 92.7785568
+      Z: 75.9272461
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.600988626
+      Y: 0.600988626
+      Z: 0.600988626
+    }
+  }
+  ParentId: 3101486352721114744
+  ChildIds: 15479733162765046187
+  ChildIds: 34698670210917411
+  ChildIds: 10799947945146162103
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10799947945146162103
+  Name: "World Text"
+  Transform {
+    Location {
+      X: -116.271576
+      Y: 12.0162888
+      Z: 283.133331
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 3.50000167
+      Y: 3.28842211
+      Z: 3.50000167
+    }
+  }
+  ParentId: 13433452428265138072
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "<- DEFEND ->"
+    Color {
+      R: 1
+      G: 1
+      B: 0.00999999
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 34698670210917411
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -31.9809818
+      Y: -0.0095578786
+      Z: 286.802399
+    }
+    Rotation {
+      Yaw: 90.0000229
+    }
+    Scale {
+      X: 5.43586206
+      Y: 1.62607205
+      Z: 1.4634676
+    }
+  }
+  ParentId: 13433452428265138072
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.157537773
+        G: 0.204000011
+        B: 0.059772
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15479733162765046187
+  Name: "Modern Weapon - Sight 02"
+  Transform {
+    Location {
+      X: 0.00405735336
+      Y: 13.8740244
+      Z: 161.362534
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 23.3000011
+      Y: 82.4364777
+      Z: 23.2528667
+    }
+  }
+  ParentId: 13433452428265138072
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 6013416776206816930
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15986320784133630650
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 14939260874934557967
   Name: "Group"
   Transform {
     Location {
-      Y: 700
+      X: -27.5506172
+      Y: 927.524902
     }
     Rotation {
     }
@@ -18,8 +200,9 @@ Objects {
   ParentId: 3101486352721114744
   ChildIds: 13724541211938882333
   ChildIds: 4580159247459542137
-  ChildIds: 16830926489875659547
   ChildIds: 13546084622384561767
+  ChildIds: 6480790943190300265
+  ChildIds: 9715666266510868750
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31,26 +214,299 @@ Objects {
   }
 }
 Objects {
+  Id: 9715666266510868750
+  Name: "monitor"
+  Transform {
+    Location {
+      X: -22.9243088
+      Y: -0.000496479508
+      Z: -125
+    }
+    Rotation {
+      Yaw: 149.838318
+    }
+    Scale {
+      X: 0.600988626
+      Y: 0.600988626
+      Z: 0.600988626
+    }
+  }
+  ParentId: 14939260874934557967
+  ChildIds: 10043650928652841286
+  ChildIds: 5686335325559849404
+  ChildIds: 8547777266522758230
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8547777266522758230
+  Name: "Modern Weapon - Scope 02"
+  Transform {
+    Location {
+      X: 37.4999695
+      Y: -59.9519348
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: 90
+      Roll: 30.0000763
+    }
+    Scale {
+      X: 6
+      Y: 12.3999987
+      Z: 12.4000015
+    }
+  }
+  ParentId: 9715666266510868750
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2168240361010595988
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5686335325559849404
+  Name: "Modern Weapon - Scope 02"
+  Transform {
+    Location {
+      X: -32.4999695
+      Y: 61.2916718
+      Z: 55
+    }
+    Rotation {
+      Pitch: 90
+      Roll: -120.000031
+    }
+    Scale {
+      X: 7.1
+      Y: 7.8
+      Z: 8.39999771
+    }
+  }
+  ParentId: 9715666266510868750
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2168240361010595988
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 10043650928652841286
+  Name: "Modern Weapon - Sight 02"
+  Transform {
+    Location {
+      X: 0.0040214872
+      Y: -0.0040214872
+      Z: 169.999832
+    }
+    Rotation {
+      Pitch: 0.968445659
+      Yaw: 120.030518
+      Roll: -1.38299561
+    }
+    Scale {
+      X: 20.2999973
+      Y: 20.2999973
+      Z: 20.2999973
+    }
+  }
+  ParentId: 9715666266510868750
+  ChildIds: 8099561842431479219
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 6013416776206816930
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15986320784133630650
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8099561842431479219
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 1.28085303
+      Y: 0.000236932028
+      Z: 5.24464226
+    }
+    Rotation {
+      Yaw: -89.9999695
+    }
+    Scale {
+      X: 0.069930084
+      Y: 0.069930084
+      Z: 0.0629370809
+    }
+  }
+  ParentId: 10043650928652841286
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.157537773
+        G: 0.204000011
+        B: 0.059772
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 6480790943190300265
+  Name: "World Text"
+  Transform {
+    Location {
+      X: -24.9999695
+      Y: -63.4599533
+      Z: 63.5905762
+    }
+    Rotation {
+      Yaw: -90.0002
+    }
+    Scale {
+      X: 0.898265541
+      Y: 0.898265541
+      Z: 0.898265541
+    }
+  }
+  ParentId: 14939260874934557967
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Sniper"
+    Color {
+      R: 1
+      G: 1
+      B: 0.00999999
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
   Id: 13546084622384561767
   Name: "Client Context"
   Transform {
     Location {
-      Y: -6.78320313
-      Z: -25
+      X: -39.9540634
+      Y: -58.9924316
+      Z: 17.486084
     }
     Rotation {
-      Pitch: 42.9297905
-      Yaw: 2.78009576e-13
-      Roll: 6.83016742e-06
+      Pitch: 30.9704456
+      Yaw: -3.05175781e-05
+      Roll: 1.98892976e-05
     }
     Scale {
-      X: 0.99999994
-      Y: 0.99999994
-      Z: 1
+      X: 0.565575659
+      Y: 0.565575659
+      Z: 0.565575719
     }
   }
   ParentId: 14939260874934557967
   ChildIds: 16484482165284833712
+  ChildIds: 11119375924170646870
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -67,6 +523,55 @@ Objects {
     SubobjectId: 775140951741150573
     InstanceId: 5440407935131133392
     TemplateId: 13822751332445963790
+  }
+}
+Objects {
+  Id: 11119375924170646870
+  Name: "Outline Object"
+  Transform {
+    Location {
+      X: 19.0920944
+      Y: -50.1342773
+      Z: 44.4104614
+    }
+    Rotation {
+      Pitch: 72.9621
+      Yaw: 179.999939
+      Roll: -6.56309785e-05
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 0.99999994
+    }
+  }
+  ParentId: 13546084622384561767
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Object To Outline"
+      ObjectReference {
+        SelfId: 16484482165284833712
+      }
+    }
+    Overrides {
+      Name: "bp:Color A"
+      Color {
+        R: 1
+        G: 1
+        A: 0.8
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11271481624711501534
+    }
   }
 }
 Objects {
@@ -512,49 +1017,13 @@ Objects {
   }
 }
 Objects {
-  Id: 16830926489875659547
-  Name: "World Text"
-  Transform {
-    Location {
-      Y: -1.01611328
-      Z: 94.4702148
-    }
-    Rotation {
-      Yaw: -90.0000153
-    }
-    Scale {
-      X: 1.92238426
-      Y: 1.92238426
-      Z: 1.92238426
-    }
-  }
-  ParentId: 14939260874934557967
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Text {
-    Text: "Sniper"
-    Color {
-      A: 1
-    }
-    HorizontalSize: 1
-    VerticalSize: 1
-    HorizontalAlignment {
-      Value: "mc:ecoretexthorizontalalign:center"
-    }
-    VerticalAlignment {
-      Value: "mc:ecoretextverticalalign:center"
-    }
-  }
-}
-Objects {
   Id: 4580159247459542137
   Name: "Trigger"
   Transform {
     Location {
+      X: -29.1235199
+      Y: -23.4035664
+      Z: 34.0576172
     }
     Rotation {
     }
@@ -630,9 +1099,11 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      Y: -700
+      X: -74.997757
+      Y: -729.952148
     }
     Rotation {
+      Yaw: -3.05175781e-05
     }
     Scale {
       X: 1
@@ -645,6 +1116,7 @@ Objects {
   ChildIds: 2162640913951611747
   ChildIds: 6288238995231994958
   ChildIds: 9284490534068650727
+  ChildIds: 14468280142532395945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -656,26 +1128,256 @@ Objects {
   }
 }
 Objects {
+  Id: 14468280142532395945
+  Name: "monitor"
+  Transform {
+    Location {
+      X: 22.9243088
+      Y: 2.04086e-05
+      Z: -125
+    }
+    Rotation {
+      Yaw: -30.1616211
+    }
+    Scale {
+      X: 0.600988626
+      Y: 0.600988626
+      Z: 0.600988626
+    }
+  }
+  ParentId: 7860997122686874775
+  ChildIds: 17755195819818730056
+  ChildIds: 17837510403529176804
+  ChildIds: 10136318623327152185
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10136318623327152185
+  Name: "Modern Weapon - Scope 02"
+  Transform {
+    Location {
+      X: 37.4999695
+      Y: -59.9519348
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: 90
+      Roll: 30.0000763
+    }
+    Scale {
+      X: 6
+      Y: 12.3999987
+      Z: 12.4000015
+    }
+  }
+  ParentId: 14468280142532395945
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2168240361010595988
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17837510403529176804
+  Name: "Modern Weapon - Scope 02"
+  Transform {
+    Location {
+      X: -32.4999695
+      Y: 61.2916718
+      Z: 55
+    }
+    Rotation {
+      Pitch: 90
+      Roll: -120.000031
+    }
+    Scale {
+      X: 7.1
+      Y: 7.8
+      Z: 8.39999771
+    }
+  }
+  ParentId: 14468280142532395945
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2168240361010595988
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17755195819818730056
+  Name: "Modern Weapon - Sight 02"
+  Transform {
+    Location {
+      X: 0.0040214872
+      Y: -0.0040214872
+      Z: 169.999832
+    }
+    Rotation {
+      Pitch: 0.968445659
+      Yaw: 120.030518
+      Roll: -1.38299561
+    }
+    Scale {
+      X: 20.2999973
+      Y: 20.2999973
+      Z: 20.2999973
+    }
+  }
+  ParentId: 14468280142532395945
+  ChildIds: 13622178856543914192
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 6013416776206816930
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15986320784133630650
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13622178856543914192
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 1.28085303
+      Y: 0.000236932028
+      Z: 5.24464226
+    }
+    Rotation {
+      Yaw: -89.9999695
+    }
+    Scale {
+      X: 0.069930084
+      Y: 0.069930084
+      Z: 0.0629370809
+    }
+  }
+  ParentId: 17755195819818730056
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.157537773
+        G: 0.204000011
+        B: 0.059772
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 9284490534068650727
   Name: "Client Context"
   Transform {
     Location {
-      Y: 4.58862305
-      Z: -25
+      X: 16.2689838
+      Y: 56.9168701
+      Z: 20.5205078
     }
     Rotation {
-      Pitch: 36.3909912
-      Yaw: 1.01147216e-12
-      Roll: -3.05175727e-05
+      Pitch: 30.0324154
+      Yaw: 1.58475577e-05
+      Roll: -3.05175781e-05
     }
     Scale {
-      X: 0.99999994
-      Y: 0.99999994
-      Z: 1
+      X: 0.75653106
+      Y: 0.75653106
+      Z: 0.756531119
     }
   }
   ParentId: 7860997122686874775
   ChildIds: 10406920417719054113
+  ChildIds: 10791725858167125662
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -692,6 +1394,55 @@ Objects {
     SubobjectId: 9615213200300610399
     InstanceId: 1268158212829077048
     TemplateId: 3120243708042992244
+  }
+}
+Objects {
+  Id: 10791725858167125662
+  Name: "Outline Object"
+  Transform {
+    Location {
+      X: -8.57245941e-11
+      Y: 0.000161355259
+      Z: -3.63852316e-11
+    }
+    Rotation {
+      Pitch: -2.04905664e-05
+      Yaw: -1.46559952e-11
+      Roll: 1.46559952e-11
+    }
+    Scale {
+      X: 1.32182276
+      Y: 1.32182276
+      Z: 1.32182264
+    }
+  }
+  ParentId: 9284490534068650727
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Object To Outline"
+      ObjectReference {
+        SelfId: 10406920417719054113
+      }
+    }
+    Overrides {
+      Name: "bp:Color A"
+      Color {
+        R: 1
+        G: 1
+        A: 0.8
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11271481624711501534
+    }
   }
 }
 Objects {
@@ -1484,16 +2235,17 @@ Objects {
   Name: "World Text"
   Transform {
     Location {
-      Y: 0.606933594
-      Z: 94.4702148
+      X: 24.9999352
+      Y: 63.4594803
+      Z: 63.5905762
     }
     Rotation {
-      Yaw: 89.9999771
+      Yaw: 89.9998169
     }
     Scale {
-      X: 1.92238426
-      Y: 1.92238426
-      Z: 1.92238426
+      X: 0.898265541
+      Y: 0.898265541
+      Z: 0.898265541
     }
   }
   ParentId: 7860997122686874775
@@ -1506,6 +2258,9 @@ Objects {
   Text {
     Text: "Rifle"
     Color {
+      R: 1
+      G: 1
+      B: 0.00999999
       A: 1
     }
     HorizontalSize: 1
@@ -1523,6 +2278,9 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
+      X: 22.0600319
+      Y: 21.4283562
+      Z: 38.7919922
     }
     Rotation {
     }
