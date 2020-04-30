@@ -2,6 +2,7 @@ local propSpikeCountdownLight = script:GetCustomProperty("SpikeCountdownLight")
 local propEmberVolumeVFX = script:GetCustomProperty("EmberVolumeVFX"):WaitForObject()
 local propPlasmaBallProjectileVFX = script:GetCustomProperty("PlasmaBallProjectileVFX"):WaitForObject()
 local propCylinderBottomAligned = script:GetCustomProperty("CylinderBottomAligned"):WaitForObject()
+local propRoot = script:GetCustomProperty("Root"):WaitForObject()
 
 
 propEmberVolumeVFX:SetSmartProperty("Particle Scale Multiplier", 0)
@@ -18,7 +19,6 @@ local SPARK_START = LIGHT_COUNT * 0.5
 local BEAM_START = LIGHT_COUNT * 0.95
 
 local lightArray = {}
-
 
 function AnimateCountdown()
 
@@ -57,4 +57,23 @@ function AnimateCountdown()
 	
 end
 
-AnimateCountdown()
+function OnBombDefused(player)
+	print("OnBombDefused hit!")
+	if countdownTask ~= nil then
+		print("cancelling task...")
+		countdownTask:Cancel()
+		countdownTask = nil
+	end
+	
+	for i = 1, LIGHT_COUNT do
+		lightArray[i]:ScaleTo(Vector3.ZERO, 0.5)
+	end
+	propEmberVolumeVFX.visibility = Visibility.FORCE_OFF
+	propPlasmaBallProjectileVFX.visibility = Visibility.FORCE_OFF
+	propCylinderBottomAligned.visibility = Visibility.FORCE_OFF
+end
+
+Events.Connect("Bomb_Defused", OnBombDefused)
+
+local countdownTask = Task.Spawn(AnimateCountdown)
+

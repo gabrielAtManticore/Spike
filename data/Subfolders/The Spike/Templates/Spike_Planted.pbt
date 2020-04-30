@@ -15,10 +15,22 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8568336417442047963
+        ParentId: 4781671109827199097
         ChildIds: 3114829413118295683
         ChildIds: 1471326096626275096
         ChildIds: 17291681918647762435
+        ChildIds: 8815315984384969509
+        ChildIds: 142217814804539198
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:CountdownDuration"
+            Int: 20
+          }
+          Overrides {
+            Name: "cs:DisarmDuration"
+            Int: 5
+          }
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -201,6 +213,12 @@ Assets {
             Name: "cs:CylinderBottomAligned"
             ObjectReference {
               SubObjectId: 3552887347417917276
+            }
+          }
+          Overrides {
+            Name: "cs:Root"
+            ObjectReference {
+              SubObjectId: 12805103864175921628
             }
           }
         }
@@ -391,6 +409,92 @@ Assets {
           StaticMesh {
             Physics {
             }
+          }
+        }
+      }
+      Objects {
+        Id: 8815315984384969509
+        Name: "SpikeCountdownServer"
+        Transform {
+          Location {
+            X: 7600
+            Y: 1575
+            Z: -2500
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12805103864175921628
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Root"
+            ObjectReference {
+              SubObjectId: 12805103864175921628
+            }
+          }
+          Overrides {
+            Name: "cs:API"
+            AssetReference {
+              Id: 11974742996071064388
+            }
+          }
+          Overrides {
+            Name: "cs:DisarmTrigger"
+            ObjectReference {
+              SubObjectId: 142217814804539198
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 14168117998656645110
+          }
+        }
+      }
+      Objects {
+        Id: 142217814804539198
+        Name: "DisarmTrigger"
+        Transform {
+          Location {
+            Z: 100
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2
+            Y: 2
+            Z: 2
+          }
+        }
+        ParentId: 12805103864175921628
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Trigger {
+          Interactable: true
+          InteractionLabel: "Disarm"
+          TeamSettings {
+            TeamInt: 1
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
           }
         }
       }

@@ -1,6 +1,32 @@
 Name: "Player UI"
 RootId: 7316239485427184244
 Objects {
+  Id: 5515454832135938139
+  Name: "VisionOverlays"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7316239485427184244
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "VisionOverlays"
+  }
+}
+Objects {
   Id: 11435979907085262939
   Name: "Nameplates"
   Transform {
