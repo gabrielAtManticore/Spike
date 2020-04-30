@@ -1,10 +1,18 @@
 local propSpike_Planted = script:GetCustomProperty("Spike_Planted")
 local propBasicRifle = script:GetCustomProperty("BasicRifle")
+local propTriggerZoneManager = script:GetCustomProperty("TriggerZoneManager")
+local tm = require(propTriggerZoneManager)
 
 local ability = script.parent
 
-ability.executeEvent:Connect(function()
+ability.castEvent:Connect(function(ability)
+	if not tm.IsPlayerInTrigger(ability.owner) then ability:Interrupt() end
+end)
+
+
+ability.executeEvent:Connect(function(ability)
 	Task.Wait(0.5)
+	if not Object.IsValid(ability) then return end
 	local playerRot = ability.owner:GetWorldRotation()
 	local forward = playerRot * Vector3.FORWARD
 
