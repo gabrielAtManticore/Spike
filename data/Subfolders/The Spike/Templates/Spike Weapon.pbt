@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8568336417442047963
+        ParentId: 4781671109827199097
         ChildIds: 4262332504130317634
         ChildIds: 3640166906196029202
         ChildIds: 9438746949937188903
@@ -208,6 +208,12 @@ Assets {
             Name: "cs:BasicRifle"
             AssetReference {
               Id: 5335818002885068549
+            }
+          }
+          Overrides {
+            Name: "cs:TriggerZoneManager"
+            AssetReference {
+              Id: 16744990429409246179
             }
           }
         }

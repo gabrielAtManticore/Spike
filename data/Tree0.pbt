@@ -28,6 +28,7 @@ Objects {
   ChildIds: 3373700479758815969
   ChildIds: 11941763916313311798
   ChildIds: 18023170612588626590
+  ChildIds: 2661233698058889022
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,6 +38,51 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 2661233698058889022
+  Name: "BombZone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1870703349740405906
+      value {
+        Overrides {
+          Name: "Name"
+          String: "BombZone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5480
+            Y: -4560
+            Z: 3100
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4910372160180436544
+    }
   }
 }
 Objects {
@@ -70,7 +116,12 @@ Objects {
           Vector {
             X: -7400
             Y: -1800
-            Z: 2500
+            Z: 2540
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
