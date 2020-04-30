@@ -9,15 +9,15 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 0.270497799
-          G: 0.196729973
-          B: 0.139306366
+          R: 0.135248899
+          G: 0.232177183
+          B: 0.270497799
           A: 1
         }
       }
       Overrides {
         Name: "roughness"
-        Float: 1
+        Float: 0.651796281
       }
     }
     Assets {

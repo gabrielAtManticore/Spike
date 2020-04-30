@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14653594689465828205
+  Name: "Modern Weapon - Sight Rear 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_sight_rear_001"
+  }
+}
+Assets {
   Id: 14392515104495251752
   Name: "Wedge"
   PlatformAssetType: 1
@@ -44,12 +53,39 @@ Assets {
   }
 }
 Assets {
+  Id: 13497286481847906284
+  Name: "Street Utility Box 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_utility_box_001"
+  }
+}
+Assets {
+  Id: 12637801335342129827
+  Name: "Modern Weapon Accessory - Rail 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_acc_rail_002"
+  }
+}
+Assets {
   Id: 11790689600228407193
   Name: "Whitebox Stairs 01 Straight 150cm"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_stairs_001_150cm"
+  }
+}
+Assets {
+  Id: 9117384065423546074
+  Name: "Modern Weapon - Sight Rear 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_sight_rear_002"
   }
 }
 Assets {
