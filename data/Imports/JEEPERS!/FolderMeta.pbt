@@ -1,0 +1,107 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "2b8941e0117346279e4614cb4a7a3d0b"
+  OwnerAccountId: "6a76449f4341427c832789c6c0fac68d"
+  OwnerName: "Twixler"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 623369603609269724
+  value: 3100780301014715298
+}
+AssetIdsOriginalToNew {
+  key: 1297147121231419959
+  value: 16169978372059522371
+}
+AssetIdsOriginalToNew {
+  key: 2562383941339367381
+  value: 11744128942394184910
+}
+AssetIdsOriginalToNew {
+  key: 4693023652687644388
+  value: 6055685946707995867
+}
+AssetIdsOriginalToNew {
+  key: 5172621141011938623
+  value: 15109672543071684718
+}
+AssetIdsOriginalToNew {
+  key: 6425550416403886245
+  value: 2353789352315697778
+}
+AssetIdsOriginalToNew {
+  key: 7249629497883810087
+  value: 13979287082951646412
+}
+AssetIdsOriginalToNew {
+  key: 7856853125561970916
+  value: 1119238169561636150
+}
+AssetIdsOriginalToNew {
+  key: 8972400183190067639
+  value: 2670935490553897270
+}
+AssetIdsOriginalToNew {
+  key: 9476156144521517815
+  value: 12633383265707868718
+}
+AssetIdsOriginalToNew {
+  key: 10128623076133593318
+  value: 1062306450465782175
+}
+AssetIdsOriginalToNew {
+  key: 10305296206731650903
+  value: 722132554385221194
+}
+AssetIdsOriginalToNew {
+  key: 11666664093010796795
+  value: 1928305700290183023
+}
+AssetIdsOriginalToNew {
+  key: 11689234604546820109
+  value: 1386835059603636637
+}
+AssetIdsOriginalToNew {
+  key: 11896270851339577344
+  value: 8541256059653183791
+}
+AssetIdsOriginalToNew {
+  key: 12828459661290055015
+  value: 8618300853613275313
+}
+AssetIdsOriginalToNew {
+  key: 13364296998714223895
+  value: 18024577892767523940
+}
+AssetIdsOriginalToNew {
+  key: 13452040150077221488
+  value: 17236976347207394830
+}
+AssetIdsOriginalToNew {
+  key: 14146317606808444357
+  value: 14377768211902493318
+}
+AssetIdsOriginalToNew {
+  key: 14287625003669248397
+  value: 17138852141963069220
+}
+AssetIdsOriginalToNew {
+  key: 14669783443606114764
+  value: 8677223854235289899
+}
+AssetIdsOriginalToNew {
+  key: 14750184547845199242
+  value: 3203195722703983098
+}
+AssetIdsOriginalToNew {
+  key: 16398425858855205224
+  value: 17941431716014448591
+}
+AssetIdsOriginalToNew {
+  key: 17161445343849160404
+  value: 9007302562511920905
+}
+AssetIdsOriginalToNew {
+  key: 17666738965913504395
+  value: 10791250570625432963
+}
