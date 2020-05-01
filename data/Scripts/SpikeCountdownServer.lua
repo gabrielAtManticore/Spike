@@ -1,6 +1,7 @@
 local ABGS = require(script:GetCustomProperty("API"))
 local propRoot = script:GetCustomProperty("Root"):WaitForObject()
 local propDisarmTrigger = script:GetCustomProperty("DisarmTrigger"):WaitForObject()
+local propDisarmZoneTrigger = script:GetCustomProperty("DisarmZoneTrigger"):WaitForObject()
 
 local propCountdownDuration = propRoot:GetCustomProperty("CountdownDuration")
 local propDisarmDuration = propRoot:GetCustomProperty("DisarmDuration")
@@ -11,10 +12,10 @@ local currentPlayerDisarming = nil
 local disarmTask = nil
 local playerDamageListener = nil
 
-
+local canBeDisarmed = true
 
 function StartPlayerDisarming(trigger, player)
-	if currentPlayerDisarming ~= nil then
+	if not (currentPlayerDisarming == nil and canBeDisarmed) then
 		-- display message?
 		return
 	end
@@ -33,7 +34,6 @@ function StartPlayerDisarming(trigger, player)
 	end)
 
 end
-
 
 function StopPlayerDisarming()
 	if disarmTask ~= nil then
@@ -60,9 +60,18 @@ function PlayerLeftTrigger(trigger, other)
 end
 
 
-
 propDisarmTrigger.interactedEvent:Connect(StartPlayerDisarming)
-propDisarmTrigger.endOverlapEvent:Connect(PlayerLeftTrigger)
+propDisarmZoneTrigger.endOverlapEvent:Connect(PlayerLeftTrigger)
+
+
+function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime)
+	if newState == ABGS.GAME_STATE_LOBBY then
+		StopPlayerDisarming()
+		propRoot:Destroy()		
+	end
+end
+
+Events.Connect("GameStateChanged", OnGameStateChanged)
 
 -------------------------------
 
@@ -73,8 +82,13 @@ if true or ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
 	if not ABGS.IsGameStateManagerRegistered() then
 		return
 	end
+	canBeDisarmed = false
+	StopPlayerDisarming()
 	Events.Broadcast("TeamVictory", 1)
 	ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
 end
-Task.Wait(5)
-propRoot:Destroy()
+
+Task.Wait(1)
+Events.BroadcastToAllPlayers("PlayerOverlay_Whitein", 4)
+
+

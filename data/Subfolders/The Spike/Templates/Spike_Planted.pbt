@@ -21,6 +21,7 @@ Assets {
         ChildIds: 17291681918647762435
         ChildIds: 8815315984384969509
         ChildIds: 142217814804539198
+        ChildIds: 10637026486525084090
         UnregisteredParameters {
           Overrides {
             Name: "cs:CountdownDuration"
@@ -449,6 +450,12 @@ Assets {
               SubObjectId: 142217814804539198
             }
           }
+          Overrides {
+            Name: "cs:DisarmZoneTrigger"
+            ObjectReference {
+              SubObjectId: 10637026486525084090
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -491,6 +498,39 @@ Assets {
           InteractionLabel: "Disarm"
           TeamSettings {
             TeamInt: 1
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 10637026486525084090
+        Name: "DisarmZoneTrigger"
+        Transform {
+          Location {
+            Z: 100
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.9
+            Y: 2.9
+            Z: 2.9
+          }
+        }
+        ParentId: 12805103864175921628
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
           TriggerShape_v2 {
