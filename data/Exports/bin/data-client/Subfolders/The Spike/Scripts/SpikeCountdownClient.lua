@@ -11,7 +11,8 @@ propPlasmaBallProjectileVFX:SetWorldScale(Vector3.New(0))
 local effectBase = script.parent
 local LIGHT_COUNT = 60
 local LIGHT_RADIUS = 200
-local TIMER_DURATION = 20
+local TIMER_DURATION = propRoot:GetCustomProperty("CountdownDuration")
+
 local TIME_PER_LIGHT = TIMER_DURATION / LIGHT_COUNT
 
 local EMBER_START = LIGHT_COUNT * 0.2
@@ -21,10 +22,9 @@ local BEAM_START = LIGHT_COUNT * 0.95
 local lightArray = {}
 
 function AnimateCountdown()
-
+	local pos = propRoot:GetWorldPosition()
 	for i = 1, LIGHT_COUNT do
-		local pos = effectBase:GetWorldPosition()
-		local l = World.SpawnAsset(propSpikeCountdownLight, { position = pos })
+		local l = World.SpawnAsset(propSpikeCountdownLight, { position = Vector3.ZERO, parent = propRoot })
 		lightArray[i] = l
 		local lightAngle = (360 * i) / LIGHT_COUNT
 		local lightVector = Quaternion.New(Vector3.UP, lightAngle) * Vector3.FORWARD * LIGHT_RADIUS
@@ -72,6 +72,7 @@ function OnBombDefused(player)
 	propPlasmaBallProjectileVFX.visibility = Visibility.FORCE_OFF
 	propCylinderBottomAligned.visibility = Visibility.FORCE_OFF
 end
+
 
 Events.Connect("Bomb_Defused", OnBombDefused)
 

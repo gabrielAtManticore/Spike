@@ -26,21 +26,21 @@ Assets {
   }
 }
 Assets {
-  Id: 17485881147669499682
-  Name: "Cube - Rounded - bottom aligned"
-  PlatformAssetType: 1
+  Id: 16447630291553548532
+  Name: "Metal Basic Steel"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_rounded_001"
+    AssetType: "MaterialAssetRef"
+    AssetId: "steel_001"
   }
 }
 Assets {
-  Id: 14653594689465828205
-  Name: "Modern Weapon - Sight Rear 01"
-  PlatformAssetType: 1
+  Id: 14643090495247569259
+  Name: "Dirt 01"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_sight_rear_001"
+    AssetType: "MaterialAssetRef"
+    AssetId: "dirt_001"
   }
 }
 Assets {
@@ -53,21 +53,12 @@ Assets {
   }
 }
 Assets {
-  Id: 13497286481847906284
-  Name: "Street Utility Box 01"
-  PlatformAssetType: 1
+  Id: 12306622679456331034
+  Name: "Concrete Sidewalk"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_st_post_lights_utility_box_001"
-  }
-}
-Assets {
-  Id: 12637801335342129827
-  Name: "Modern Weapon Accessory - Rail 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_acc_rail_002"
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_sidewalk_001"
   }
 }
 Assets {
@@ -80,30 +71,21 @@ Assets {
   }
 }
 Assets {
-  Id: 9117384065423546074
-  Name: "Modern Weapon - Sight Rear 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_sight_rear_002"
-  }
-}
-Assets {
-  Id: 6594793957175184293
-  Name: "Bricks Rough Stone Floor 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_stone_floor_rough_002"
-  }
-}
-Assets {
   Id: 6317093348408192352
   Name: "Concrete Panels 02"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_panels_002"
+  }
+}
+Assets {
+  Id: 4590600675160144925
+  Name: "Concrete Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_001"
   }
 }
 Assets {

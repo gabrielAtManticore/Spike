@@ -26,7 +26,6 @@ Objects {
   ChildIds: 8342061107480532378
   ChildIds: 3101486352721114744
   ChildIds: 3373700479758815969
-  ChildIds: 11941763916313311798
   ChildIds: 7886552916974763108
   UnregisteredParameters {
   }
@@ -65,34 +64,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Spike and Bomb Zones"
-  }
-}
-Objects {
-  Id: 11941763916313311798
-  Name: "SetDressing"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "SetDressing"
   }
 }
 Objects {

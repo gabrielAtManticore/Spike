@@ -11,6 +11,8 @@ qÛ¿Ëšëµ¯û#Advanced Color Grading Post ProcessR=
 BlueprintAssetReffxbp_post_process_tonemapping
 T†‡±¶‹­¤šúDecal Stains Top 01R0
 DecalBlueprintAssetRefbp_decal_stain_top_001
+N¬å¸«˜û˜ùRing - Quarter ThinR*
+StaticMeshAssetRefsm_quarter_torus_001
 U×’î…½×©€÷Modern Weapon - Grip 03R-
 StaticMeshAssetRefsm_weap_modern_grip_003
 G÷«æÄ¡‘°ôCube - bottom alignedR!
@@ -21,6 +23,8 @@ HÇ”°êø›ïÃóPipe - Half ThickR&
 StaticMeshAssetRefsm_plane_4m_001
 D¥ì÷Öú‘£¹ëCube - PolishedR$
 StaticMeshAssetRefsm_cube_hq_002
+JÃÖşÿñÑØÿêMetal Iron Rusted 02R%
+MaterialAssetRefmi_metal_iron_003
 ?±öÂÀ´ØÖê	Sun LightR%
 BlueprintAssetRefCORESKY_SunLight
 WÃœÄ¶™ò’¼èModern Weapon - Sight 01R.
@@ -33,10 +37,16 @@ cÏÍá¦Äâ»¥åStreet Light Pole Base 01R9
 StaticMeshAssetRef#sm_urb_st_post_lights_pole_001_base
 R®ĞÏÙ»ŠËäDecal Dirt PatchR1
 DecalBlueprintAssetRefbp_decal_dirt_patch_001
+?ôñƒèµ“î äMetal Basic SteelR
+MaterialAssetRef	steel_001
 Z£¥¥Ú´Ş¤ãGem - Baguette PolishedR2
 StaticMeshAssetRefsm_gem_baguette_polished_001
+FÙ°àÂŞ˜î¶âGlass 01R-
+MaterialAssetRefmi_basic_glass_refrac_001
 Jì¥æ“¨ººˆàTech Panel 05R,
 MaterialAssetRefmi_sf_gen_tech-panel_005
+_òç¨Ï’§ïßStreet Post Round 01R:
+StaticMeshAssetRef$sm_urb_st_post_lights_post_round_001
 >‘â“—ˆÖğŞPlane 1mR%
 StaticMeshAssetRefsm_plane_1m_001
 WºÕêİÁ´íİModern Weapon - Sight 02R.
@@ -53,6 +63,8 @@ eñ†ì èæöüÙ"Modern Weapon Accessory - Laser 01R2
 StaticMeshAssetRefsm_weap_modern_acc_laser_001
 S–­â€å¿é²ÔGirder Medium 4mR2
 StaticMeshAssetRefsm_girder_medium_4m_1-5m_001
+W¿Úû¦Ã±£üÒRoad Center Ramp TopR2
+StaticMeshAssetRefsm_urb_road_ramp_mid_top_001
 Z‘¬„ÌÂœ¯ßÒScifi Panel 2x3m TriangleR0
 StaticMeshAssetRefsm_panel_2x3m_triangle_001
 :öÒåÑúâáÑSphereR#
@@ -85,6 +97,8 @@ L€ÙŒŸÆ®ÁCube - Chamfered LargeR%
 StaticMeshAssetRefsm_cube_chamfer
 aÿããİÕØæÿÀStreet Utility Box 02R;
 StaticMeshAssetRef%sm_urb_st_post_lights_utility_box_002
+_ìäÄÔñø••À!Cylinder - Rounded Bottom-AlignedR-
+StaticMeshAssetRefsm_cylinder_rounded_001
 Hí‰ìÁ—¯­¿Wedge - CurvedR)
 StaticMeshAssetRefsm_wedge_curved_001
 >¤ÇÄ¼ÁÀÙ¾Ring - ThinR"
@@ -103,10 +117,14 @@ W¤Œå‹¨—¥¿µModern Weapon - Stock 03R.
 StaticMeshAssetRefsm_weap_modern_stock_003
 Q’èİ™ßÃ‘ µMetal Steel BrushedR-
 MaterialAssetRefmi_stainless-steel_001_uv
+Nà½¢›óÅü¼³Cylinder - ChamferedR)
+StaticMeshAssetRefsm_cylinder_chamfer
 NÕìÈ§«Ø¥±Ring - Beveled ThickR)
 StaticMeshAssetRefsm_ring_faceted_003
 >€áÓôé·Èå°Helix - 1.0R"
 StaticMeshAssetRefsm_helix_005
+4íı˜Êéœ÷¦°RopeR
+MaterialAssetRefmi_rope_001
 ^€ Ôöéİù—° Gear - generic large five-spokedR-
 StaticMeshAssetRefsm_gen_gear_001_spoke5x
 c£Å™¸´«Ÿ±¯!Modern Weapon Accessory - Rail 02R1
@@ -121,16 +139,22 @@ RšêŠÎúƒúäªConcrete SidewalkR0
 MaterialAssetRefmi_gen_concrete_sidewalk_001
 Uµ…Ô»„¼’©Modern Weapon - Body 02R-
 StaticMeshAssetRefsm_weap_modern_body_002
+[ïó—ÕŒ”ï´¨Metal Diamond Plates 01R3
+MaterialAssetRefmi_metal_rust_diamond-plate_001
 6¶Íşø“ÁÂî§CubeR!
 StaticMeshAssetRefsm_cube_002
 eè¤±ÎÏ„Ú„§Modern Weapon - Gas Cylinder 01R5
 StaticMeshAssetRefsm_weap_modern_gas_cylinder_001
 eëëõñ‡¶¼¦Street Light Pole Clamp 01R:
 StaticMeshAssetRef$sm_urb_st_post_lights_post_clamp_001
+k™ï†ô‹·¼Ğ£!Whitebox Stairs 01 Straight 150cmR9
+StaticMeshAssetRef#sm_ts_gen_whitebox_stairs_001_150cm
 [“¢ĞéÀ“ÒÁ¡Street Barrier - PedestrianR/
 StaticMeshAssetRefsm_barrier_pedestrian_001
 `ë€³ğ•Ê™¼¡Whitebox Floor 01 8m x 8mR6
 StaticMeshAssetRef sm_ts_gen_whitebox_floor_001_8x8
+]ğ”¨”¾’´¶¡Street Post Square 01R7
+StaticMeshAssetRef!sm_urb_st_post_lights_post_sq_001
 3»°¶òÔ–øè WR!
 StaticMeshAssetRefF1_Text_022
 Tı³„Ê¨‡¤Ì Cube - Chamfered Small PolishedR$
@@ -178,6 +202,8 @@ Uğ¤÷Ï«ºÎì‰Modern Weapon - Grip 02R-
 StaticMeshAssetRefsm_weap_modern_grip_002
 bÔöü×Ø¢ß¯ˆModern Weapon - Bullet 01R8
 StaticMeshAssetRef"sm_weap_modern_ammo_bullet_tip_001
+YƒÃ—•öÉÙªˆRoad Ramp Bottom EdgeR3
+StaticMeshAssetRefsm_urb_road_ramp_edge_bot_001
 0ç¢Œº¤ş¦†>R
 StaticMeshAssetRefText_061
 Wæ¿Ğù±ÆÔæƒModern Weapon - Sight 01R.
@@ -200,6 +226,10 @@ o¿˜ĞûÕÂóÍ{!Craftsman Wall Interior 02 CornerR>
 MaterialAssetRefmi_grass_001_uv
 \ÆÔüµñëòyDecal Hazard Symbols 01R5
 DecalBlueprintAssetRefbp_decal_hazard_symbols_001
+^¿ çÀÛÁÆ£yWhitebox Stairs 01 StraightR3
+StaticMeshAssetRefsm_ts_gen_whitebox_stairs_001
+^Ìé„ªø˜œyWhitebox Wall 01 TriangleR5
+StaticMeshAssetRefsm_ts_gen_whitebox_wall_001_tri
 LÁÊ§³½±óìxDust Motes Volume VFXR'
 VfxBlueprintAssetReffxbp_dust_motes
 Rï•áçïï†ÂvDecal Painted Lines 01R,
@@ -216,6 +246,8 @@ _ù°ÁùÔ³Ú÷nWhitebox Floor 01 4m x 4mR6
 StaticMeshAssetRef sm_ts_gen_whitebox_floor_001_4x4
 búö¹êòöĞkCraftsman Floor 01 8m x 8mR8
 StaticMeshAssetRef"sm_urb_sub_craftsman_floor_001_8x8
+U„û‘Ç–“úıfRoad Ramp Top EdgeR3
+StaticMeshAssetRefsm_urb_road_ramp_edge_top_001
 V‡îÌêá˜áêfGrenade Canister 01R3
 StaticMeshAssetRefsm_weapons_grenade_simple_001
 `À³’˜«£ºÒeGear - generic small hollowR5
@@ -232,10 +264,14 @@ WÜÓåÿÈ°‰ª_Decal Stains Round 01R2
 DecalBlueprintAssetRefbp_decal_stain_round_001
 Gä­¹ªá—ü_Scifi Panel 1x4mR'
 StaticMeshAssetRefsm_panel_1x4m_001
+H¿Ã¦¤ŸÊ¹]Metal Frame 01R*
+MaterialAssetRefmi_metal_frames_001_uv
 T²—ÿ«ä’†¼\Road SidewalkR7
 StaticMeshAssetRef!sm_urb_road_sidewalk-straight_001
 E‹ÌµÁ£‡÷¥[Flare BillboardR&
 BlueprintAssetReffxbp_flare_object
+MÊøêªâË³YSmoke Volume VFXR-
+VfxBlueprintAssetReffxbp_smoke_volume_vfx
 PÎÙÍ¸Åœ¥XSphere - Half SliceR-
 StaticMeshAssetRefsm_hemisphere_wedge_001
 PàÚé¦åİ´ÕWConcrete Panels 02R.
@@ -254,14 +290,20 @@ UÏ‰ûî™¨Ù˜MLarge Girder 8m x 6mR1
 StaticMeshAssetRefsm_wall_girder_large_8m_001
 dÁÙÌßè¸ ½L"Decal Soil Cracks Smal Variants 02R2
 DecalBlueprintAssetRefbp_decal_soil_cracks_002
+O½ªŒ¦—­¨LCylinder - RoundedR-
+StaticMeshAssetRefsm_cylinder_rounded_002
 oÊáèğşĞ—›K"Pyramid - 6-Sided Truncated HollowR=
 StaticMeshAssetRef'sm_pyramid_6_sided_truncated_hollow_001
 G´“Â¬¬ï…¢JOpaque EmissiveR(
 MaterialAssetReffxma_opaque_emissive
+Y–“øĞÏñºçDRoad Ramp Bottom CenterR2
+StaticMeshAssetRefsm_urb_road_ramp_mid_bot_001
 TïİúŸüìƒÂCModern Weapon - Body 02R-
 StaticMeshAssetRefsm_weap_modern_body_002
 WºÛõ¶æÍ¸AParallelepiped - Horizontal R+
 StaticMeshAssetRefsm_parallelepiped_003
+HËÔ¼À‹°¦¢@Wedge - Corner-AlignedR"
+StaticMeshAssetRefsm_wedge_002
 HøÚ¤ßßÅÚ?Concrete Basic 01R'
 MaterialAssetRefmi_gen_concrete_001
 eË²ÿÚĞ®®Ø?#Modern Weapon - Grenade Canister 03R2
@@ -282,10 +324,14 @@ X©½ØŞÀ¬Ö8Street Light Pole 02R4
 StaticMeshAssetRefsm_urb_st_post_lights_pole_002
 Kû•±Âêüó7AO Recolor Post ProcessR$
 BlueprintAssetReffxbp_AO_Recolor
+iñÎåúŠí×†7Craftsman Wall Interior 01 CapR;
+StaticMeshAssetRef%sm_urb_sub_craftsman_wall_int_001_cap
 7‚ş‘úÇüÈ5DonutR"
 StaticMeshAssetRefsm_torus_001
 S¨ß—³Ê…¼›5Pipe - Quarter WedgeR/
 StaticMeshAssetRefsm_quarter_pipe_wedge_001
+Eª¥ü·ä©¥4Roof Metal 01R(
+MaterialAssetRefmi_roof_metal_001_uv
 Q€­ĞëŒñú3Pipe - 4-Sided ThinR.
 StaticMeshAssetRefsm_pipe_4_sided_thin_001
 lÊ’Óæ¬ÓÔİ1Craftsman Porch 01 FoundationR?
@@ -306,6 +352,8 @@ FŞœƒÚ¾šÿ­&Rock Block 02R)
 StaticMeshAssetRefsm_rock_generic_007
 TäŞ­ÛßŞÌÚ$Bleach Bypass Post ProcessR*
 BlueprintAssetReffxbp_ppm_bleachbypass
+U´û«Íãû«Ş#Curved Wedge - ConvexR0
+StaticMeshAssetRefsm_wedge_curved_convex_001
 dÇ„Ñ¹¨üõİ#"Modern Weapon Accessory - Laser 01R2
 StaticMeshAssetRefsm_weap_modern_acc_laser_001
 W¡²ôØ‡µèº#Modern Weapon - Magazine 03R,
@@ -356,6 +404,8 @@ V¬şÉæß‡Ò÷Modern Weapon - Stock 01R.
 StaticMeshAssetRefsm_weap_modern_stock_001
 Q«›½Â¿ĞíÁWhitebox Wall 01R1
 StaticMeshAssetRefsm_ts_gen_whitebox_wall_001
+BáœŸ¸ÛĞ¿ĞPlastic ShinyR%
+MaterialAssetRefplastic_shiny_001
 H‚¯º×ËÎ¾Cube - Arcade 04R(
 StaticMeshAssetRefsm_arcade_cube_004
 TäéŞÌÁÅ¬–Modern Weapon - Grip 03R-
@@ -373,3 +423,5 @@ N•¼†©¬û°µConcrete Tiles 01R-
 MaterialAssetRefmi_gen_concrete_tiles_001
 ZøÉôÒÜ«ª”Pipe - T-Intersection ThinR0
 StaticMeshAssetRefsm_pipe_T_intersection_002
+:ëü«Ş¬²fCurb 4mR$
+StaticMeshAssetRefsm_curb_4m_001
