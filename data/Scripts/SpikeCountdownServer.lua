@@ -13,6 +13,7 @@ local disarmTask = nil
 local playerDamageListener = nil
 
 local canBeDisarmed = true
+local wasDisarmed = false
 
 function StartPlayerDisarming(trigger, player)
 	if not (currentPlayerDisarming == nil and canBeDisarmed) then
@@ -27,6 +28,7 @@ function StartPlayerDisarming(trigger, player)
 		Events.BroadcastToAllPlayers("Bomb_Defused", player)
 		Task.Wait()
 		StopPlayerDisarming()
+		wasDisarmed = true
 		Events.Broadcast("TeamVictory", 2)
 	end)
 	playerDamageListener = player.damagedEvent:Connect(function()
@@ -88,7 +90,9 @@ if true or ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
 	ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
 end
 
-Task.Wait(1)
-Events.BroadcastToAllPlayers("PlayerOverlay_Whitein", 4)
+if not wasDisarmed then
+	Task.Wait(1)
+	Events.BroadcastToAllPlayers("PlayerOverlay_Whitein", 4)
+end
 
 

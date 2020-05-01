@@ -1,6 +1,188 @@
 Name: "Spike and Bomb Zones"
 RootId: 7886552916974763108
 Objects {
+  Id: 8350927267582523452
+  Name: "SpikeSpawner"
+  Transform {
+    Location {
+      X: -3899.97485
+      Y: 208.193848
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7886552916974763108
+  ChildIds: 18023170612588626590
+  ChildIds: 8971962164834509522
+  ChildIds: 4131040452845911769
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4131040452845911769
+  Name: "SpikeSpawner_Script"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8350927267582523452
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+    Overrides {
+      Name: "cs:SpikeWeapon"
+      ObjectReference {
+        SelfId: 9768923345991765343
+        SubObjectId: 17152225917800753009
+        InstanceId: 18023170612588626590
+        TemplateId: 1252889937943212000
+      }
+    }
+    Overrides {
+      Name: "cs:Glow"
+      ObjectReference {
+        SelfId: 8971962164834509522
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5954923162152842100
+    }
+  }
+}
+Objects {
+  Id: 8971962164834509522
+  Name: "Glow"
+  Transform {
+    Location {
+      X: -3899.97461
+      Y: 208.193848
+      Z: 2496.13647
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 2
+    }
+  }
+  ParentId: 8350927267582523452
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13883165859000331128
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10415104586946721638
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 18023170612588626590
+  Name: "Spike Weapon"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8350927267582523452
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17152225917800753009
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Spike Weapon"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3927.50879
+            Y: 219.294312
+            Z: 2580
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1252889937943212000
+    }
+  }
+}
+Objects {
   Id: 1441218893686614330
   Name: "BombZone"
   Transform {
@@ -110,60 +292,6 @@ Objects {
     }
     TemplateAsset {
       Id: 4910372160180436544
-    }
-  }
-}
-Objects {
-  Id: 18023170612588626590
-  Name: "Spike Weapon"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7886552916974763108
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17152225917800753009
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Spike Weapon"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -7919.94971
-            Y: 66.3876953
-            Z: 2540
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1252889937943212000
     }
   }
 }
