@@ -1,0 +1,7 @@
+
+#Exports folder is entirely generated
+data/Exports/
+#User settings are per user
+data/UserSettings/
+#Storage is just for testing
+data/Storage/
