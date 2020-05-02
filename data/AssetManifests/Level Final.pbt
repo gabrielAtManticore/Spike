@@ -935,6 +935,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9466295453011664319
+  Name: "Lense - Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_lense_001"
+  }
+}
+Assets {
   Id: 9241628116673396296
   Name: "Modern Weapon Ammo - Bullet 01 Casing"
   PlatformAssetType: 1

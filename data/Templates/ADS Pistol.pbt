@@ -7,7 +7,7 @@ Assets {
       RootId: 2401814779510463663
       Objects {
         Id: 2401814779510463663
-        Name: "Pistol"
+        Name: "ADS Pistol"
         Transform {
           Scale {
             X: 0.99999994
@@ -17,6 +17,7 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 4657119197678931968
+        ChildIds: 5382434206862491043
         ChildIds: 7509948360020567706
         ChildIds: 9033229733907759422
         ChildIds: 7658899639467386094
@@ -296,6 +297,44 @@ Assets {
         Script {
           ScriptAsset {
             Id: 3917667962715011219
+          }
+        }
+      }
+      Objects {
+        Id: 5382434206862491043
+        Name: "EquipmentBonusMoveSpeed"
+        Transform {
+          Location {
+            X: -90.6605301
+            Y: 1079.59253
+            Z: -90
+          }
+          Rotation {
+            Yaw: -61.8946915
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 2401814779510463663
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:BonusMovement"
+            Float: 150
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10467362409747569707
           }
         }
       }

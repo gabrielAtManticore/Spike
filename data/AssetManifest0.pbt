@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15749768660404359801
-  Name: "Decal Letters 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_letters_001"
-  }
-}
-Assets {
   Id: 11515840070784317904
   Name: "Skylight"
   PlatformAssetType: 6

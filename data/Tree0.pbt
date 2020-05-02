@@ -28,7 +28,6 @@ Objects {
   ChildIds: 7886552916974763108
   ChildIds: 8220931655639317171
   ChildIds: 14599759709494131338
-  ChildIds: 16893314344476173336
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,56 +37,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 16893314344476173336
-  Name: "Decal Letters 01"
-  Transform {
-    Location {
-      X: 366.305756
-      Y: 2877.97607
-      Z: 3127.94263
-    }
-    Rotation {
-      Pitch: 0.222985178
-      Yaw: 61.0523262
-      Roll: 90.168129
-    }
-    Scale {
-      X: 0.727631748
-      Y: 0.727631748
-      Z: 0.727631748
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 2
-        G: 2
-        B: 2
-        A: 0.624
-      }
-    }
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 1
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15749768660404359801
-    }
-    DecalBP {
-    }
   }
 }
 Objects {
