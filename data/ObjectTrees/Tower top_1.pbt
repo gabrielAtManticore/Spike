@@ -1,7 +1,7 @@
 Name: "Tower top_1"
-RootId: 7145392034997090568
+RootId: 8982788423446082943
 Objects {
-  Id: 2978393142486983000
+  Id: 6145701193823103244
   Name: "Modern Weapon - Scope 02"
   Transform {
     Location {
@@ -20,7 +20,7 @@ Objects {
       Z: 4.69999886
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -51,7 +51,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11574104063416997275
+  Id: 6274619261501193696
   Name: "Modern Weapon - Sight Forward 02"
   Transform {
     Location {
@@ -69,7 +69,7 @@ Objects {
       Z: 11.7999964
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -92,7 +92,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2350918663790517683
+  Id: 11105584953927570438
   Name: "Modern Weapon - Sight Forward 02"
   Transform {
     Location {
@@ -111,7 +111,7 @@ Objects {
       Z: 22.9000072
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -134,7 +134,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5872566560527839470
+  Id: 14708057674500968285
   Name: "Modern Weapon - Scope 02"
   Transform {
     Location {
@@ -153,7 +153,7 @@ Objects {
       Z: 4.69999886
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -184,7 +184,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4299732795840124189
+  Id: 11011920963851552423
   Name: "Modern Weapon - Sight Forward 02"
   Transform {
     Location {
@@ -203,7 +203,7 @@ Objects {
       Z: 11.7999964
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -226,7 +226,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11521997566102302593
+  Id: 11251642472119973825
   Name: "Modern Weapon - Sight Forward 02"
   Transform {
     Location {
@@ -245,7 +245,7 @@ Objects {
       Z: 22.9000072
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -268,7 +268,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15279216696161944523
+  Id: 11572912537232655638
   Name: "Street Light Pole 02"
   Transform {
     Location {
@@ -284,7 +284,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -318,7 +318,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1400986742240980344
+  Id: 13945106773663530295
   Name: "Modern Weapon Ammo - Bullet 02"
   Transform {
     Location {
@@ -335,7 +335,7 @@ Objects {
       Z: 10.6999912
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -366,7 +366,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6718857537109291070
+  Id: 450024642268692200
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
@@ -382,7 +382,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -441,7 +441,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17090946465058046026
+  Id: 6458301172931752426
   Name: "Shipping Container Side 6m"
   Transform {
     Location {
@@ -458,7 +458,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -498,7 +498,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2357533837323354768
+  Id: 11139370236863163239
   Name: "Shipping Container Side 6m"
   Transform {
     Location {
@@ -515,7 +515,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -555,7 +555,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15226550939749455653
+  Id: 5699427372345761999
   Name: "Shipping Container Side 6m"
   Transform {
     Location {
@@ -572,7 +572,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -612,7 +612,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15521441184891594596
+  Id: 15516639691644113444
   Name: "Shipping Container Side 6m"
   Transform {
     Location {
@@ -628,7 +628,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -668,7 +668,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8297802557436739715
+  Id: 11836939581995252562
   Name: "Glass Window"
   Transform {
     Location {
@@ -683,7 +683,7 @@ Objects {
       Z: 4.75
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -723,7 +723,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14211547073654853505
+  Id: 11104119989074080622
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -739,7 +739,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -779,7 +779,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3732902441330285684
+  Id: 9459171068954921432
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -795,7 +795,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -835,7 +835,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4680919261202185293
+  Id: 8318811418642747596
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -851,7 +851,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -891,7 +891,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1460308219986563515
+  Id: 11584534008571522956
   Name: "Craftsman Wall Interior 01 Cap"
   Transform {
     Location {
@@ -909,7 +909,7 @@ Objects {
       Z: 1.35
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -979,7 +979,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12701515379431854188
+  Id: 14646040776857904278
   Name: "Whitebox Wall 01 Window Large"
   Transform {
     Location {
@@ -995,7 +995,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -1050,7 +1050,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7274524190863860899
+  Id: 13841651592923907251
   Name: "Shipping Container Side 6m"
   Transform {
     Location {
@@ -1066,7 +1066,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1106,7 +1106,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2652453592419681037
+  Id: 15033964062119049487
   Name: "Glass Window"
   Transform {
     Location {
@@ -1122,7 +1122,7 @@ Objects {
       Z: 4.75
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1162,7 +1162,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10509772578116605003
+  Id: 10411623059382848732
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -1179,7 +1179,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -1219,7 +1219,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2533525943356417390
+  Id: 3683164340881319913
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -1236,7 +1236,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -1276,7 +1276,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3450829853181150743
+  Id: 12007636453759463884
   Name: "Craftsman Wall Interior 01 Cap"
   Transform {
     Location {
@@ -1294,7 +1294,7 @@ Objects {
       Z: 1.35
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -1364,7 +1364,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4335460287589851135
+  Id: 14013542063259734153
   Name: "Whitebox Wall 01 Window Large"
   Transform {
     Location {
@@ -1380,7 +1380,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -1435,7 +1435,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16031079035285613983
+  Id: 9457346026092534114
   Name: "Shipping Container Side 6m"
   Transform {
     Location {
@@ -1451,7 +1451,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1491,7 +1491,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17857049359092655065
+  Id: 11547498932895850343
   Name: "Glass Window"
   Transform {
     Location {
@@ -1507,7 +1507,7 @@ Objects {
       Z: 4.75
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1547,7 +1547,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7309139761890671080
+  Id: 7112115074843750749
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -1564,7 +1564,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -1604,7 +1604,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2006144061828556497
+  Id: 8767361630380577182
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -1621,7 +1621,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -1661,7 +1661,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1152295111236450083
+  Id: 985243834187878299
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -1678,7 +1678,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -1718,7 +1718,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17007239859071264057
+  Id: 10230966948079099816
   Name: "Craftsman Wall Interior 01 Cap"
   Transform {
     Location {
@@ -1736,7 +1736,7 @@ Objects {
       Z: 1.35
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -1806,7 +1806,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11860577451724496890
+  Id: 13771120931773928674
   Name: "Whitebox Wall 01 Window Large"
   Transform {
     Location {
@@ -1822,7 +1822,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -1877,7 +1877,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12126881248128389198
+  Id: 11272007933216950392
   Name: "Shipping Container Side 6m"
   Transform {
     Location {
@@ -1893,7 +1893,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1933,7 +1933,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9516163718297195543
+  Id: 12052678945990288624
   Name: "Glass Window"
   Transform {
     Location {
@@ -1949,7 +1949,7 @@ Objects {
       Z: 4.75
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1989,7 +1989,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17217758664148683362
+  Id: 3384917080514307899
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -2006,7 +2006,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -2046,7 +2046,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2689966460815972962
+  Id: 2816871703380862414
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -2063,7 +2063,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -2103,7 +2103,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18182798165242762401
+  Id: 3072800878911238011
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -2120,7 +2120,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -2160,7 +2160,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7653840556628727177
+  Id: 18036316382349801027
   Name: "Craftsman Wall Interior 01 Cap"
   Transform {
     Location {
@@ -2178,7 +2178,7 @@ Objects {
       Z: 1.35
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -2248,7 +2248,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5734579822756561699
+  Id: 12645341766621049341
   Name: "Computer Monitor 01"
   Transform {
     Location {
@@ -2265,7 +2265,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2338,7 +2338,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12130959837824471922
+  Id: 11289317833313867805
   Name: "Computer Stand"
   Transform {
     Location {
@@ -2355,7 +2355,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2395,7 +2395,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10545465052538683736
+  Id: 4721430223322129869
   Name: "Computer Monitor 01"
   Transform {
     Location {
@@ -2412,7 +2412,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2485,7 +2485,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14916094165424203405
+  Id: 3356839325417190409
   Name: "Cabinet Topper - Corner"
   Transform {
     Location {
@@ -2502,7 +2502,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2542,7 +2542,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18362757875936214832
+  Id: 9476930864332762972
   Name: "Cabinet Topper - Corner"
   Transform {
     Location {
@@ -2559,7 +2559,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2599,7 +2599,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8617844831756989916
+  Id: 6611721577741191458
   Name: "Computer Stand"
   Transform {
     Location {
@@ -2616,7 +2616,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2656,7 +2656,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4714308903843128355
+  Id: 17867641904766019492
   Name: "Computer Monitor 01"
   Transform {
     Location {
@@ -2673,7 +2673,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2746,7 +2746,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9447733053001637818
+  Id: 9590043193574748078
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -2763,7 +2763,7 @@ Objects {
       Z: 5.50000143
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -2803,7 +2803,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4856328417389779505
+  Id: 6562237831325928024
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -2820,7 +2820,7 @@ Objects {
       Z: 12.2500019
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2843,7 +2843,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1960690141868764600
+  Id: 15177749726186355027
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -2860,7 +2860,7 @@ Objects {
       Z: 5.50000143
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -2900,7 +2900,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15738494062777201878
+  Id: 2189570406924461786
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -2917,7 +2917,7 @@ Objects {
       Z: 12.2500019
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2940,7 +2940,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13785690238982360887
+  Id: 12993224607438129836
   Name: "Counter - Cabinet"
   Transform {
     Location {
@@ -2957,7 +2957,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Prop_Top:id"
@@ -3012,7 +3012,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11318608971107121641
+  Id: 2357074285743561645
   Name: "Counter - Cabinet"
   Transform {
     Location {
@@ -3029,7 +3029,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Prop_Top:id"
@@ -3084,7 +3084,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12473759651014875952
+  Id: 6130556032842098955
   Name: "Computer Stand"
   Transform {
     Location {
@@ -3101,7 +3101,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3141,7 +3141,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5401170327403857795
+  Id: 5714808401556331970
   Name: "Counter - Cabinet"
   Transform {
     Location {
@@ -3157,7 +3157,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Prop_Top:id"
@@ -3212,7 +3212,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15863971433410170712
+  Id: 7369730822988706239
   Name: "Counter - Cabinet"
   Transform {
     Location {
@@ -3228,7 +3228,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Prop_Top:id"
@@ -3283,7 +3283,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7006098812812883825
+  Id: 14995017166103497116
   Name: "Counter - Corner"
   Transform {
     Location {
@@ -3299,7 +3299,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Prop_Top:id"
@@ -3354,7 +3354,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2091943679723559643
+  Id: 2142455486049648653
   Name: "Counter - Cabinet"
   Transform {
     Location {
@@ -3371,7 +3371,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Prop_Top:id"
@@ -3426,7 +3426,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7214631367255228987
+  Id: 15774945580725981205
   Name: "Counter - Cabinet"
   Transform {
     Location {
@@ -3443,7 +3443,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Prop_Top:id"
@@ -3498,7 +3498,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18209601691992427414
+  Id: 6468128100158300434
   Name: "Counter - Cabinet"
   Transform {
     Location {
@@ -3515,7 +3515,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Prop_Top:id"
@@ -3570,7 +3570,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9560847793270956615
+  Id: 12427218598491825506
   Name: "Counter - Corner"
   Transform {
     Location {
@@ -3587,7 +3587,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Prop_Top:id"
@@ -3642,7 +3642,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15768967361531525647
+  Id: 8910291803235413935
   Name: "Counter - Cabinet"
   Transform {
     Location {
@@ -3659,7 +3659,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Prop_Top:id"
@@ -3714,7 +3714,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2458811077745778622
+  Id: 1216834606037277579
   Name: "Computer Monitor 01"
   Transform {
     Location {
@@ -3733,7 +3733,7 @@ Objects {
       Z: 2.00000024
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3806,7 +3806,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13008788677276237944
+  Id: 7779710832848890063
   Name: "Computer Stand"
   Transform {
     Location {
@@ -3825,7 +3825,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3865,7 +3865,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10514029291556230488
+  Id: 8624592570059181976
   Name: "Street Utility Box 02"
   Transform {
     Location {
@@ -3884,7 +3884,7 @@ Objects {
       Z: 2.29999971
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -3927,7 +3927,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2757452858429075712
+  Id: 17295364769495298217
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
@@ -3946,7 +3946,7 @@ Objects {
       Z: 26.2
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -3980,7 +3980,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11522132192793723097
+  Id: 2120855023597349625
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -3997,7 +3997,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -4037,7 +4037,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17233699422408015858
+  Id: 4725585788577087432
   Name: "Street Light Pole Clamp 01"
   Transform {
     Location {
@@ -4053,7 +4053,7 @@ Objects {
       Z: 4.2
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4087,7 +4087,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12314910548335128520
+  Id: 16345475048350092839
   Name: "Shipping Container Side 6m"
   Transform {
     Location {
@@ -4104,7 +4104,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4144,7 +4144,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16998087965632239310
+  Id: 13258589075942008016
   Name: "Street Light Pole Clamp 01"
   Transform {
     Location {
@@ -4160,7 +4160,7 @@ Objects {
       Z: 1.50000012
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4194,7 +4194,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7502281850831008909
+  Id: 9558225317595005712
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
@@ -4211,7 +4211,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -4261,7 +4261,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14488866882488206282
+  Id: 3484569846889353321
   Name: "Street Utility Box 02"
   Transform {
     Location {
@@ -4279,7 +4279,7 @@ Objects {
       Z: 2.29999971
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -4322,7 +4322,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2502248269801963867
+  Id: 8088687504583150352
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
@@ -4341,7 +4341,7 @@ Objects {
       Z: 26.2
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -4375,7 +4375,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12702532884514504588
+  Id: 13631794425095083627
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
@@ -4394,7 +4394,7 @@ Objects {
       Z: 26.2
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -4428,7 +4428,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11323545940486248663
+  Id: 13930354966301935875
   Name: "Street Utility Box 02"
   Transform {
     Location {
@@ -4447,7 +4447,7 @@ Objects {
       Z: 2.29999971
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -4490,7 +4490,7 @@ Objects {
   }
 }
 Objects {
-  Id: 887274684810825048
+  Id: 8407322958069700182
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
@@ -4509,7 +4509,7 @@ Objects {
       Z: 26.2
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -4543,7 +4543,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17684168012972852533
+  Id: 12596153379441672318
   Name: "Modern Weapon Barrel 01"
   Transform {
     Location {
@@ -4562,7 +4562,7 @@ Objects {
       Z: 2.49999976
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4596,7 +4596,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2609126752668903724
+  Id: 17301892425863518397
   Name: "Street Utility Box 02"
   Transform {
     Location {
@@ -4615,7 +4615,7 @@ Objects {
       Z: 2.29999971
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -4658,7 +4658,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17563162759623849010
+  Id: 5605972839347524670
   Name: "Whitebox Wall 01 Window Large"
   Transform {
     Location {
@@ -4673,7 +4673,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7145392034997090568
+  ParentId: 8982788423446082943
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"

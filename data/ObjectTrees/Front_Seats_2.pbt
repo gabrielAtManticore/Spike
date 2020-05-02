@@ -1,7 +1,7 @@
 Name: "Front_Seats_2"
-RootId: 15763057424988489606
+RootId: 3526327578309885947
 Objects {
-  Id: 10560176242261217526
+  Id: 13329516655103445862
   Name: "Gem - Radiant Polished"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1.20654821
     }
   }
-  ParentId: 15763057424988489606
+  ParentId: 3526327578309885947
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -54,7 +54,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4758857698657485267
+  Id: 4443140194937886962
   Name: "Modern Weapon - Grip 02"
   Transform {
     Location {
@@ -73,7 +73,7 @@ Objects {
       Z: 5.15286875
     }
   }
-  ParentId: 15763057424988489606
+  ParentId: 3526327578309885947
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -124,7 +124,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11142218117632306219
+  Id: 11490168191889941659
   Name: "Modern Weapon - Grip 02"
   Transform {
     Location {
@@ -143,7 +143,7 @@ Objects {
       Z: 5.15286875
     }
   }
-  ParentId: 15763057424988489606
+  ParentId: 3526327578309885947
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -194,7 +194,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9538987093206765050
+  Id: 4821350985965308145
   Name: "Gem - Radiant Polished"
   Transform {
     Location {
@@ -210,7 +210,7 @@ Objects {
       Z: 1.20654821
     }
   }
-  ParentId: 15763057424988489606
+  ParentId: 3526327578309885947
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

@@ -20,14 +20,15 @@ Objects {
   ChildIds: 17223162493950464969
   ChildIds: 11220769347076656462
   ChildIds: 420844597151223222
-  ChildIds: 9742533532806482483
   ChildIds: 17260790320867754668
   ChildIds: 5450254723250463512
   ChildIds: 8342061107480532378
   ChildIds: 3101486352721114744
-  ChildIds: 3373700479758815969
   ChildIds: 11941763916313311798
   ChildIds: 7886552916974763108
+  ChildIds: 8220931655639317171
+  ChildIds: 14599759709494131338
+  ChildIds: 16893314344476173336
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,6 +38,114 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 16893314344476173336
+  Name: "Decal Letters 01"
+  Transform {
+    Location {
+      X: 366.305756
+      Y: 2877.97607
+      Z: 3127.94263
+    }
+    Rotation {
+      Pitch: 0.222985178
+      Yaw: 61.0523262
+      Roll: 90.168129
+    }
+    Scale {
+      X: 0.727631748
+      Y: 0.727631748
+      Z: 0.727631748
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 2
+        G: 2
+        B: 2
+        A: 0.624
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15749768660404359801
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 14599759709494131338
+  Name: "Level Final"
+  Transform {
+    Location {
+      X: 2144.14185
+      Y: -1370.68323
+      Z: 3800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Level Final"
+  }
+}
+Objects {
+  Id: 8220931655639317171
+  Name: "Level Whitebox"
+  Transform {
+    Location {
+      X: -1800
+      Y: -1600
+      Z: 2400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Level Whitebox"
   }
 }
 Objects {
@@ -93,35 +202,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "SetDressing"
-  }
-}
-Objects {
-  Id: 3373700479758815969
-  Name: "Level Final"
-  Transform {
-    Location {
-      X: 2144.14185
-      Y: -1370.68323
-      Z: 3800
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Level Final"
   }
 }
 Objects {
@@ -245,35 +325,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Lobby 1"
-  }
-}
-Objects {
-  Id: 9742533532806482483
-  Name: "Level Whitebox"
-  Transform {
-    Location {
-      X: -1800
-      Y: -1600
-      Z: 2400
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Level Whitebox"
   }
 }
 Objects {

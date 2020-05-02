@@ -1,7 +1,7 @@
 Name: "Front_Light_Geo"
-RootId: 3246317654687537646
+RootId: 6602135381727792675
 Objects {
-  Id: 10090079378861993605
+  Id: 17262573463417955743
   Name: "R_Headlight"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 3.75000024
     }
   }
-  ParentId: 3246317654687537646
+  ParentId: 6602135381727792675
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -73,7 +73,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1295307641948843675
+  Id: 16359939616260884414
   Name: "L_HeadLight"
   Transform {
     Location {
@@ -90,7 +90,7 @@ Objects {
       Z: 3.75000024
     }
   }
-  ParentId: 3246317654687537646
+  ParentId: 6602135381727792675
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -145,7 +145,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3164773731397574197
+  Id: 402609980094847528
   Name: "L_Fog_Light"
   Transform {
     Location {
@@ -161,7 +161,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 3246317654687537646
+  ParentId: 6602135381727792675
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -198,7 +198,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7626141144234041937
+  Id: 10140800390466088382
   Name: "R_Fog_Light"
   Transform {
     Location {
@@ -214,7 +214,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 3246317654687537646
+  ParentId: 6602135381727792675
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -245,7 +245,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7505641901613557185
+  Id: 12298708924141148209
   Name: "Oracle_HeadLight_L"
   Transform {
     Location {
@@ -262,7 +262,7 @@ Objects {
       Z: 0.889186561
     }
   }
-  ParentId: 3246317654687537646
+  ParentId: 6602135381727792675
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -299,7 +299,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4150253727960848821
+  Id: 378655519911315851
   Name: "Oracle_HeadLight_R"
   Transform {
     Location {
@@ -316,7 +316,7 @@ Objects {
       Z: 0.889186561
     }
   }
-  ParentId: 3246317654687537646
+  ParentId: 6602135381727792675
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

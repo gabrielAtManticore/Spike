@@ -1,109 +1,28 @@
 Name: "Level Whitebox"
-RootId: 9742533532806482483
+RootId: 8220931655639317171
 Objects {
-  Id: 10800279122572956449
-  Name: "Small Ammo Crate"
+  Id: 4114143052875002185
+  Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 1120
-      Y: -3550
-      Z: 220
+      X: 3750
+      Y: 4975
+      Z: 300
     }
     Rotation {
-      Yaw: -90.1943665
     }
     Scale {
-      X: 0.900000095
-      Y: 0.900000095
-      Z: 0.900000095
+      X: 6.5
+      Y: 11.000001
+      Z: 1
     }
   }
-  ParentId: 9742533532806482483
-  ChildIds: 13190162960037396764
-  ChildIds: 10354536478447598851
-  ChildIds: 5284566300181160755
-  ChildIds: 4509903005600045348
-  ChildIds: 12925076459569300924
-  ChildIds: 8533183417725420391
-  ChildIds: 1262506489812751605
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 1262506489812751605
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -6.27040863e-05
-      Y: 43.1958351
-      Z: 35
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90.0000153
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.20000029
-      Y: 3.20000029
-      Z: 3.20000029
-    }
-  }
-  ParentId: 10800279122572956449
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13497286481847906284
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8533183417725420391
-  Name: "Modern Weapon - Sight Rear 01"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 50
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -26.565033
-      Roll: -63.4349976
-    }
-    Scale {
-      X: 7.79999733
-      Y: 7.79999733
-      Z: 7.79999733
-    }
-  }
-  ParentId: 10800279122572956449
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_Detail1:id"
+      Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11716158533496344752
+        Id: 6317093348408192352
       }
     }
   }
@@ -115,7 +34,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 14653594689465828205
+      Id: 17609149353171719671
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -129,3923 +48,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12925076459569300924
-  Name: "Modern Weapon - Sight Rear 02"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 70
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 20.5560398
-      Roll: -110.556
-    }
-    Scale {
-      X: 10.1000013
-      Y: 10.1000013
-      Z: 10.1000013
-    }
-  }
-  ParentId: 10800279122572956449
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9117384065423546074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 4509903005600045348
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-    }
-    Rotation {
-      Pitch: -2.04905664e-05
-      Yaw: -89.9999
-      Roll: -89.9999
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 10800279122572956449
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 5284566300181160755
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 55.000061
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 10800279122572956449
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 10354536478447598851
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 6.10351563e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 10800279122572956449
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13190162960037396764
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-      Z: 55
-    }
-    Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: -89.9999161
-      Roll: -89.9999466
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 10800279122572956449
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 4725488764982534823
-  Name: "Small Ammo Crate"
-  Transform {
-    Location {
-      X: 1120
-      Y: -3835.77197
-      Z: 220
-    }
-    Rotation {
-      Yaw: -90.1943665
-    }
-    Scale {
-      X: 0.900000095
-      Y: 0.900000095
-      Z: 0.900000095
-    }
-  }
-  ParentId: 9742533532806482483
-  ChildIds: 13565735296861794321
-  ChildIds: 15586433023235126447
-  ChildIds: 2660809609461313439
-  ChildIds: 14092192779912465075
-  ChildIds: 12172134207153737345
-  ChildIds: 13476887201055529782
-  ChildIds: 7951071565609074458
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 7951071565609074458
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -6.27040863e-05
-      Y: 43.1958351
-      Z: 35
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90.0000153
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.20000029
-      Y: 3.20000029
-      Z: 3.20000029
-    }
-  }
-  ParentId: 4725488764982534823
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13497286481847906284
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13476887201055529782
-  Name: "Modern Weapon - Sight Rear 01"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 50
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -26.565033
-      Roll: -63.4349976
-    }
-    Scale {
-      X: 7.79999733
-      Y: 7.79999733
-      Z: 7.79999733
-    }
-  }
-  ParentId: 4725488764982534823
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 11716158533496344752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14653594689465828205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12172134207153737345
-  Name: "Modern Weapon - Sight Rear 02"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 70
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 20.5560398
-      Roll: -110.556
-    }
-    Scale {
-      X: 10.1000013
-      Y: 10.1000013
-      Z: 10.1000013
-    }
-  }
-  ParentId: 4725488764982534823
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9117384065423546074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14092192779912465075
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-    }
-    Rotation {
-      Pitch: -2.04905664e-05
-      Yaw: -89.9999
-      Roll: -89.9999
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 4725488764982534823
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2660809609461313439
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 55.000061
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 4725488764982534823
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 15586433023235126447
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 6.10351563e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 4725488764982534823
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13565735296861794321
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-      Z: 55
-    }
-    Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: -89.9999161
-      Roll: -89.9999466
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 4725488764982534823
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3063840975555557105
-  Name: "Small Ammo Crate"
-  Transform {
-    Location {
-      X: 1330
-      Y: -3835.77197
-      Z: 220
-    }
-    Rotation {
-      Yaw: -90.1943665
-    }
-    Scale {
-      X: 0.900000095
-      Y: 0.900000095
-      Z: 0.900000095
-    }
-  }
-  ParentId: 9742533532806482483
-  ChildIds: 11540601574734578497
-  ChildIds: 304869891452006292
-  ChildIds: 671167009260878526
-  ChildIds: 16462013835772904102
-  ChildIds: 16379383355599298860
-  ChildIds: 47583551545159594
-  ChildIds: 6003800197372020638
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 6003800197372020638
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -6.27040863e-05
-      Y: 43.1958351
-      Z: 35
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90.0000153
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.20000029
-      Y: 3.20000029
-      Z: 3.20000029
-    }
-  }
-  ParentId: 3063840975555557105
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13497286481847906284
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 47583551545159594
-  Name: "Modern Weapon - Sight Rear 01"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 50
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -26.565033
-      Roll: -63.4349976
-    }
-    Scale {
-      X: 7.79999733
-      Y: 7.79999733
-      Z: 7.79999733
-    }
-  }
-  ParentId: 3063840975555557105
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 11716158533496344752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14653594689465828205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16379383355599298860
-  Name: "Modern Weapon - Sight Rear 02"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 70
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 20.5560398
-      Roll: -110.556
-    }
-    Scale {
-      X: 10.1000013
-      Y: 10.1000013
-      Z: 10.1000013
-    }
-  }
-  ParentId: 3063840975555557105
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9117384065423546074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16462013835772904102
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-    }
-    Rotation {
-      Pitch: -2.04905664e-05
-      Yaw: -89.9999
-      Roll: -89.9999
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 3063840975555557105
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 671167009260878526
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 55.000061
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 3063840975555557105
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 304869891452006292
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 6.10351563e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 3063840975555557105
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 11540601574734578497
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-      Z: 55
-    }
-    Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: -89.9999161
-      Roll: -89.9999466
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 3063840975555557105
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3303848418812164089
-  Name: "Small Ammo Crate"
-  Transform {
-    Location {
-      X: 1330
-      Y: -3550
-      Z: 220
-    }
-    Rotation {
-      Yaw: -90.1943665
-    }
-    Scale {
-      X: 0.900000095
-      Y: 0.900000095
-      Z: 0.900000095
-    }
-  }
-  ParentId: 9742533532806482483
-  ChildIds: 16309312301352050945
-  ChildIds: 8748357363465852121
-  ChildIds: 12372918966689189317
-  ChildIds: 12734184042436550411
-  ChildIds: 17477124442774999438
-  ChildIds: 16452085427861704402
-  ChildIds: 3487052279863827350
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 3487052279863827350
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -6.27040863e-05
-      Y: 43.1958351
-      Z: 35
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90.0000153
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.20000029
-      Y: 3.20000029
-      Z: 3.20000029
-    }
-  }
-  ParentId: 3303848418812164089
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13497286481847906284
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16452085427861704402
-  Name: "Modern Weapon - Sight Rear 01"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 50
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -26.565033
-      Roll: -63.4349976
-    }
-    Scale {
-      X: 7.79999733
-      Y: 7.79999733
-      Z: 7.79999733
-    }
-  }
-  ParentId: 3303848418812164089
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 11716158533496344752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14653594689465828205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 17477124442774999438
-  Name: "Modern Weapon - Sight Rear 02"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 70
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 20.5560398
-      Roll: -110.556
-    }
-    Scale {
-      X: 10.1000013
-      Y: 10.1000013
-      Z: 10.1000013
-    }
-  }
-  ParentId: 3303848418812164089
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9117384065423546074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12734184042436550411
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-    }
-    Rotation {
-      Pitch: -2.04905664e-05
-      Yaw: -89.9999
-      Roll: -89.9999
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 3303848418812164089
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12372918966689189317
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 55.000061
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 3303848418812164089
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8748357363465852121
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 6.10351563e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 3303848418812164089
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16309312301352050945
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-      Z: 55
-    }
-    Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: -89.9999161
-      Roll: -89.9999466
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 3303848418812164089
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16224137257986818667
-  Name: "Small Ammo Crate"
-  Transform {
-    Location {
-      X: 1540
-      Y: -3835.77197
-      Z: 220
-    }
-    Rotation {
-      Yaw: -90.1943665
-    }
-    Scale {
-      X: 0.900000095
-      Y: 0.900000095
-      Z: 0.900000095
-    }
-  }
-  ParentId: 9742533532806482483
-  ChildIds: 18039940965290678430
-  ChildIds: 1488579947680261157
-  ChildIds: 199343040753109593
-  ChildIds: 4898510850621550106
-  ChildIds: 13255288538630411555
-  ChildIds: 13705102894540874573
-  ChildIds: 5522469225805892410
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 5522469225805892410
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -6.27040863e-05
-      Y: 43.1958351
-      Z: 35
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90.0000153
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.20000029
-      Y: 3.20000029
-      Z: 3.20000029
-    }
-  }
-  ParentId: 16224137257986818667
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13497286481847906284
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13705102894540874573
-  Name: "Modern Weapon - Sight Rear 01"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 50
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -26.565033
-      Roll: -63.4349976
-    }
-    Scale {
-      X: 7.79999733
-      Y: 7.79999733
-      Z: 7.79999733
-    }
-  }
-  ParentId: 16224137257986818667
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 11716158533496344752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14653594689465828205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13255288538630411555
-  Name: "Modern Weapon - Sight Rear 02"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 70
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 20.5560398
-      Roll: -110.556
-    }
-    Scale {
-      X: 10.1000013
-      Y: 10.1000013
-      Z: 10.1000013
-    }
-  }
-  ParentId: 16224137257986818667
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9117384065423546074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 4898510850621550106
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-    }
-    Rotation {
-      Pitch: -2.04905664e-05
-      Yaw: -89.9999
-      Roll: -89.9999
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 16224137257986818667
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 199343040753109593
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 55.000061
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 16224137257986818667
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 1488579947680261157
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 6.10351563e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 16224137257986818667
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 18039940965290678430
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-      Z: 55
-    }
-    Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: -89.9999161
-      Roll: -89.9999466
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 16224137257986818667
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3201579841154122022
-  Name: "Small Ammo Crate"
-  Transform {
-    Location {
-      X: 1540
-      Y: -3550
-      Z: 220
-    }
-    Rotation {
-      Yaw: -90.1943665
-    }
-    Scale {
-      X: 0.900000095
-      Y: 0.900000095
-      Z: 0.900000095
-    }
-  }
-  ParentId: 9742533532806482483
-  ChildIds: 6189861269272249710
-  ChildIds: 6709041913866570102
-  ChildIds: 17238561848263714155
-  ChildIds: 2272156672390001761
-  ChildIds: 17530274633723915650
-  ChildIds: 2923060753030725208
-  ChildIds: 989545153351316483
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 989545153351316483
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -6.27040863e-05
-      Y: 43.1958351
-      Z: 35
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90.0000153
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.20000029
-      Y: 3.20000029
-      Z: 3.20000029
-    }
-  }
-  ParentId: 3201579841154122022
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13497286481847906284
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2923060753030725208
-  Name: "Modern Weapon - Sight Rear 01"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 50
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -26.565033
-      Roll: -63.4349976
-    }
-    Scale {
-      X: 7.79999733
-      Y: 7.79999733
-      Z: 7.79999733
-    }
-  }
-  ParentId: 3201579841154122022
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 11716158533496344752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14653594689465828205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 17530274633723915650
-  Name: "Modern Weapon - Sight Rear 02"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 70
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 20.5560398
-      Roll: -110.556
-    }
-    Scale {
-      X: 10.1000013
-      Y: 10.1000013
-      Z: 10.1000013
-    }
-  }
-  ParentId: 3201579841154122022
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9117384065423546074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2272156672390001761
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-    }
-    Rotation {
-      Pitch: -2.04905664e-05
-      Yaw: -89.9999
-      Roll: -89.9999
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 3201579841154122022
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 17238561848263714155
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 55.000061
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 3201579841154122022
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 6709041913866570102
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 6.10351563e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 3201579841154122022
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 6189861269272249710
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-      Z: 55
-    }
-    Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: -89.9999161
-      Roll: -89.9999466
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 3201579841154122022
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13023456909913482359
-  Name: "Small Ammo Crate"
-  Transform {
-    Location {
-      X: 1540
-      Y: -3835.77197
-      Z: 110
-    }
-    Rotation {
-      Yaw: -90.1943665
-    }
-    Scale {
-      X: 0.900000095
-      Y: 0.900000095
-      Z: 0.900000095
-    }
-  }
-  ParentId: 9742533532806482483
-  ChildIds: 9125183571767647908
-  ChildIds: 6953532579097587383
-  ChildIds: 3705860414122713898
-  ChildIds: 16382858442372499932
-  ChildIds: 5824432466623128717
-  ChildIds: 17674830499065313344
-  ChildIds: 2514146308328396147
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 2514146308328396147
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -6.27040863e-05
-      Y: 43.1958351
-      Z: 35
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90.0000153
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.20000029
-      Y: 3.20000029
-      Z: 3.20000029
-    }
-  }
-  ParentId: 13023456909913482359
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13497286481847906284
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 17674830499065313344
-  Name: "Modern Weapon - Sight Rear 01"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 50
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -26.565033
-      Roll: -63.4349976
-    }
-    Scale {
-      X: 7.79999733
-      Y: 7.79999733
-      Z: 7.79999733
-    }
-  }
-  ParentId: 13023456909913482359
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 11716158533496344752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14653594689465828205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 5824432466623128717
-  Name: "Modern Weapon - Sight Rear 02"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 70
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 20.5560398
-      Roll: -110.556
-    }
-    Scale {
-      X: 10.1000013
-      Y: 10.1000013
-      Z: 10.1000013
-    }
-  }
-  ParentId: 13023456909913482359
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9117384065423546074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16382858442372499932
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-    }
-    Rotation {
-      Pitch: -2.04905664e-05
-      Yaw: -89.9999
-      Roll: -89.9999
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 13023456909913482359
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3705860414122713898
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 55.000061
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 13023456909913482359
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 6953532579097587383
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 6.10351563e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 13023456909913482359
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 9125183571767647908
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-      Z: 55
-    }
-    Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: -89.9999161
-      Roll: -89.9999466
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 13023456909913482359
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 4420780348502522240
-  Name: "Small Ammo Crate"
-  Transform {
-    Location {
-      X: 1540
-      Y: -3550
-      Z: 110
-    }
-    Rotation {
-      Yaw: -90.1943665
-    }
-    Scale {
-      X: 0.900000095
-      Y: 0.900000095
-      Z: 0.900000095
-    }
-  }
-  ParentId: 9742533532806482483
-  ChildIds: 14117018204881328665
-  ChildIds: 13381419087320652284
-  ChildIds: 9847271328651944056
-  ChildIds: 6573230953847249965
-  ChildIds: 14897312660316972671
-  ChildIds: 18392179099882694904
-  ChildIds: 15571959203863374917
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 15571959203863374917
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -6.27040863e-05
-      Y: 43.1958351
-      Z: 35
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90.0000153
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.20000029
-      Y: 3.20000029
-      Z: 3.20000029
-    }
-  }
-  ParentId: 4420780348502522240
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13497286481847906284
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 18392179099882694904
-  Name: "Modern Weapon - Sight Rear 01"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 50
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -26.565033
-      Roll: -63.4349976
-    }
-    Scale {
-      X: 7.79999733
-      Y: 7.79999733
-      Z: 7.79999733
-    }
-  }
-  ParentId: 4420780348502522240
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 11716158533496344752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14653594689465828205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14897312660316972671
-  Name: "Modern Weapon - Sight Rear 02"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 70
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 20.5560398
-      Roll: -110.556
-    }
-    Scale {
-      X: 10.1000013
-      Y: 10.1000013
-      Z: 10.1000013
-    }
-  }
-  ParentId: 4420780348502522240
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9117384065423546074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 6573230953847249965
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-    }
-    Rotation {
-      Pitch: -2.04905664e-05
-      Yaw: -89.9999
-      Roll: -89.9999
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 4420780348502522240
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 9847271328651944056
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 55.000061
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 4420780348502522240
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13381419087320652284
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 6.10351563e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 4420780348502522240
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14117018204881328665
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-      Z: 55
-    }
-    Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: -89.9999161
-      Roll: -89.9999466
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 4420780348502522240
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 7276468113065565756
-  Name: "Small Ammo Crate"
-  Transform {
-    Location {
-      X: 1330
-      Y: -3835.77197
-      Z: 110
-    }
-    Rotation {
-      Yaw: -90.1943665
-    }
-    Scale {
-      X: 0.900000095
-      Y: 0.900000095
-      Z: 0.900000095
-    }
-  }
-  ParentId: 9742533532806482483
-  ChildIds: 14654040008034363266
-  ChildIds: 9489246300215983469
-  ChildIds: 12805675964718085258
-  ChildIds: 7439836781393743206
-  ChildIds: 12389237363309236458
-  ChildIds: 8246404493188675718
-  ChildIds: 13414067499091328247
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 13414067499091328247
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -6.27040863e-05
-      Y: 43.1958351
-      Z: 35
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90.0000153
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.20000029
-      Y: 3.20000029
-      Z: 3.20000029
-    }
-  }
-  ParentId: 7276468113065565756
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13497286481847906284
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8246404493188675718
-  Name: "Modern Weapon - Sight Rear 01"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 50
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -26.565033
-      Roll: -63.4349976
-    }
-    Scale {
-      X: 7.79999733
-      Y: 7.79999733
-      Z: 7.79999733
-    }
-  }
-  ParentId: 7276468113065565756
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 11716158533496344752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14653594689465828205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12389237363309236458
-  Name: "Modern Weapon - Sight Rear 02"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 70
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 20.5560398
-      Roll: -110.556
-    }
-    Scale {
-      X: 10.1000013
-      Y: 10.1000013
-      Z: 10.1000013
-    }
-  }
-  ParentId: 7276468113065565756
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9117384065423546074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 7439836781393743206
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-    }
-    Rotation {
-      Pitch: -2.04905664e-05
-      Yaw: -89.9999
-      Roll: -89.9999
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 7276468113065565756
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12805675964718085258
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 55.000061
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 7276468113065565756
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 9489246300215983469
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 6.10351563e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 7276468113065565756
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14654040008034363266
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-      Z: 55
-    }
-    Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: -89.9999161
-      Roll: -89.9999466
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 7276468113065565756
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 9604491067617875567
-  Name: "Small Ammo Crate"
-  Transform {
-    Location {
-      X: 1330
-      Y: -3550
-      Z: 110
-    }
-    Rotation {
-      Yaw: -90.1943665
-    }
-    Scale {
-      X: 0.900000095
-      Y: 0.900000095
-      Z: 0.900000095
-    }
-  }
-  ParentId: 9742533532806482483
-  ChildIds: 18119893747090058829
-  ChildIds: 10279305540287746983
-  ChildIds: 13028180841976399629
-  ChildIds: 14274041288327304027
-  ChildIds: 17531992740563701416
-  ChildIds: 3176964896096394491
-  ChildIds: 15353726327742598500
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 15353726327742598500
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -6.27040863e-05
-      Y: 43.1958351
-      Z: 35
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90.0000153
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.20000029
-      Y: 3.20000029
-      Z: 3.20000029
-    }
-  }
-  ParentId: 9604491067617875567
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13497286481847906284
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3176964896096394491
-  Name: "Modern Weapon - Sight Rear 01"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 50
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -26.565033
-      Roll: -63.4349976
-    }
-    Scale {
-      X: 7.79999733
-      Y: 7.79999733
-      Z: 7.79999733
-    }
-  }
-  ParentId: 9604491067617875567
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 11716158533496344752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14653594689465828205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 17531992740563701416
-  Name: "Modern Weapon - Sight Rear 02"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 70
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 20.5560398
-      Roll: -110.556
-    }
-    Scale {
-      X: 10.1000013
-      Y: 10.1000013
-      Z: 10.1000013
-    }
-  }
-  ParentId: 9604491067617875567
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9117384065423546074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14274041288327304027
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-    }
-    Rotation {
-      Pitch: -2.04905664e-05
-      Yaw: -89.9999
-      Roll: -89.9999
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 9604491067617875567
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13028180841976399629
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 55.000061
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 9604491067617875567
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 10279305540287746983
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 6.10351563e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 9604491067617875567
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 18119893747090058829
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-      Z: 55
-    }
-    Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: -89.9999161
-      Roll: -89.9999466
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 9604491067617875567
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 873489620063381625
-  Name: "Small Ammo Crate"
-  Transform {
-    Location {
-      X: 1120
-      Y: -3550
-      Z: 110
-    }
-    Rotation {
-      Yaw: -90.1943665
-    }
-    Scale {
-      X: 0.900000095
-      Y: 0.900000095
-      Z: 0.900000095
-    }
-  }
-  ParentId: 9742533532806482483
-  ChildIds: 898838360789834809
-  ChildIds: 9741304458856471499
-  ChildIds: 2602462587819268062
-  ChildIds: 8398663571790932743
-  ChildIds: 8399070126199701385
-  ChildIds: 18172278578007081705
-  ChildIds: 15317504503034415847
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 15317504503034415847
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -6.27040863e-05
-      Y: 43.1958351
-      Z: 35
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90.0000153
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.20000029
-      Y: 3.20000029
-      Z: 3.20000029
-    }
-  }
-  ParentId: 873489620063381625
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13497286481847906284
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 18172278578007081705
-  Name: "Modern Weapon - Sight Rear 01"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 50
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -26.565033
-      Roll: -63.4349976
-    }
-    Scale {
-      X: 7.79999733
-      Y: 7.79999733
-      Z: 7.79999733
-    }
-  }
-  ParentId: 873489620063381625
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 11716158533496344752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14653594689465828205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8399070126199701385
-  Name: "Modern Weapon - Sight Rear 02"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 70
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 20.5560398
-      Roll: -110.556
-    }
-    Scale {
-      X: 10.1000013
-      Y: 10.1000013
-      Z: 10.1000013
-    }
-  }
-  ParentId: 873489620063381625
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9117384065423546074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8398663571790932743
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-    }
-    Rotation {
-      Pitch: -2.04905664e-05
-      Yaw: -89.9999
-      Roll: -89.9999
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 873489620063381625
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2602462587819268062
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 55.000061
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 873489620063381625
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 9741304458856471499
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 6.10351563e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 873489620063381625
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 898838360789834809
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-      Z: 55
-    }
-    Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: -89.9999161
-      Roll: -89.9999466
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 873489620063381625
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 5167207873683537791
-  Name: "Small Ammo Crate"
-  Transform {
-    Location {
-      X: 1120
-      Y: -3835.77197
-      Z: 110
-    }
-    Rotation {
-      Yaw: -90.1943665
-    }
-    Scale {
-      X: 0.900000095
-      Y: 0.900000095
-      Z: 0.900000095
-    }
-  }
-  ParentId: 9742533532806482483
-  ChildIds: 12939361188001696057
-  ChildIds: 218248986732032887
-  ChildIds: 13806909600043592335
-  ChildIds: 2080427013745142755
-  ChildIds: 12224436237853486410
-  ChildIds: 6322594112135091268
-  ChildIds: 4912855908175089789
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 4912855908175089789
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -6.27040863e-05
-      Y: 43.1958351
-      Z: 35
-    }
-    Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 90.0000153
-      Roll: -89.9999695
-    }
-    Scale {
-      X: 3.20000029
-      Y: 3.20000029
-      Z: 3.20000029
-    }
-  }
-  ParentId: 5167207873683537791
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13497286481847906284
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 6322594112135091268
-  Name: "Modern Weapon - Sight Rear 01"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 50
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -26.565033
-      Roll: -63.4349976
-    }
-    Scale {
-      X: 7.79999733
-      Y: 7.79999733
-      Z: 7.79999733
-    }
-  }
-  ParentId: 5167207873683537791
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 11716158533496344752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14653594689465828205
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12224436237853486410
-  Name: "Modern Weapon - Sight Rear 02"
-  Transform {
-    Location {
-      X: -0.00029706955
-      Y: -66.8037262
-      Z: 70
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 20.5560398
-      Roll: -110.556
-    }
-    Scale {
-      X: 10.1000013
-      Y: 10.1000013
-      Z: 10.1000013
-    }
-  }
-  ParentId: 5167207873683537791
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9117384065423546074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2080427013745142755
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-    }
-    Rotation {
-      Pitch: -2.04905664e-05
-      Yaw: -89.9999
-      Roll: -89.9999
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 5167207873683537791
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13806909600043592335
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 55.000061
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 5167207873683537791
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 218248986732032887
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: 134.998047
-      Y: 23.1940918
-      Z: 6.10351563e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -89.9999084
-      Roll: -89.999939
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: -3.3
-    }
-  }
-  ParentId: 5167207873683537791
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12939361188001696057
-  Name: "Modern Weapon Accessory - Rail 02"
-  Transform {
-    Location {
-      X: -135.000732
-      Y: 23.1956921
-      Z: 55
-    }
-    Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: -89.9999161
-      Roll: -89.9999466
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 5167207873683537791
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12637801335342129827
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 11751246107741220512
+  Id: 7110830655039712577
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4060,7 +63,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4100,7 +103,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1079125054889357949
+  Id: 3630409677583388037
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4116,7 +119,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4150,7 +153,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17433941361959217802
+  Id: 14573575115954133390
   Name: "Modern Weapon - Grenade Canister 03"
   Transform {
     Location {
@@ -4166,7 +169,7 @@ Objects {
       Z: 7.29999924
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4191,7 +194,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1891836145290689148
+  Id: 8092189263367447413
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4206,7 +209,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4237,7 +240,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3863276937602225663
+  Id: 2820468533403731243
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4253,7 +256,7 @@ Objects {
       Z: 8.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4287,7 +290,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17922078618346793675
+  Id: 1657544150543286145
   Name: "Pyramid - 5-Sided"
   Transform {
     Location {
@@ -4303,7 +306,7 @@ Objects {
       Z: 33.9999924
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4337,23 +340,23 @@ Objects {
   }
 }
 Objects {
-  Id: 13252120755025209611
+  Id: 1729803303062813094
   Name: "Cube - bottom aligned"
   Transform {
     Location {
       X: 3575
-      Y: 5300
+      Y: 5275
       Z: -0.000732421875
     }
     Rotation {
     }
     Scale {
       X: 0.5
-      Y: 4.5
+      Y: 5.5
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4387,57 +390,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8660350416357332813
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 4700
-      Y: 5100
-      Z: -0.000244140625
-    }
-    Rotation {
-    }
-    Scale {
-      X: 22
-      Y: 0.5
-      Z: 8
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.33
-        G: 0.33
-        B: 0.33
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 4737376334564184841
+  Id: 7405863867938631704
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4452,7 +405,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4483,7 +436,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12453738754539431715
+  Id: 8298972698898729659
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4498,7 +451,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4529,7 +482,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7664226745597738096
+  Id: 7685087842802799841
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4544,7 +497,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4575,7 +528,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16377503580845984959
+  Id: 10925366415738528947
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4591,7 +544,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4625,12 +578,12 @@ Objects {
   }
 }
 Objects {
-  Id: 4491060349599667736
+  Id: 11208278087912343486
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
       X: 1250
-      Y: 2575
+      Y: 2400
       Z: 525
     }
     Rotation {
@@ -4642,12 +595,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
       AssetReference {
-        Id: 17744285202312172947
+        Id: 16447630291553548532
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4590600675160144925
       }
     }
   }
@@ -4673,29 +632,35 @@ Objects {
   }
 }
 Objects {
-  Id: 14114617640816054833
+  Id: 6669234735224141552
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
       X: 1450
-      Y: 2575
+      Y: 2400
       Z: 375
     }
     Rotation {
       Yaw: -90.000061
     }
     Scale {
-      X: 1.75
+      X: 1.30000007
       Y: 1
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
       AssetReference {
-        Id: 17744285202312172947
+        Id: 16447630291553548532
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4590600675160144925
       }
     }
   }
@@ -4721,7 +686,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14390446334203386316
+  Id: 13070888853738360150
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4736,7 +701,7 @@ Objects {
       Z: 12.3422222
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4776,7 +741,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8353203450239588396
+  Id: 17992491717111625901
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4792,7 +757,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4823,7 +788,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16422270633759576475
+  Id: 8117857086872263545
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4839,7 +804,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4870,7 +835,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7274960852984508813
+  Id: 839480851277306998
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4886,7 +851,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4920,7 +885,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11467029894155141360
+  Id: 4550672057797254482
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -4936,7 +901,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4970,57 +935,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12960296813445377722
-  Name: "Cube - Rounded - bottom aligned"
-  Transform {
-    Location {
-      X: 2400
-      Y: 4350
-      Z: 400
-    }
-    Rotation {
-    }
-    Scale {
-      X: 4.5
-      Y: 4.5
-      Z: 4.5
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.385417
-        G: 0.226359427
-        B: 0.120321013
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17485881147669499682
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2420404631429828787
+  Id: 14171533151907875811
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5036,7 +951,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5067,62 +982,12 @@ Objects {
   }
 }
 Objects {
-  Id: 2977594173501365651
+  Id: 16799818120753524530
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 1600
-      Y: 325
-      Z: 600
-    }
-    Rotation {
-    }
-    Scale {
-      X: 3
-      Y: 3.5
-      Z: 5
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.385417
-        G: 0.385417
-        B: 0.385417
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13217512600954045860
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 1850
-      Y: 600
+      X: 1825
+      Y: 625
       Z: 700
     }
     Rotation {
@@ -5133,7 +998,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5164,12 +1029,12 @@ Objects {
   }
 }
 Objects {
-  Id: 6963987433755644658
+  Id: 15874941352795392022
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 2050
-      Y: 575
+      X: 2025
+      Y: 600
       Z: 700
     }
     Rotation {
@@ -5180,7 +1045,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5211,7 +1076,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3102711754399688823
+  Id: 10757385148017087237
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5226,7 +1091,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5266,7 +1131,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12120426361576566087
+  Id: 3770693551325150142
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5282,7 +1147,7 @@ Objects {
       Z: 14
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5316,7 +1181,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6072974297971959402
+  Id: 5341908530776701159
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5332,15 +1197,21 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.385417
-        G: 0.385417
-        B: 0.385417
+        R: 1
+        G: 1
+        B: 1
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6317093348408192352
       }
     }
   }
@@ -5366,7 +1237,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1642904051859052084
+  Id: 815613030387608261
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5382,7 +1253,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5416,7 +1287,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11061157258939904073
+  Id: 7873798886371511227
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5431,7 +1302,7 @@ Objects {
       Z: 13.000001
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5465,7 +1336,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2997279459910709433
+  Id: 3624281807452848259
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5480,7 +1351,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5511,7 +1382,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4479934124931405160
+  Id: 10931268497579305729
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5526,7 +1397,7 @@ Objects {
       Z: 4
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5560,7 +1431,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2875811463564622226
+  Id: 5620541451242779550
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5576,7 +1447,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5610,7 +1481,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8255809687624841403
+  Id: 18246293989230845606
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5626,7 +1497,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5660,7 +1531,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13970762794717172603
+  Id: 13833769520471705910
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5676,7 +1547,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5710,7 +1581,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14540146073137219927
+  Id: 17105407788485549345
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5726,7 +1597,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5760,7 +1631,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6321899883527733628
+  Id: 7529330882194618453
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5776,7 +1647,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5810,7 +1681,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5904345165366587091
+  Id: 10790171685548793285
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5826,7 +1697,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5860,7 +1731,7 @@ Objects {
   }
 }
 Objects {
-  Id: 849242427095305020
+  Id: 8718759650261926142
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5876,7 +1747,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5910,7 +1781,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7925132913678999650
+  Id: 16899087223001770794
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5926,7 +1797,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5960,7 +1831,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7745597318919980152
+  Id: 14844204409111640876
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -5976,7 +1847,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6010,7 +1881,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8051710525769231021
+  Id: 14270497347742164796
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6026,7 +1897,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6060,7 +1931,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15532522501522525421
+  Id: 834510078504333283
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6076,7 +1947,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6110,7 +1981,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11377465725229935555
+  Id: 9204237979248949673
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6126,7 +1997,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6160,7 +2031,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8121972146657619829
+  Id: 13954052738554664225
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6176,7 +2047,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6210,7 +2081,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14084006379411300298
+  Id: 74004354910397362
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6226,7 +2097,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6260,7 +2131,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9931589057182302346
+  Id: 2216209677426658025
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6275,7 +2146,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6315,7 +2186,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10907085494800906073
+  Id: 2339427433150221483
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6331,7 +2202,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6365,57 +2236,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14837618086955283346
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 5775
-      Y: 3375
-      Z: -0.000732421875
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.5
-      Y: 35
-      Z: 8
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.33
-        G: 0.33
-        B: 0.33
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3884763466267769373
+  Id: 1367481752891398267
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6430,7 +2251,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6464,7 +2285,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6740773081207392764
+  Id: 5092629518967296564
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6479,7 +2300,7 @@ Objects {
       Z: 11
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6513,7 +2334,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17346366654997086792
+  Id: 1673411561307160384
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6528,7 +2349,7 @@ Objects {
       Z: 11.000001
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6562,57 +2383,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13139367364426024998
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 4350
-      Y: 3600
-      Z: -0.00048828125
-    }
-    Rotation {
-    }
-    Scale {
-      X: 15.9999962
-      Y: 20
-      Z: 8
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.33
-        G: 0.33
-        B: 0.33
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 4755405298044875597
+  Id: 3340081600316879409
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6628,7 +2399,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6668,7 +2439,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5399255550693063059
+  Id: 17830551821836255710
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6683,7 +2454,7 @@ Objects {
       Z: 14.000001
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6717,56 +2488,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10267082480629755961
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 2600
-      Y: 2000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 9
-      Y: 18
-      Z: 13
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.385417
-        G: 0.385417
-        B: 0.385417
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 9191506956833609141
+  Id: 6289685840495036522
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6781,7 +2503,7 @@ Objects {
       Z: 14.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6821,7 +2543,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1554246725148989698
+  Id: 634296704009109243
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6836,7 +2558,7 @@ Objects {
       Z: 14.000001
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6876,7 +2598,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2842766909632344984
+  Id: 4962219248720240041
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6891,7 +2613,7 @@ Objects {
       Z: 14.000001
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6931,7 +2653,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9569342790923147266
+  Id: 7486505628691636905
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -6946,7 +2668,7 @@ Objects {
       Z: 13.000001
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6986,7 +2708,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3537013438427773375
+  Id: 12609060017154243453
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -7001,7 +2723,7 @@ Objects {
       Z: 13.000001
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7035,7 +2757,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13297705039798534162
+  Id: 7398065804935565852
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -7051,7 +2773,7 @@ Objects {
       Z: 7
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7085,7 +2807,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4817457639174203727
+  Id: 3179323741799935076
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -7100,7 +2822,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7134,7 +2856,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9916563533333033518
+  Id: 9554208951457229457
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -7149,7 +2871,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7183,7 +2905,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9642045208420538531
+  Id: 3591562120695159721
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -7198,7 +2920,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7232,7 +2954,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8600812528309832849
+  Id: 739457586903645408
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -7247,7 +2969,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7281,7 +3003,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1042041580531210864
+  Id: 16531023338156583145
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -7296,7 +3018,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7330,7 +3052,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12762244680714925981
+  Id: 14546061300023039719
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -7345,7 +3067,7 @@ Objects {
       Z: 4
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7379,7 +3101,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1073655388397825
+  Id: 5282163879078194069
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -7394,7 +3116,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7428,7 +3150,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5479015449977848018
+  Id: 2244850861347019640
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -7443,7 +3165,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7477,7 +3199,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1848160682013222826
+  Id: 10628903370873585235
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -7493,7 +3215,7 @@ Objects {
       Z: 7
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7527,199 +3249,11 @@ Objects {
   }
 }
 Objects {
-  Id: 12097096516442872801
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 3300
-      Y: 2750
-      Z: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 5
-      Y: 3
-      Z: 1
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6317093348408192352
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16310428723649850635
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 3650
-      Y: 2000
-      Z: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 12
-      Y: 12
-      Z: 1
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6317093348408192352
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8529107567175535921
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 5450
-      Y: 4600
-      Z: 299.999756
-    }
-    Rotation {
-    }
-    Scale {
-      X: 6
-      Y: 4
-      Z: 1
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6317093348408192352
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2243694950456838814
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 4650
-      Y: 4850
-      Z: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 22
-      Y: 5
-      Z: 1
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6317093348408192352
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12725141207482681929
+  Id: 15578549003689594239
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
-      X: 5750
+      X: 5825
       Y: 4200
       Z: 200
     }
@@ -7732,7 +3266,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -7763,11 +3297,11 @@ Objects {
   }
 }
 Objects {
-  Id: 12574833485880375346
+  Id: 17390833208260573677
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
-      X: 5750
+      X: 5825
       Y: 4000
       Z: 50
     }
@@ -7780,7 +3314,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -7811,103 +3345,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16755681492644952352
-  Name: "Whitebox Stairs 01 Straight 150cm"
-  Transform {
-    Location {
-      X: 4650
-      Y: 2600
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90.0000534
-    }
-    Scale {
-      X: 3
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail2:id"
-      AssetReference {
-        Id: 17744285202312172947
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11790689600228407193
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14572748813762143581
-  Name: "Whitebox Stairs 01 Straight 150cm"
-  Transform {
-    Location {
-      X: 4450
-      Y: 2600
-      Z: 200
-    }
-    Rotation {
-      Yaw: -90.0000534
-    }
-    Scale {
-      X: 3
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail2:id"
-      AssetReference {
-        Id: 17744285202312172947
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11790689600228407193
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16242365563714846815
+  Id: 8976526127135703851
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -7922,12 +3360,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 6317093348408192352
+        Id: 14643090495247569259
       }
     }
   }
@@ -7953,53 +3391,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5730291997260041203
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 5450
-      Y: 2200
-    }
-    Rotation {
-    }
-    Scale {
-      X: 6
-      Y: 36
-      Z: 1
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6317093348408192352
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2382636771918934866
+  Id: 1400016370983416742
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8014,7 +3406,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8045,7 +3437,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15155795977039477605
+  Id: 11119103034206275693
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8060,7 +3452,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8091,7 +3483,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11907870918091202206
+  Id: 11987478428499468034
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8106,7 +3498,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8137,7 +3529,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14887251960333253688
+  Id: 3747997718996852552
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8152,7 +3544,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8183,7 +3575,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11742496456481141974
+  Id: 16769368791522106322
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8198,7 +3590,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8229,7 +3621,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17403984411708161130
+  Id: 4079768931229480140
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8244,7 +3636,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8275,7 +3667,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11188045460771204222
+  Id: 15200441972419877318
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8290,7 +3682,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8321,7 +3713,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11391499701516751202
+  Id: 650196184203835483
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8336,7 +3728,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8367,7 +3759,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2518813761117039196
+  Id: 17843533724634226133
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8383,7 +3775,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8414,7 +3806,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6606601499330146619
+  Id: 11176620455894656346
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8429,7 +3821,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8452,7 +3844,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16748277438111255704
+  Id: 9292263891600027395
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8467,7 +3859,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8498,7 +3890,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6878705756090391867
+  Id: 17031726841138041894
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8513,7 +3905,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8536,7 +3928,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17215527779959346229
+  Id: 4239047827898758973
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -8553,7 +3945,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8576,7 +3968,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18170673893791422308
+  Id: 17554355929963865454
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -8593,7 +3985,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8616,7 +4008,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3796522425280267570
+  Id: 13761688717433881660
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8631,7 +4023,7 @@ Objects {
       Z: 13
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8665,7 +4057,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5849078836140381695
+  Id: 17468668856137973335
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8681,7 +4073,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8712,7 +4104,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15417219179009751251
+  Id: 13071583438754331221
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8728,7 +4120,7 @@ Objects {
       Z: 8.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8762,23 +4154,23 @@ Objects {
   }
 }
 Objects {
-  Id: 15913238139469431849
+  Id: 8971433073341355862
   Name: "Cube - bottom aligned"
   Transform {
     Location {
       X: 1600
       Y: 300
-      Z: 1100
+      Z: 1075
     }
     Rotation {
     }
     Scale {
       X: 3
       Y: 4
-      Z: 3.5
+      Z: 3.8
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8818,57 +4210,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13515078611287358947
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 1950
-      Y: 325
-      Z: 600
-    }
-    Rotation {
-    }
-    Scale {
-      X: 4
-      Y: 3.5
-      Z: 4.5
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.385417
-        G: 0.385417
-        B: 0.385417
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 4626915924056897595
+  Id: 104798935619828911
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -8884,12 +4226,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 6317093348408192352
+        Id: 12306622679456331034
       }
     }
   }
@@ -8915,7 +4257,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5671657635072469426
+  Id: 3502665104713954923
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -8932,7 +4274,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -8963,7 +4305,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17059834423239893827
+  Id: 7320428913145867015
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -8980,7 +4322,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -9011,7 +4353,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1267571941310908973
+  Id: 15205573791482798097
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9027,7 +4369,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9058,7 +4400,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11580741838327631335
+  Id: 8686286431295764122
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9074,7 +4416,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9097,7 +4439,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8448021291270610489
+  Id: 17591334001054683141
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -9114,12 +4456,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
       AssetReference {
-        Id: 17744285202312172947
+        Id: 16447630291553548532
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4590600675160144925
       }
     }
   }
@@ -9145,7 +4493,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13393333602892631309
+  Id: 5390632445317200115
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -9162,12 +4510,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
       AssetReference {
-        Id: 6594793957175184293
+        Id: 16447630291553548532
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4590600675160144925
       }
     }
   }
@@ -9193,54 +4547,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5172447422953993201
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 1800
-      Y: 2200
-      Z: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 7
-      Y: 14
-      Z: 1
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6317093348408192352
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16200338111676768679
+  Id: 3180826336903291979
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9256,7 +4563,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9287,7 +4594,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9711226633407424774
+  Id: 5276739183765709013
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -9304,7 +4611,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -9335,7 +4642,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5316134427464093174
+  Id: 260508909116139947
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -9352,7 +4659,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -9383,54 +4690,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17388988707078163901
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 2400
-      Y: 4200
-      Z: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 23.0000019
-      Y: 26
-      Z: 1
-    }
-  }
-  ParentId: 9742533532806482483
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6317093348408192352
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17609149353171719671
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12936331546609874854
+  Id: 9019751869683335967
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9446,7 +4706,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9477,7 +4737,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12869641395394746007
+  Id: 1947088045895643466
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9492,7 +4752,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9523,7 +4783,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1208631704124786156
+  Id: 4818618470191542540
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9538,7 +4798,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9569,7 +4829,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11941345635036929284
+  Id: 4134092526314056604
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9584,7 +4844,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9615,7 +4875,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13889795483470409790
+  Id: 1844944721333256923
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9630,7 +4890,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9661,7 +4921,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5660406011345892389
+  Id: 14257922161024059035
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9676,7 +4936,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9707,7 +4967,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9627061032106941602
+  Id: 9781184420064784013
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9722,7 +4982,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9753,7 +5013,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8966124735594096071
+  Id: 12224556305493727384
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9769,7 +5029,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -9803,7 +5063,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10348908026545287580
+  Id: 12447174325831739970
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9819,7 +5079,7 @@ Objects {
       Z: 3.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -9852,7 +5112,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3463114710336908772
+  Id: 4716316056489375217
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9868,7 +5128,7 @@ Objects {
       Z: 11.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -9902,7 +5162,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6682963013674139683
+  Id: 3587035139987524604
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9918,7 +5178,7 @@ Objects {
       Z: 5.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -9952,7 +5212,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14917113955425075864
+  Id: 8939491796524679016
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -9968,7 +5228,7 @@ Objects {
       Z: 5.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -10002,7 +5262,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11953104024037218044
+  Id: 11485818331173980981
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -10018,7 +5278,7 @@ Objects {
       Z: 3.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -10052,7 +5312,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8087118612745930314
+  Id: 11742363772786559652
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -10068,7 +5328,7 @@ Objects {
       Z: 3.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -10102,7 +5362,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5332001160726380014
+  Id: 14144019689868116787
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -10118,7 +5378,7 @@ Objects {
       Z: 7.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -10152,7 +5412,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6771185029203338034
+  Id: 3481103118592461067
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -10168,7 +5428,7 @@ Objects {
       Z: 11.500001
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -10202,7 +5462,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6656567228017374384
+  Id: 11749948681752608268
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -10218,7 +5478,7 @@ Objects {
       Z: 11.5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -10252,7 +5512,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14818921197300007864
+  Id: 8590300169596132697
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -10268,7 +5528,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -10302,7 +5562,7 @@ Objects {
   }
 }
 Objects {
-  Id: 216788881364599654
+  Id: 5208836007486218488
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -10318,7 +5578,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -10352,7 +5612,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14678035773071858566
+  Id: 5532076721121294731
   Name: "Wedge"
   Transform {
     Location {
@@ -10369,7 +5629,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -10403,7 +5663,7 @@ Objects {
   }
 }
 Objects {
-  Id: 148061555513073596
+  Id: 13197928734357161062
   Name: "Wedge"
   Transform {
     Location {
@@ -10420,7 +5680,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -10454,7 +5714,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3560522123678874135
+  Id: 3110925243837795055
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -10469,7 +5729,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10500,7 +5760,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4440737259734023461
+  Id: 18125827925763902338
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -10517,7 +5777,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -10548,7 +5808,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13495517207092146228
+  Id: 10320944743026794089
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -10565,7 +5825,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -10596,7 +5856,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18040446844246163676
+  Id: 8114390567264683257
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -10612,7 +5872,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10643,7 +5903,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8370040965730273963
+  Id: 5690330325590624754
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -10659,7 +5919,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10690,7 +5950,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14489194836314878570
+  Id: 3215527373702328111
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -10707,7 +5967,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -10738,7 +5998,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13797275677076630820
+  Id: 13935044499290990624
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -10755,7 +6015,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -10786,7 +6046,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7761900263950402480
+  Id: 14965767198000773303
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -10802,7 +6062,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10833,7 +6093,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12890608817597596711
+  Id: 14276756505109052933
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -10850,7 +6110,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -10881,7 +6141,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14823878028532147061
+  Id: 15563541857728010099
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -10898,7 +6158,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -10929,7 +6189,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1237999990903631434
+  Id: 14175710953404696689
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -10946,7 +6206,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -10977,7 +6237,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8150268684205208761
+  Id: 12221871164947590307
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -10994,7 +6254,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -11025,7 +6285,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4122680673351959365
+  Id: 6824813612100218083
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -11042,7 +6302,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -11073,7 +6333,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16070221709489740394
+  Id: 16244827863154751092
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -11090,7 +6350,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -11121,7 +6381,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3075601357091778202
+  Id: 4291686760891128718
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -11137,7 +6397,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11168,7 +6428,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3346414175419247806
+  Id: 16688265196864951833
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -11185,7 +6445,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -11216,7 +6476,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15874106970138390545
+  Id: 13893599386061343961
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -11233,7 +6493,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -11264,7 +6524,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5476843523465137796
+  Id: 8275055609388620232
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -11279,7 +6539,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11310,7 +6570,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13805931738991009235
+  Id: 6769243249612951205
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -11325,7 +6585,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11356,7 +6616,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13270095193476210968
+  Id: 9251314444875873601
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -11371,7 +6631,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11402,7 +6662,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13096218507911240743
+  Id: 6492367835862544370
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -11417,7 +6677,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11448,7 +6708,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17009152958476889118
+  Id: 10636745524861111139
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -11463,7 +6723,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11494,7 +6754,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2347589348663394980
+  Id: 180137810465849329
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -11509,7 +6769,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11540,7 +6800,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10393036809383242154
+  Id: 12152929032666112313
   Name: "World Text"
   Transform {
     Location {
@@ -11557,7 +6817,7 @@ Objects {
       Z: 3.22434759
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11580,7 +6840,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5053165156549644073
+  Id: 1185963373991569374
   Name: "World Text"
   Transform {
     Location {
@@ -11597,7 +6857,7 @@ Objects {
       Z: 3.22434759
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11620,7 +6880,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4009661290811702153
+  Id: 15625399690899980301
   Name: "World Text"
   Transform {
     Location {
@@ -11637,7 +6897,7 @@ Objects {
       Z: 3.22434759
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11660,7 +6920,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4582339083907872476
+  Id: 15039842512743610727
   Name: "World Text"
   Transform {
     Location {
@@ -11677,7 +6937,7 @@ Objects {
       Z: 3.22434759
     }
   }
-  ParentId: 9742533532806482483
+  ParentId: 8220931655639317171
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
