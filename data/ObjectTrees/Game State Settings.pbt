@@ -209,9 +209,13 @@ Objects {
   }
 }
 Objects {
-  Id: 5237308206920610728
+  Id: 13256012516560121587
   Name: "Game State Message"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -219,7 +223,48 @@ Objects {
     }
   }
   ParentId: 1464612430936567761
+  ChildIds: 11090300789857468876
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:ShowLobbyMessage"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:LobbyMessage"
+      String: "Lobby"
+    }
+    Overrides {
+      Name: "cs:ShowRoundMessage"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:RoundMessage1"
+      String: "Plant the Bomb"
+    }
+    Overrides {
+      Name: "cs:RoundMessage2"
+      String: "Defend the Technology"
+    }
+    Overrides {
+      Name: "cs:ShowRoundEndMessage"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:RoundEndMessage"
+      String: "Round End"
+    }
+    Overrides {
+      Name: "cs:ShowLobbyMessage:tooltip"
+      String: "Set to show the message at the start of the lobby state."
+    }
+    Overrides {
+      Name: "cs:ShowRoundMessage:tooltip"
+      String: "Set to show the message at the start of the round state."
+    }
+    Overrides {
+      Name: "cs:ShowRoundEndMessage:tooltip"
+      String: "Set to show the message at the start of the round end state."
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -227,41 +272,62 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7154920798440654563
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Game State Message"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "cs:RoundMessage"
-          String: "Eliminate the Enemies"
-        }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 13256012516560121587
+    SubobjectId: 7154920798440654563
+    InstanceId: 5237308206920610728
+    TemplateId: 3074501022160388017
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 11090300789857468876
+  Name: "GameStateMessageServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13256012516560121587
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 11974742996071064388
       }
     }
-    TemplateAsset {
-      Id: 3074501022160388017
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 13256012516560121587
+      }
     }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9696832769719065117
+    }
+  }
+  InstanceHistory {
+    SelfId: 11090300789857468876
+    SubobjectId: 5572389145757542876
+    InstanceId: 5237308206920610728
+    TemplateId: 3074501022160388017
   }
 }
 Objects {
@@ -324,6 +390,10 @@ Objects {
         Overrides {
           Name: "cs:RoundDuration"
           Float: 180
+        }
+        Overrides {
+          Name: "cs:RoundEndDuration"
+          Float: 7
         }
       }
     }
