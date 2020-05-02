@@ -164,6 +164,7 @@ Objects {
   ChildIds: 3249004558684599834
   ChildIds: 14490112949458810174
   ChildIds: 4625394519353270324
+  ChildIds: 15373439209608848335
   ChildIds: 2313735002145123625
   ChildIds: 16905806481226457783
   UnregisteredParameters {
@@ -560,6 +561,68 @@ Objects {
   }
 }
 Objects {
+  Id: 15373439209608848335
+  Name: "Border"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7556364618690958860
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 100
+    Height: 100
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 9380766266475925365
+      }
+      Color {
+        R: 0.13
+        G: 0.982714951
+        B: 1
+        A: 1
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7564105375286723928
+    SubobjectId: 14205979149624788755
+    InstanceId: 1327227407997656838
+    TemplateId: 1021563556934321700
+  }
+}
+Objects {
   Id: 4625394519353270324
   Name: "Icon"
   Transform {
@@ -595,10 +658,10 @@ Objects {
         Id: 6994670168232558599
       }
       Color {
-        R: 1
-        G: 1
+        R: 0.31
+        G: 0.958873928
         B: 1
-        A: 0.402
+        A: 0.454000026
       }
     }
     AnchorLayout {
@@ -654,9 +717,10 @@ Objects {
     }
     Image {
       Brush {
-        Id: 5196377603841433560
+        Id: 18177136196971672451
       }
       Color {
+        R: 0.110000014
         A: 0.3
       }
     }

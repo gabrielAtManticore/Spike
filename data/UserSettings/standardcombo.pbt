@@ -12675,6 +12675,7 @@ ObjectSettings {
   ObjectStates {
     key: 2313735002145123625
     value {
+      IsHidden: true
     }
   }
   ObjectStates {
@@ -93752,6 +93753,7 @@ ObjectSettings {
   ObjectStates {
     key: 16905806481226457783
     value {
+      IsHidden: true
     }
   }
   ObjectStates {

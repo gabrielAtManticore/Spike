@@ -1,10 +1,28 @@
 Assets {
+  Id: 18177136196971672451
+  Name: "BG Gradient 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundFlat_019"
+  }
+}
+Assets {
   Id: 10706581398584674728
   Name: "Icon Ammo Clip"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_AmmoClip"
+  }
+}
+Assets {
+  Id: 9380766266475925365
+  Name: "Frame Outlined 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameSolid4px_019"
   }
 }
 Assets {

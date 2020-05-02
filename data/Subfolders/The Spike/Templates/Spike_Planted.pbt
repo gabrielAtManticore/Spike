@@ -25,11 +25,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:CountdownDuration"
-            Int: 20
+            Int: 45
           }
           Overrides {
             Name: "cs:DisarmDuration"
-            Int: 5
+            Int: 8
           }
         }
         WantsNetworking: true
@@ -163,6 +163,11 @@ Assets {
         }
         ParentId: 12805103864175921628
         ChildIds: 14568130000150268382
+        ChildIds: 10121177060266766825
+        ChildIds: 6859931458901550632
+        ChildIds: 7890011031458922036
+        ChildIds: 953658412612345478
+        ChildIds: 3146237977097433474
         ChildIds: 6427687905044134725
         ChildIds: 15572557240371482051
         ChildIds: 3552887347417917276
@@ -222,6 +227,36 @@ Assets {
               SubObjectId: 12805103864175921628
             }
           }
+          Overrides {
+            Name: "cs:BeaconSound"
+            ObjectReference {
+              SubObjectId: 10121177060266766825
+            }
+          }
+          Overrides {
+            Name: "cs:CountdownSound"
+            ObjectReference {
+              SubObjectId: 6859931458901550632
+            }
+          }
+          Overrides {
+            Name: "cs:Explosion1Sound"
+            ObjectReference {
+              SubObjectId: 7890011031458922036
+            }
+          }
+          Overrides {
+            Name: "cs:Explosion2Sound"
+            ObjectReference {
+              SubObjectId: 953658412612345478
+            }
+          }
+          Overrides {
+            Name: "cs:DisarmedSound"
+            ObjectReference {
+              SubObjectId: 3146237977097433474
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -233,6 +268,164 @@ Assets {
           ScriptAsset {
             Id: 8875807761391673361
           }
+        }
+      }
+      Objects {
+        Id: 10121177060266766825
+        Name: "Object SciFi Beacon Loop 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17291681918647762435
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 10890954391446717484
+          }
+          AutoPlay: true
+          Repeat: true
+          Volume: 4
+          Falloff: -1
+          Radius: -1
+        }
+      }
+      Objects {
+        Id: 6859931458901550632
+        Name: "VO 10 Second Countdown Female 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17291681918647762435
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 17938808171911518297
+          }
+          Volume: 4
+          Falloff: -1
+          Radius: -1
+        }
+      }
+      Objects {
+        Id: 7890011031458922036
+        Name: "Electrical Zap Explosion SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17291681918647762435
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 5882102170740622156
+          }
+          Volume: 1
+          Falloff: -1
+          Radius: -1
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 953658412612345478
+        Name: "Object SciFi Servo Movement Loop 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17291681918647762435
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 8077608433153322336
+          }
+          Volume: 4
+          Falloff: -1
+          Radius: -1
+        }
+      }
+      Objects {
+        Id: 3146237977097433474
+        Name: "Sparkle Energy Powerdown 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17291681918647762435
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 4046682681978482032
+          }
+          Volume: 1
+          Falloff: -1
+          Radius: -1
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -573,6 +766,51 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_basic_emissive_001"
+      }
+    }
+    Assets {
+      Id: 10890954391446717484
+      Name: "Object SciFi Beacon Loop 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_scifi_object_beacon_loop_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 17938808171911518297
+      Name: "VO 10 Second Countdown Female 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "vo_meta_10_second_countdown_female_full_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 5882102170740622156
+      Name: "Electrical Zap Explosion SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_zapsplosion"
+      }
+    }
+    Assets {
+      Id: 8077608433153322336
+      Name: "Object SciFi Servo Movement Loop 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_scifi_object_servo_movement_loop_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 4046682681978482032
+      Name: "Sparkle Energy Powerdown 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_sparkle_energy_powerdown_01_Cue_ref"
       }
     }
     Assets {

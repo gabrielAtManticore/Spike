@@ -1,25 +1,34 @@
+local propRoot = script:GetCustomProperty("Root"):WaitForObject()
+
 local propSpikeCountdownLight = script:GetCustomProperty("SpikeCountdownLight")
 local propEmberVolumeVFX = script:GetCustomProperty("EmberVolumeVFX"):WaitForObject()
 local propPlasmaBallProjectileVFX = script:GetCustomProperty("PlasmaBallProjectileVFX"):WaitForObject()
 local propCylinderBottomAligned = script:GetCustomProperty("CylinderBottomAligned"):WaitForObject()
-local propRoot = script:GetCustomProperty("Root"):WaitForObject()
+local propBeaconSFX = script:GetCustomProperty("BeaconSound"):WaitForObject()
+local propCountdownSFX = script:GetCustomProperty("CountdownSound"):WaitForObject()
+local propExplosion1SFX = script:GetCustomProperty("Explosion1Sound"):WaitForObject()
+local propExplosion2SFX = script:GetCustomProperty("Explosion2Sound"):WaitForObject()
+local propDisarmedSFX = script:GetCustomProperty("DisarmedSound"):WaitForObject()
 
 
 propEmberVolumeVFX:SetSmartProperty("Particle Scale Multiplier", 0)
 propPlasmaBallProjectileVFX:SetWorldScale(Vector3.New(0))
 
 local effectBase = script.parent
-local LIGHT_COUNT = 60
-local LIGHT_RADIUS = 200
-local TIMER_DURATION = propRoot:GetCustomProperty("CountdownDuration")
 
-local TIME_PER_LIGHT = TIMER_DURATION / LIGHT_COUNT
+local TIMER_DURATION = propRoot:GetCustomProperty("CountdownDuration")
+local LIGHT_COUNT = CoreMath.Round(TIMER_DURATION)
+local LIGHT_RADIUS = 200
+
+local TIME_PER_LIGHT = 1 -- TIMER_DURATION / LIGHT_COUNT
 
 local EMBER_START = LIGHT_COUNT * 0.2
 local SPARK_START = LIGHT_COUNT * 0.5
 local BEAM_START = LIGHT_COUNT * 0.95
 
 local lightArray = {}
+
+local isHot = true
 
 function AnimateCountdown()
 	local pos = propRoot:GetWorldPosition()
@@ -35,6 +44,8 @@ function AnimateCountdown()
 	end
 	
 	for i = 1, LIGHT_COUNT do
+		if not isHot then return end
+		
 		lightArray[i]:SetColor(Color.BLUE)
 		
 		if i > EMBER_START then
@@ -50,8 +61,21 @@ function AnimateCountdown()
 			propCylinderBottomAligned:ScaleTo(Vector3.New(0.5, 0.5, 100), (LIGHT_COUNT - BEAM_START) * TIME_PER_LIGHT)
 		end
 		
+		-- Sounds
+		if (i == LIGHT_COUNT - 10) then
+			propCountdownSFX:Play()
+			
+		elseif (i == LIGHT_COUNT - 1) then
+			propBeaconSFX:Stop()
+			
+		elseif (i == LIGHT_COUNT) then
+			propExplosion1SFX:Play()
+			propExplosion2SFX:Play()
+		end
+		
 		Task.Wait(TIME_PER_LIGHT)
 	end
+	
 	Task.Wait(1)
 	propCylinderBottomAligned:ScaleTo(Vector3.New(20, 20, 100), 1)
 	
@@ -59,6 +83,9 @@ end
 
 function OnBombDefused(player)
 	print("OnBombDefused hit!")
+	
+	isHot = false
+	
 	if countdownTask ~= nil then
 		print("cancelling task...")
 		countdownTask:Cancel()
@@ -71,6 +98,11 @@ function OnBombDefused(player)
 	propEmberVolumeVFX.visibility = Visibility.FORCE_OFF
 	propPlasmaBallProjectileVFX.visibility = Visibility.FORCE_OFF
 	propCylinderBottomAligned.visibility = Visibility.FORCE_OFF
+	
+	-- Sounds
+	propBeaconSFX:Stop()
+	propCountdownSFX:Stop()
+	propDisarmedSFX:Play()
 end
 
 

@@ -15,6 +15,9 @@ local playerDamageListener = nil
 local canBeDisarmed = true
 local wasDisarmed = false
 
+local gameStateChangedListener = nil
+
+
 function StartPlayerDisarming(trigger, player)
 	if not (currentPlayerDisarming == nil and canBeDisarmed) then
 		-- display message?
@@ -29,7 +32,9 @@ function StartPlayerDisarming(trigger, player)
 		Task.Wait()
 		StopPlayerDisarming()
 		wasDisarmed = true
+		
 		Events.Broadcast("TeamVictory", 2)
+		ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
 	end)
 	playerDamageListener = player.damagedEvent:Connect(function()
 		StopPlayerDisarming()
@@ -68,18 +73,22 @@ propDisarmZoneTrigger.endOverlapEvent:Connect(PlayerLeftTrigger)
 
 function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime)
 	if newState == ABGS.GAME_STATE_LOBBY then
+		if gameStateChangedListener then
+			gameStateChangedListener:Disconnect()
+			gameStateChangedListener = nil
+		end
 		StopPlayerDisarming()
-		propRoot:Destroy()		
+		propRoot:Destroy()
 	end
 end
 
-Events.Connect("GameStateChanged", OnGameStateChanged)
+gameStateChangedListener = Events.Connect("GameStateChanged", OnGameStateChanged)
 
 -------------------------------
 
 Task.Wait(TIMER_DURATION)
 
-if true or ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
+if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
 
 	if not ABGS.IsGameStateManagerRegistered() then
 		return
