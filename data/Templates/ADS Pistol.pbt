@@ -7,7 +7,7 @@ Assets {
       RootId: 2401814779510463663
       Objects {
         Id: 2401814779510463663
-        Name: "ADS Pistol"
+        Name: "Pistol"
         Transform {
           Scale {
             X: 0.99999994

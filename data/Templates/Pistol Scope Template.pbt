@@ -200,6 +200,7 @@ Assets {
         Transform {
           Location {
             X: 30
+            Z: 0.18338573
           }
           Rotation {
           }
@@ -428,8 +429,8 @@ Assets {
           }
         }
         ParentId: 8202573077303147975
-        ChildIds: 4138687836933868249
         ChildIds: 8819350997776092929
+        ChildIds: 4138687836933868249
         ChildIds: 5611981314612254021
         WantsNetworking: true
         Collidable_v2 {
@@ -443,60 +444,19 @@ Assets {
         }
       }
       Objects {
-        Id: 4138687836933868249
-        Name: "Modern Weapon - Sight Rear 01"
-        Transform {
-          Location {
-            X: -220.22908
-            Z: 105.000046
-          }
-          Rotation {
-          }
-          Scale {
-            X: 40
-            Y: 40
-            Z: 40
-          }
-        }
-        ParentId: 10754318206453611846
-        UnregisteredParameters {
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9117384065423546074
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 8819350997776092929
         Name: "Modern Weapon - Sight Forward 01"
         Transform {
           Location {
             X: 540.362549
-            Z: 144.55159
+            Z: 142.189972
           }
           Rotation {
           }
           Scale {
-            X: 33.3333282
-            Y: 33.3333282
-            Z: 33.3333282
+            X: 33.3333244
+            Y: 25
+            Z: 33.3333244
           }
         }
         ParentId: 10754318206453611846
@@ -525,6 +485,47 @@ Assets {
         }
       }
       Objects {
+        Id: 4138687836933868249
+        Name: "Modern Weapon - Sight Rear 01"
+        Transform {
+          Location {
+            X: -220.22908
+            Z: 105.000038
+          }
+          Rotation {
+          }
+          Scale {
+            X: 40
+            Y: 29.3540268
+            Z: 40.1556778
+          }
+        }
+        ParentId: 10754318206453611846
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9117384065423546074
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
         Id: 5611981314612254021
         Name: "Modern Weapon - Slide 01"
         Transform {
@@ -536,7 +537,7 @@ Assets {
           }
           Scale {
             X: 24.0000057
-            Y: 33.3333282
+            Y: 25
             Z: 33.3333282
           }
         }
@@ -612,21 +613,21 @@ Assets {
       }
     }
     Assets {
-      Id: 9117384065423546074
-      Name: "Modern Weapon - Sight Rear 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_modern_sight_rear_002"
-      }
-    }
-    Assets {
       Id: 17020503711080031048
       Name: "Modern Weapon - Sight Forward 03"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_modern_sight_forw_003"
+      }
+    }
+    Assets {
+      Id: 9117384065423546074
+      Name: "Modern Weapon - Sight Rear 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_modern_sight_rear_002"
       }
     }
     Assets {
