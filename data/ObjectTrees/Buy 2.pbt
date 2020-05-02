@@ -1078,7 +1078,7 @@ Objects {
     Overrides {
       Name: "cs:WeaponTemplate"
       AssetReference {
-        Id: 13822751332445963790
+        Id: 2216099421348127426
       }
     }
   }
@@ -2335,7 +2335,7 @@ Objects {
     Overrides {
       Name: "cs:WeaponTemplate"
       AssetReference {
-        Id: 3120243708042992244
+        Id: 4858933102386001352
       }
     }
   }

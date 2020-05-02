@@ -178,7 +178,7 @@ Objects {
     Width: 100
     Height: 200
     UIX: -246.821533
-    UIY: -20
+    UIY: -210
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1085,7 +1085,7 @@ Objects {
     Width: 100
     Height: 200
     UIX: -30
-    UIY: -20
+    UIY: -210
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1992,7 +1992,7 @@ Objects {
     Width: 100
     Height: 200
     UIX: -140
-    UIY: -20
+    UIY: -210
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"

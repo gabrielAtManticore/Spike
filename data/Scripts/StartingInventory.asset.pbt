@@ -1,5 +1,5 @@
-Id: 9233297605247028913
-Name: "GiveWeapon"
+Id: 6861372277745068164
+Name: "StartingInventory"
 PlatformAssetType: 3
 TextAsset {
   CustomParameters {

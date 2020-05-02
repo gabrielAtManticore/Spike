@@ -1,6 +1,244 @@
 Name: "Gameplay Settings"
 RootId: 9801204907903082354
 Objects {
+  Id: 13138358784662362285
+  Name: "Inventory"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9801204907903082354
+  ChildIds: 8394516224349749871
+  ChildIds: 720682339743236609
+  ChildIds: 98707382762470242
+  ChildIds: 7657910465275653997
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7657910465275653997
+  Name: "StartingInventory"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13138358784662362285
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Item1"
+      AssetReference {
+        Id: 11645747741061983423
+      }
+    }
+    Overrides {
+      Name: "cs:Item2"
+      AssetReference {
+        Id: 8256451410084658235
+      }
+    }
+    Overrides {
+      Name: "cs:Item3"
+      AssetReference {
+        Id: 4858933102386001352
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6861372277745068164
+    }
+  }
+}
+Objects {
+  Id: 98707382762470242
+  Name: "Resource Icons Manager"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13138358784662362285
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9624275477013504998
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Resource Icons Manager"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6657921366064206637
+    }
+  }
+}
+Objects {
+  Id: 720682339743236609
+  Name: "Basic Inventory Display"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13138358784662362285
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15412251756360042284
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Basic Inventory Display"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8268362875898399403
+    }
+  }
+}
+Objects {
+  Id: 8394516224349749871
+  Name: "Basic Inventory"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13138358784662362285
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5149932982251264611
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Basic Inventory"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8748649906093321891
+    }
+  }
+}
+Objects {
   Id: 3327776604717490707
   Name: "Fall Damage"
   Transform {
@@ -138,104 +376,6 @@ Objects {
     TemplateAsset {
       Id: 4564754467341672301
     }
-  }
-}
-Objects {
-  Id: 9816414044097653114
-  Name: "Starting Weapon"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9801204907903082354
-  ChildIds: 2998533960276421508
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:EquipmentTemplate"
-      AssetReference {
-        Id: 3120243708042992244
-      }
-    }
-    Overrides {
-      Name: "cs:Team"
-      Int: 0
-    }
-    Overrides {
-      Name: "cs:ReplaceOnEachRespawn"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:EquipmentTemplate:tooltip"
-      String: "Equipment template to give to players"
-    }
-    Overrides {
-      Name: "cs:Team:tooltip"
-      String: "If non-zero, only give equipment to players on that team"
-    }
-    Overrides {
-      Name: "cs:ReplaceOnEachRespawn:tooltip"
-      String: "Whether to replace that equipment every time a player spawns"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 2217799334953394795
-    SubobjectId: 16657464430720987128
-    InstanceId: 12477941384276084507
-    TemplateId: 14615028099963445761
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 2998533960276421508
-  Name: "StaticPlayerEquipmentServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9816414044097653114
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ComponentRoot"
-      ObjectReference {
-        SelfId: 9816414044097653114
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 3403025055362370891
-    }
-  }
-  InstanceHistory {
-    SelfId: 1653926691823882284
-    SubobjectId: 17230748584674696639
-    InstanceId: 12477941384276084507
-    TemplateId: 14615028099963445761
   }
 }
 Objects {
