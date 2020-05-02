@@ -11,6 +11,7 @@ local TIMER_DURATION = propCountdownDuration
 local currentPlayerDisarming = nil
 local disarmTask = nil
 local playerDamageListener = nil
+local playerAttackListener = nil
 
 local canBeDisarmed = true
 local wasDisarmed = false
@@ -23,6 +24,12 @@ function StartPlayerDisarming(trigger, player)
 		-- display message?
 		return
 	end
+	playerAttackListener = player.bindingPressedEvent:Connect(function(player, binding)
+		if player == currentPlayerDisarming then
+			StopPlayerDisarming()
+		end
+	end)
+	
 	currentPlayerDisarming = player
 	Events.BroadcastToPlayer(player, "PlayerOverlay_StartProgressBar", player, "Disarming...", propDisarmDuration)
 	disarmTask = Task.Spawn(function()
@@ -43,6 +50,11 @@ function StartPlayerDisarming(trigger, player)
 end
 
 function StopPlayerDisarming()
+	if playerAttackListener ~= nil then
+		playerAttackListener:Disconnect()
+		playerAttackListener = nil
+	end
+
 	if disarmTask ~= nil then
 		disarmTask:Cancel()
 		disarmTask = nil
