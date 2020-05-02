@@ -8,7 +8,7 @@ local tm = require(propTriggerZoneManager)
 local ability = script.parent
 
 ability.castEvent:Connect(function(ability)
-	if not tm.IsPlayerInTrigger(ability.owner) then ability:Interrupt() end
+--	if not tm.IsPlayerInTrigger(ability.owner) then ability:Interrupt() end
 end)
 
 
@@ -17,7 +17,6 @@ ability.executeEvent:Connect(function(ability)
 	if not Object.IsValid(ability) then return end
 	local playerRot = ability.owner:GetWorldRotation()
 	local forward = playerRot * Vector3.FORWARD
-
 
 	local bombLoc = ability.owner:GetWorldPosition()
 	bombLoc = bombLoc + (forward * 100)

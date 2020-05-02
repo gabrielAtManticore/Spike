@@ -10,25 +10,23 @@ local TIMER_DURATION = propCountdownDuration
 
 local currentPlayerDisarming = nil
 local disarmTask = nil
-local playerDamageListener = nil
-local playerAttackListener = nil
+
+local cancelListeners = {}
 
 local canBeDisarmed = true
 local wasDisarmed = false
 
 local gameStateChangedListener = nil
 
-
 function StartPlayerDisarming(trigger, player)
 	if not (currentPlayerDisarming == nil and canBeDisarmed) then
 		-- display message?
 		return
 	end
-	playerAttackListener = player.bindingPressedEvent:Connect(function(player, binding)
-		if player == currentPlayerDisarming then
-			StopPlayerDisarming()
-		end
-	end)
+	
+	table.insert(cancelListeners, player.bindingPressedEvent:Connect(StopPlayerDisarming))
+	table.insert(cancelListeners, player.damagedEvent:Connect(StopPlayerDisarming))
+	table.insert(cancelListeners, player.diedEvent:Connect(StopPlayerDisarming))
 	
 	currentPlayerDisarming = player
 	Events.BroadcastToPlayer(player, "PlayerOverlay_StartProgressBar", player, "Disarming...", propDisarmDuration)
@@ -43,27 +41,20 @@ function StartPlayerDisarming(trigger, player)
 		Events.Broadcast("TeamVictory", 2)
 		ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
 	end)
-	playerDamageListener = player.damagedEvent:Connect(function()
-		StopPlayerDisarming()
-	end)
-
 end
 
 function StopPlayerDisarming()
-	if playerAttackListener ~= nil then
-		playerAttackListener:Disconnect()
-		playerAttackListener = nil
+	for _,v in pairs(cancelListeners) do
+		if v then v:Disconnect() end
 	end
+	cancelListeners = {}
 
-	if disarmTask ~= nil then
+	if disarmTask then
 		disarmTask:Cancel()
 		disarmTask = nil
 	end
-	if playerDamageListener ~= nil then
-		playerDamageListener:Disconnect()
-		playerDamageListener = nil
-	end
-	if (currentPlayerDisarming ~= nil) then
+	
+	if currentPlayerDisarming then
 		Events.BroadcastToPlayer(currentPlayerDisarming, "PlayerOverlay_ClearProgressBar", player)
 		currentPlayerDisarming = nil
 	end
@@ -97,7 +88,7 @@ end
 gameStateChangedListener = Events.Connect("GameStateChanged", OnGameStateChanged)
 
 -------------------------------
-
+ABGS.SetTimeRemainingInState(TIMER_DURATION + 5)
 Task.Wait(TIMER_DURATION)
 
 if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
