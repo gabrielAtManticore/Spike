@@ -8,7 +8,7 @@ local tm = require(propTriggerZoneManager)
 local ability = script.parent
 
 ability.castEvent:Connect(function(ability)
---	if not tm.IsPlayerInTrigger(ability.owner) then ability:Interrupt() end
+	if not tm.IsPlayerInTrigger(ability.owner) then ability:Interrupt() end
 end)
 
 
