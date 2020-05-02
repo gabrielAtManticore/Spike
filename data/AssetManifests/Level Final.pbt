@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17955921917805212332
-  Name: "Ring - Quarter Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_quarter_torus_001"
-  }
-}
-Assets {
   Id: 17798409052959246679
   Name: "Modern Weapon - Grip 03"
   PlatformAssetType: 1
@@ -104,15 +95,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_002"
-  }
-}
-Assets {
-  Id: 16933361490793048899
-  Name: "Metal Iron Rusted 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_003"
   }
 }
 Assets {
@@ -170,15 +152,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16447630291553548532
-  Name: "Metal Basic Steel"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "steel_001"
-  }
-}
-Assets {
   Id: 16377470832245035683
   Name: "Gem - Baguette Polished"
   PlatformAssetType: 1
@@ -188,30 +161,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16315900185179330649
-  Name: "Glass 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_refrac_001"
-  }
-}
-Assets {
   Id: 16145661754464637676
   Name: "Tech Panel 05"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_sf_gen_tech-panel_005"
-  }
-}
-Assets {
-  Id: 16131503078867448818
-  Name: "Street Post Round 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_st_post_lights_post_round_001"
   }
 }
 Assets {
@@ -284,15 +239,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_girder_medium_4m_1-5m_001"
-  }
-}
-Assets {
-  Id: 15202056175511072063
-  Name: "Road Center Ramp Top"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_road_ramp_mid_top_001"
   }
 }
 Assets {
@@ -440,15 +386,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13846976516959842924
-  Name: "Cylinder - Rounded Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_rounded_001"
-  }
-}
-Assets {
   Id: 13788396403019154669
   Name: "Wedge - Curved"
   PlatformAssetType: 1
@@ -530,15 +467,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12932634089510969056
-  Name: "Cylinder - Chamfered"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_chamfer"
-  }
-}
-Assets {
   Id: 12775411809172026965
   Name: "Ring - Beveled Thick"
   PlatformAssetType: 1
@@ -554,15 +482,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_helix_005"
-  }
-}
-Assets {
-  Id: 12704053006854143725
-  Name: "Rope"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_rope_001"
   }
 }
 Assets {
@@ -629,15 +548,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12135438069707176431
-  Name: "Metal Diamond Plates 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_rust_diamond-plate_001"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -665,15 +575,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11790689600228407193
-  Name: "Whitebox Stairs 01 Straight 150cm"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_stairs_001_150cm"
-  }
-}
-Assets {
   Id: 11638225697129107731
   Name: "Street Barrier - Pedestrian"
   PlatformAssetType: 1
@@ -689,15 +590,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
-  }
-}
-Assets {
-  Id: 11631901271170615920
-  Name: "Street Post Square 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_st_post_lights_post_sq_001"
   }
 }
 Assets {
@@ -908,15 +800,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9823870653322092931
-  Name: "Road Ramp Bottom Edge"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_road_ramp_edge_bot_001"
-  }
-}
-Assets {
   Id: 9677665090513604967
   Name: ">"
   PlatformAssetType: 1
@@ -1016,24 +899,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8738982248161333311
-  Name: "Whitebox Stairs 01 Straight"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_stairs_001"
-  }
-}
-Assets {
-  Id: 8734841164854347852
-  Name: "Whitebox Wall 01 Triangle"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_tri"
-  }
-}
-Assets {
   Id: 8708217354978977089
   Name: "Dust Motes Volume VFX"
   PlatformAssetType: 8
@@ -1103,15 +968,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_floor_001_8x8"
-  }
-}
-Assets {
-  Id: 7420780556610469252
-  Name: "Road Ramp Top Edge"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_road_ramp_edge_top_001"
   }
 }
 Assets {
@@ -1187,15 +1043,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6733769891071500735
-  Name: "Metal Frame 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_001_uv"
-  }
-}
-Assets {
   Id: 6663102682384812978
   Name: "Road Sidewalk"
   PlatformAssetType: 1
@@ -1211,15 +1058,6 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_flare_object"
-  }
-}
-Assets {
-  Id: 6442169549241328925
-  Name: "Smoke Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_smoke_volume_vfx"
   }
 }
 Assets {
@@ -1304,15 +1142,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5484435920533001533
-  Name: "Cylinder - Rounded"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_rounded_002"
-  }
-}
-Assets {
   Id: 5419623139495260362
   Name: "Pyramid - 6-Sided Truncated Hollow"
   PlatformAssetType: 1
@@ -1331,15 +1160,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4958159230505716118
-  Name: "Road Ramp Bottom Center"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_road_ramp_mid_bot_001"
-  }
-}
-Assets {
   Id: 4865030435811274479
   Name: "Modern Weapon - Body 02"
   PlatformAssetType: 1
@@ -1355,15 +1175,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_parallelepiped_003"
-  }
-}
-Assets {
-  Id: 4630995094966577739
-  Name: "Wedge - Corner-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_002"
   }
 }
 Assets {
@@ -1457,15 +1268,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3966931750006384497
-  Name: "Craftsman Wall Interior 01 Cap"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_wall_int_001_cap"
-  }
-}
-Assets {
   Id: 3859650733230292738
   Name: "Donut"
   PlatformAssetType: 1
@@ -1481,15 +1283,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter_pipe_wedge_001"
-  }
-}
-Assets {
-  Id: 3768007809154241805
-  Name: "Roof Metal 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_roof_metal_001_uv"
   }
 }
 Assets {
@@ -1580,15 +1373,6 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_ppm_bleachbypass"
-  }
-}
-Assets {
-  Id: 2575126455934188980
-  Name: "Curved Wedge - Convex"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_curved_convex_001"
   }
 }
 Assets {
@@ -1817,15 +1601,6 @@ Assets {
   }
 }
 Assets {
-  Id: 333546222680264289
-  Name: "Plastic Shiny"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "plastic_shiny_001"
-  }
-}
-Assets {
   Id: 323478921348366466
   Name: "Cube - Arcade 04"
   PlatformAssetType: 1
@@ -1895,14 +1670,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_T_intersection_002"
-  }
-}
-Assets {
-  Id: 57641324979617387
-  Name: "Curb 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_curb_4m_001"
   }
 }

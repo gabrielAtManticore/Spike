@@ -15,11 +15,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 8350927267582523452
         ChildIds: 4262332504130317634
-        ChildIds: 3640166906196029202
-        ChildIds: 9438746949937188903
         ChildIds: 5650465031484424969
+        ChildIds: 2412900831820623281
+        ChildIds: 8163480802293722686
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -30,7 +30,6 @@ Assets {
         Equipment {
           SocketName: "right_prop"
           PickupTrigger {
-            SubObjectId: 9438746949937188903
           }
           Weapon {
             ProjectileAssetRef {
@@ -91,7 +90,6 @@ Assets {
               SubObjectId: 4262332504130317634
             }
             ReloadAbility {
-              SubObjectId: 3640166906196029202
             }
             Damage: 10
             WeaponTrajectoryMode {
@@ -175,7 +173,7 @@ Assets {
           }
           Animation: "1hand_melee_rm_combo_opener_vertical_slash"
           KeyBinding_v2 {
-            Value: "mc:egameaction:primaryaction"
+            Value: "mc:egameaction:extraaction_30"
           }
         }
       }
@@ -227,116 +225,6 @@ Assets {
         Script {
           ScriptAsset {
             Id: 9357328051428751498
-          }
-        }
-      }
-      Objects {
-        Id: 3640166906196029202
-        Name: "ReloadAbility"
-        Transform {
-          Location {
-            X: -81.9152
-            Y: 57.3576584
-            Z: 100
-          }
-          Rotation {
-            Yaw: -1.02452832e-05
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 17152225917800753009
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Ability {
-          IsEnabled: true
-          KeyBinding: "ability_ult"
-          CastPhaseSettings {
-            Duration: 0.6
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:aim"
-            }
-          }
-          ExecutePhaseSettings {
-            Duration: 0.15
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:aim"
-            }
-          }
-          RecoveryPhaseSettings {
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:none"
-            }
-          }
-          CooldownPhaseSettings {
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:none"
-            }
-          }
-          Animation: "2hand_rifle_reload_magazine"
-          KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_03"
-          }
-        }
-      }
-      Objects {
-        Id: 9438746949937188903
-        Name: "PickupTrigger"
-        Transform {
-          Location {
-            X: -4.25027e-05
-          }
-          Rotation {
-            Yaw: 54.9999809
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 17152225917800753009
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Trigger {
-          TeamSettings {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:box"
           }
         }
       }
@@ -473,6 +361,99 @@ Assets {
           StaticMesh {
             Physics {
             }
+          }
+        }
+      }
+      Objects {
+        Id: 2412900831820623281
+        Name: "Trigger"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 68.5839462
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17152225917800753009
+        ChildIds: 4920064549997332562
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 4920064549997332562
+        Name: "SpikePickupScript"
+        Transform {
+          Location {
+            X: -0.000178289891
+            Y: 0.00045456714
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2412900831820623281
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6495060754132916280
+          }
+        }
+      }
+      Objects {
+        Id: 8163480802293722686
+        Name: "SpikeDropWhenDead"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17152225917800753009
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 14448415606447741679
           }
         }
       }

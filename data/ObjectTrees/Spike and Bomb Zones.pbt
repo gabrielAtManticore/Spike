@@ -5,8 +5,9 @@ Objects {
   Name: "SpikeSpawner"
   Transform {
     Location {
-      X: -3899.97485
-      Y: 208.193848
+      X: -7693.58252
+      Y: -49.1068115
+      Z: 2498.59302
     }
     Rotation {
     }
@@ -17,9 +18,9 @@ Objects {
     }
   }
   ParentId: 7886552916974763108
-  ChildIds: 18023170612588626590
   ChildIds: 8971962164834509522
   ChildIds: 4131040452845911769
+  ChildIds: 1116002884228403686
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -28,6 +29,51 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 1116002884228403686
+  Name: "Spike Equipment"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8350927267582523452
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10166202541709412690
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Spike Equipment"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 46.2275391
+            Z: 67.5324707
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10030377994658989788
+    }
   }
 }
 Objects {
@@ -55,10 +101,10 @@ Objects {
     Overrides {
       Name: "cs:SpikeWeapon"
       ObjectReference {
-        SelfId: 9768923345991765343
-        SubObjectId: 17152225917800753009
-        InstanceId: 18023170612588626590
-        TemplateId: 1252889937943212000
+        SelfId: 6317225087627927527
+        SubObjectId: 10166202541709412690
+        InstanceId: 1116002884228403686
+        TemplateId: 10030377994658989788
       }
     }
     Overrides {
@@ -85,9 +131,6 @@ Objects {
   Name: "Glow"
   Transform {
     Location {
-      X: -3899.97461
-      Y: 208.193848
-      Z: 2496.13647
     }
     Rotation {
     }
@@ -125,60 +168,6 @@ Objects {
     StaticMesh {
       Physics {
       }
-    }
-  }
-}
-Objects {
-  Id: 18023170612588626590
-  Name: "Spike Weapon"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8350927267582523452
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17152225917800753009
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Spike Weapon"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3927.50879
-            Y: 219.294312
-            Z: 2580
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1252889937943212000
     }
   }
 }
