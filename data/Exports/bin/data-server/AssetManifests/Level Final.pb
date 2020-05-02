@@ -25,8 +25,6 @@ D¥ì÷Öú‘£¹ëCube - PolishedR$
 StaticMeshAssetRefsm_cube_hq_002
 JÃÖşÿñÑØÿêMetal Iron Rusted 02R%
 MaterialAssetRefmi_metal_iron_003
-?±öÂÀ´ØÖê	Sun LightR%
-BlueprintAssetRefCORESKY_SunLight
 WÃœÄ¶™ò’¼èModern Weapon - Sight 01R.
 StaticMeshAssetRefsm_weap_modern_sight_001
 gÖ²º¦Ÿ‘ÊäçCraftsman Stairs 01 PillarR<
@@ -210,6 +208,8 @@ Wæ¿Ğù±ÆÔæƒModern Weapon - Sight 01R.
 StaticMeshAssetRefsm_weap_modern_sight_001
 `Å’ˆ–ÿ“³ƒModern Weapon - Barrel Tip 02R2
 StaticMeshAssetRefsm_weap_modern_barreltip_002
+D¿»Ÿ½õ±Â¯ƒLense - HalfR'
+StaticMeshAssetRefsm_half_lense_001
 oÈüÑ„íù¶ €%Modern Weapon Ammo - Bullet 01 CasingR9
 StaticMeshAssetRef#sm_weap_modern_ammo_bullet_case_001
 `Ú­‚£†İÃ~Modern Weapon - Sight Rear 01R3

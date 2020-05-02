@@ -29,7 +29,12 @@ end
 -- nil OnPlayerVictory(Player)
 -- Announces the winning team
 function OnTeamVictory(team)
-	Events.BroadcastToAllPlayers("BannerMessage", string.format("Team %d wins!", team))
+	--Events.BroadcastToAllPlayers("BannerMessage", string.format("Team %d wins!", team))
+	if team == 1 then
+		Events.BroadcastToAllPlayers("BannerMessage", "Attackers win!", 7)
+	else
+		Events.BroadcastToAllPlayers("BannerMessage", "Defenders win!", 7)
+	end
 end
 
 -- nil OnPlayerVictory(Player)

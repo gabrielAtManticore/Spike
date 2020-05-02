@@ -30,7 +30,7 @@ Assets {
         Equipment {
           SocketName: "upper_spine"
           PickupTrigger {
-            SelfId: 18138299163911449864
+            SubObjectId: 14458102258513548241
           }
         }
       }
@@ -445,7 +445,7 @@ Assets {
         }
         Trigger {
           TeamSettings {
-            TeamInt: 2
+            TeamInt: 1
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }

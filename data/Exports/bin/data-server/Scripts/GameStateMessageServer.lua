@@ -28,7 +28,8 @@ local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local SHOW_LOBBY_MESSAGE = COMPONENT_ROOT:GetCustomProperty("ShowLobbyMessage")
 local LOBBY_MESSAGE = COMPONENT_ROOT:GetCustomProperty("LobbyMessage")
 local SHOW_ROUND_MESSAGE = COMPONENT_ROOT:GetCustomProperty("ShowRoundMessage")
-local ROUND_MESSAGE = COMPONENT_ROOT:GetCustomProperty("RoundMessage")
+local ROUND_MESSAGE_TEAM_1 = COMPONENT_ROOT:GetCustomProperty("RoundMessage1")
+local ROUND_MESSAGE_TEAM_2 = COMPONENT_ROOT:GetCustomProperty("RoundMessage2")
 local SHOW_ROUND_END_MESSAGE = COMPONENT_ROOT:GetCustomProperty("ShowRoundEndMessage")
 local ROUND_END_MESSAGE = COMPONENT_ROOT:GetCustomProperty("RoundEndMessage")
 
@@ -41,7 +42,8 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime)
         end
     elseif newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
         if SHOW_ROUND_MESSAGE then
-            Events.BroadcastToAllPlayers("BannerMessage", ROUND_MESSAGE)
+            Events.BroadcastToAllPlayers("BannerMessage", ROUND_MESSAGE_TEAM_1, 3, 1)
+            Events.BroadcastToAllPlayers("BannerMessage", ROUND_MESSAGE_TEAM_2, 3, 2)
         end
     elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         if SHOW_ROUND_END_MESSAGE then

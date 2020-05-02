@@ -45,7 +45,9 @@ local startingEliminationText = ELIMINATION_TEXT.text
 
 -- nil OnBannerMessageEvent(string, <float>)
 -- Handles a client side banner message event
-function OnBannerMessageEvent(message, duration)
+function OnBannerMessageEvent(message, duration, team)
+	if team and team ~= Game.GetLocalPlayer().team then return end
+	
     if duration then
         messageEndTime = time() + duration
     else

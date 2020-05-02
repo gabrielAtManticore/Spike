@@ -1,3 +1,5 @@
+local ABI = require(script:GetCustomProperty("ABI"))
+
 local propSpike_Planted = script:GetCustomProperty("Spike_Planted")
 local propBasicRifle = script:GetCustomProperty("BasicRifle")
 local propTriggerZoneManager = script:GetCustomProperty("TriggerZoneManager")
@@ -29,8 +31,9 @@ ability.executeEvent:Connect(function(ability)
 	local owner = ability.owner
 	ability.parent:Unequip()
 
-	local newGun = World.SpawnAsset(propBasicRifle)
-	newGun:Equip(owner)
+	--local newGun = World.SpawnAsset(propBasicRifle)
+	--newGun:Equip(owner)
+	
 	
 	ability.parent:Destroy()
 	
