@@ -388,13 +388,13 @@ end
 -- Clean up data for a player that left
 function OnPlayerLeft(player)
 	for i, equipment in pairs(inventories[player]) do
-		if DESTROY_DROPPED_EQUIPMENT then
+--		if DESTROY_DROPPED_EQUIPMENT then
 			equipment:Destroy()
-		else
-			equipment.visibility = Visibility.INHERIT
-			equipment.collision = Collision.INHERIT
-			equipment:Detach()
-		end
+--		else
+--			equipment.visibility = Visibility.INHERIT
+--			equipment.collision = Collision.INHERIT
+--			equipment:Detach()
+--		end
 	end
 
 	activeIndices[player] = nil

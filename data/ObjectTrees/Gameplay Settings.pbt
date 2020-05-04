@@ -46,6 +46,10 @@ Objects {
   ParentId: 13138358784662362285
   UnregisteredParameters {
     Overrides {
+      Name: "cs:DestroyOnLeave"
+      Bool: true
+    }
+    Overrides {
       Name: "cs:Item1"
       AssetReference {
         Id: 11645747741061983423
@@ -230,6 +234,10 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+        Overrides {
+          Name: "cs:DestroyDroppedEquipment"
+          Bool: false
         }
       }
     }

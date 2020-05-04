@@ -32,7 +32,7 @@ function OnPlayerJoined(player)
 	
 	if #equipment <= 0 then return end
 	
-	print("Size = " .. tostring(#equipment))
+	--print("Size = " .. tostring(#equipment))
 	
 	for _,e in ipairs(equipment) do
 		ABI.AddEquipment(player, e)
