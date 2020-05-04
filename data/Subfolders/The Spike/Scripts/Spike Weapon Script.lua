@@ -18,7 +18,6 @@ ability.executeEvent:Connect(function(ability)
 	local playerRot = ability.owner:GetWorldRotation()
 	local forward = playerRot * Vector3.FORWARD
 
-
 	local bombLoc = ability.owner:GetWorldPosition()
 	bombLoc = bombLoc + (forward * 100)
 	

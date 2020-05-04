@@ -17,10 +17,10 @@ propPlasmaBallProjectileVFX:SetWorldScale(Vector3.New(0))
 local effectBase = script.parent
 
 local TIMER_DURATION = propRoot:GetCustomProperty("CountdownDuration")
-local LIGHT_COUNT = CoreMath.Round(TIMER_DURATION)
+local LIGHT_COUNT = 45  -- CoreMath.Round(TIMER_DURATION)
 local LIGHT_RADIUS = 200
 
-local TIME_PER_LIGHT = 1 -- TIMER_DURATION / LIGHT_COUNT
+local TIME_PER_LIGHT = TIMER_DURATION / LIGHT_COUNT
 
 local EMBER_START = LIGHT_COUNT * 0.2
 local SPARK_START = LIGHT_COUNT * 0.5
@@ -45,6 +45,7 @@ function AnimateCountdown()
 	
 	for i = 1, LIGHT_COUNT do
 		if not isHot then return end
+		if not Object.IsValid(effectBase) then return end
 		
 		lightArray[i]:SetColor(Color.BLUE)
 		
@@ -74,6 +75,7 @@ function AnimateCountdown()
 		end
 		
 		Task.Wait(TIME_PER_LIGHT)
+		print(TIME_PER_LIGHT)
 	end
 	
 	Task.Wait(1)
