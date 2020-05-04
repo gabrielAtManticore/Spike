@@ -30,7 +30,6 @@ Assets {
         Equipment {
           SocketName: "upper_spine"
           PickupTrigger {
-            SubObjectId: 14458102258513548241
           }
         }
       }
@@ -261,12 +260,6 @@ Assets {
             Name: "cs:PickupTrigger"
             ObjectReference {
               SubObjectId: 14458102258513548241
-            }
-          }
-          Overrides {
-            Name: "cs:API"
-            AssetReference {
-              Id: 11974742996071064388
             }
           }
         }
