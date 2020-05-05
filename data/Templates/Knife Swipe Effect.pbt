@@ -7,7 +7,7 @@ Assets {
       RootId: 14325838209045534195
       Objects {
         Id: 14325838209045534195
-        Name: "ClientContext"
+        Name: "Knife Swipe Effect"
         Transform {
           Scale {
             X: 0.679466605
@@ -19,6 +19,7 @@ Assets {
         ChildIds: 4041662725867836856
         UnregisteredParameters {
         }
+        Lifespan: 1
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
