@@ -23,6 +23,21 @@ Assets {
         ChildIds: 9626646942596377580
         ChildIds: 7252784427182165426
         UnregisteredParameters {
+          Overrides {
+            Name: "cs:EquipmentIcon"
+            AssetReference {
+              Id: 6204889811508906268
+            }
+          }
+          Overrides {
+            Name: "cs:EquipmentColor"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -1337,6 +1352,15 @@ Assets {
           DecalBP {
           }
         }
+      }
+    }
+    Assets {
+      Id: 6204889811508906268
+      Name: "Icon Weapon Knife"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_WeaponKnife"
       }
     }
     Assets {
