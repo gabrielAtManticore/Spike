@@ -1,3 +1,6 @@
+
+local EQUIPMENT = script:FindAncestorByType("Equipment")
+
 local propSpike_Planted = script:GetCustomProperty("Spike_Planted")
 local propBasicRifle = script:GetCustomProperty("BasicRifle")
 local propTriggerZoneManager = script:GetCustomProperty("TriggerZoneManager")
@@ -36,12 +39,10 @@ ability.executeEvent:Connect(function(ability)
 end)
 
 
-local equipment = script.parent.parent
-
 propPickupTrigger.beginOverlapEvent:Connect(function(trigger, other)
-	if other:IsA("Player") and equipment.owner == nil then
-		equipment:Equip(other)
-		SetupPlayerListeners(equipment, other)
+	if other:IsA("Player") and EQUIPMENT.owner == nil then
+		EQUIPMENT:Equip(other)
+		SetupPlayerListeners(EQUIPMENT, other)
 	end
 end)
 
@@ -51,7 +52,7 @@ local playerDeathListener = nil
 local playerDCListener = nil
 
 
-function SetupPlayerListeners(equipment, player)
+function SetupPlayerListeners(EQUIPMENT, player)
 	CleanupPlayerListeners()
 	playerDeathListener = player.diedEvent:Connect(OnPayerDeath)
 	playerDCListener = Game.playerLeftEvent:Connect(OnPlayerDC)
@@ -70,7 +71,7 @@ end
 
 
 function OnPlayerDC(player)
-	if player == equipment.owner then
+	if player == EQUIPMENT.owner then
 		DropSpike()
 	end
 end
@@ -82,20 +83,23 @@ end
 
 function DropSpike()
  	CleanupPlayerListeners()
-	local pos = equipment:GetWorldPosition()
+	local pos = EQUIPMENT:GetWorldPosition()
 	local result = World.Raycast(pos, pos + Vector3.New(0, 0, -60000), {
 		ignorePlayers = true
 	})
 	CoreDebug.DrawLine(pos, pos + Vector3.New(0, 0, -60000), {duration = 50})
 	if result then
 		local newPos = result:GetImpactPosition()
-		equipment:SetWorldPosition(newPos)
+		EQUIPMENT:SetWorldPosition(newPos)
 	end
-	equipment:Unequip()
+	EQUIPMENT:Unequip()
 end
 
 Events.Connect("TeamVictory", function(team)
 	CleanupPlayerListeners()
-	equipment:Unequip()
-	equipment:Destroy()
+	
+	if Object.IsValid(EQUIPMENT) then
+		EQUIPMENT:Unequip()
+		EQUIPMENT:Destroy()
+	end
 end)

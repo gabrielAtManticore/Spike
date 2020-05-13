@@ -8,6 +8,13 @@ local propDisarmDuration = propRoot:GetCustomProperty("DisarmDuration")
 
 local TIMER_DURATION = propCountdownDuration
 
+local ACTIONS_THAT_DO_NOT_CANCEL_DISARM = {
+	"ability_extra_14", --L.Alt
+	"ability_extra_15", --R.Alt
+	"ability_extra_19", --Tab
+	"ability_extra_33", --F
+}
+
 local currentPlayerDisarming = nil
 local disarmTask = nil
 
@@ -24,7 +31,9 @@ function StartPlayerDisarming(trigger, player)
 		return
 	end
 	
-	table.insert(cancelListeners, player.bindingPressedEvent:Connect(StopPlayerDisarming))
+	propDisarmTrigger.isEnabled = false
+	
+	table.insert(cancelListeners, player.bindingPressedEvent:Connect(OnBindingPressed))
 	table.insert(cancelListeners, player.damagedEvent:Connect(StopPlayerDisarming))
 	table.insert(cancelListeners, player.diedEvent:Connect(StopPlayerDisarming))
 	
@@ -35,8 +44,8 @@ function StartPlayerDisarming(trigger, player)
 		print("Bomb defused successfully!!")
 		Events.BroadcastToAllPlayers("Bomb_Defused", player)
 		Task.Wait()
-		StopPlayerDisarming()
 		wasDisarmed = true
+		StopPlayerDisarming()
 		
 		Events.Broadcast("TeamVictory", 2)
 		ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
@@ -44,6 +53,10 @@ function StartPlayerDisarming(trigger, player)
 end
 
 function StopPlayerDisarming()
+	if canBeDisarmed and not wasDisarmed then
+		propDisarmTrigger.isEnabled = true
+	end
+	
 	for _,v in pairs(cancelListeners) do
 		if v then v:Disconnect() end
 	end
@@ -58,6 +71,16 @@ function StopPlayerDisarming()
 		Events.BroadcastToPlayer(currentPlayerDisarming, "PlayerOverlay_ClearProgressBar", player)
 		currentPlayerDisarming = nil
 	end
+end
+
+
+function OnBindingPressed(player, action)
+	for _,ignore in ipairs(ACTIONS_THAT_DO_NOT_CANCEL_DISARM) do
+		if action == ignore then
+			return
+		end
+	end
+	StopPlayerDisarming()
 end
 
 
