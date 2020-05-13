@@ -71,7 +71,7 @@ end
 
 
 function OnPlayerDC(player)
-	if player == EQUIPMENT.owner then
+	if Object.IsValid(EQUIPMENT) and player == EQUIPMENT.owner then
 		DropSpike()
 	end
 end
@@ -83,6 +83,9 @@ end
 
 function DropSpike()
  	CleanupPlayerListeners()
+ 	
+ 	if not Object.IsValid(EQUIPMENT) then return end
+ 	
 	local pos = EQUIPMENT:GetWorldPosition()
 	local result = World.Raycast(pos, pos + Vector3.New(0, 0, -60000), {
 		ignorePlayers = true
