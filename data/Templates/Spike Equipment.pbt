@@ -18,7 +18,7 @@ Assets {
         ParentId: 8350927267582523452
         ChildIds: 5685771561117231819
         ChildIds: 17777680220649051350
-        ChildIds: 10501068128456042090
+        ChildIds: 16844437078756058001
         ChildIds: 14458102258513548241
         WantsNetworking: true
         Collidable_v2 {
@@ -277,6 +277,108 @@ Assets {
         }
       }
       Objects {
+        Id: 16844437078756058001
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10166202541709412690
+        ChildIds: 7405378268378044944
+        ChildIds: 10430320433926357011
+        ChildIds: 10501068128456042090
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 7405378268378044944
+        Name: "SpikePickupClient"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16844437078756058001
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PickupTrigger"
+            ObjectReference {
+              SubObjectId: 14458102258513548241
+            }
+          }
+          Overrides {
+            Name: "cs:PowerUpSound"
+            ObjectReference {
+              SubObjectId: 10430320433926357011
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13071365632013476122
+          }
+        }
+      }
+      Objects {
+        Id: 10430320433926357011
+        Name: "Sparkle Energy Powerup 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16844437078756058001
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 18019616617056457153
+          }
+          Volume: 1
+          Falloff: -1
+          Radius: -1
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
         Id: 10501068128456042090
         Name: "Spike"
         Transform {
@@ -294,10 +396,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10166202541709412690
+        ParentId: 16844437078756058001
         ChildIds: 7959984469711495663
         ChildIds: 12899869631965925885
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -335,7 +436,6 @@ Assets {
             Bool: false
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -390,7 +490,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -437,15 +536,24 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Trigger {
+          InteractionLabel: "Pickup Spike"
           TeamSettings {
             TeamInt: 1
             IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
           }
           TriggerShape_v2 {
             Value: "mc:etriggershape:box"
           }
         }
+      }
+    }
+    Assets {
+      Id: 18019616617056457153
+      Name: "Sparkle Energy Powerup 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_sparkle_energy_powerup_01_Cue_ref"
       }
     }
     Assets {
