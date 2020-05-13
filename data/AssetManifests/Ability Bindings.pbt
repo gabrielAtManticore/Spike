@@ -52,3 +52,12 @@ Assets {
     AssetId: "Icon_Target"
   }
 }
+Assets {
+  Id: 1046234405347359016
+  Name: "Center Arrow 011"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterArrow_011"
+  }
+}

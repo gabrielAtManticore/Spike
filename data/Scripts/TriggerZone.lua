@@ -3,5 +3,5 @@ local tm = require(propTriggerZoneManager)
 
 tm.RegisterTrigger(script.parent)
 
-script:Destroy()
+--script:Destroy()
 

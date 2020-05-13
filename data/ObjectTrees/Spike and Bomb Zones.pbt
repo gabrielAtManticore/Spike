@@ -172,13 +172,124 @@ Objects {
   }
 }
 Objects {
-  Id: 1441218893686614330
+  Id: 8524158002296297113
+  Name: "StaticContext"
+  Transform {
+    Location {
+      X: 1039.89893
+      Y: -3732.77539
+      Z: 3100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7886552916974763108
+  ChildIds: 14767151407518162272
+  ChildIds: 12696698427198224480
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+}
+Objects {
+  Id: 12696698427198224480
   Name: "BombZone"
   Transform {
     Location {
-      X: 1559.84851
-      Y: -5599.16309
-      Z: 3100
+      X: -959.448792
+      Y: 8168.42383
+      Z: -0.00048828125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 22.9764786
+      Y: 26.5333347
+      Z: 14.4999943
+    }
+  }
+  ParentId: 8524158002296297113
+  ChildIds: 2048855209256374318
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12696698427198224480
+    SubobjectId: 1870703349740405906
+    InstanceId: 1441218893686614330
+    TemplateId: 4910372160180436544
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 2048855209256374318
+  Name: "TriggerZone"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -1.02452796e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12696698427198224480
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TriggerZoneManager"
+      AssetReference {
+        Id: 16744990429409246179
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 16130929695975252829
+    }
+  }
+  InstanceHistory {
+    SelfId: 2048855209256374318
+    SubobjectId: 13090653288652565724
+    InstanceId: 1441218893686614330
+    TemplateId: 4910372160180436544
+  }
+}
+Objects {
+  Id: 14767151407518162272
+  Name: "BombZone"
+  Transform {
+    Location {
     }
     Rotation {
     }
@@ -188,99 +299,70 @@ Objects {
       Z: 14.4999943
     }
   }
-  ParentId: 7886552916974763108
+  ParentId: 8524158002296297113
+  ChildIds: 6967685385929487662
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1870703349740405906
-      value {
-        Overrides {
-          Name: "Name"
-          String: "BombZone"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 80.4500732
-            Y: 4435.64844
-            Z: 3099.99951
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 22.9764786
-            Y: 26.5333347
-            Z: 14.4999943
-          }
-        }
-      }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
     }
-    TemplateAsset {
-      Id: 4910372160180436544
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
+  }
+  InstanceHistory {
+    SelfId: 14767151407518162272
+    SubobjectId: 1870703349740405906
+    InstanceId: 2661233698058889022
+    TemplateId: 4910372160180436544
+    WasRoot: true
   }
 }
 Objects {
-  Id: 2661233698058889022
-  Name: "BombZone"
+  Id: 6967685385929487662
+  Name: "TriggerZone"
   Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -1.02452796e-05
+    }
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 7886552916974763108
+  ParentId: 14767151407518162272
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TriggerZoneManager"
+      AssetReference {
+        Id: 16744990429409246179
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1870703349740405906
-      value {
-        Overrides {
-          Name: "Name"
-          String: "BombZone"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1039.89893
-            Y: -3732.77539
-            Z: 3100
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 32.0110283
-            Y: 33.7022171
-            Z: 14.4999943
-          }
-        }
-      }
+  Script {
+    ScriptAsset {
+      Id: 16130929695975252829
     }
-    TemplateAsset {
-      Id: 4910372160180436544
-    }
+  }
+  InstanceHistory {
+    SelfId: 6967685385929487662
+    SubobjectId: 13090653288652565724
+    InstanceId: 2661233698058889022
+    TemplateId: 4910372160180436544
   }
 }
