@@ -41,6 +41,8 @@ end)
 
 propPickupTrigger.beginOverlapEvent:Connect(function(trigger, other)
 	if other:IsA("Player") and EQUIPMENT.owner == nil then
+		if trigger.team ~= other.team then return end
+	
 		EQUIPMENT:Equip(other)
 		SetupPlayerListeners(EQUIPMENT, other)
 	end
