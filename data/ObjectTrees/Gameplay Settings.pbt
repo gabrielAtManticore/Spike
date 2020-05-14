@@ -1,6 +1,75 @@
 Name: "Gameplay Settings"
 RootId: 9801204907903082354
 Objects {
+  Id: 13138358784662362285
+  Name: "Inventory"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9801204907903082354
+  ChildIds: 8394516224349749871
+  ChildIds: 720682339743236609
+  ChildIds: 17569581099006955057
+  ChildIds: 7657910465275653997
+  ChildIds: 1662956380745632459
+  ChildIds: 13669835515452790330
+  ChildIds: 2485339978289771549
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2485339978289771549
+  Name: "LoseEquipmentOnDeath"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13138358784662362285
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourcesToLose"
+      String: "ammo_556, ammo_762"
+    }
+    Overrides {
+      Name: "cs:ItemsToLose"
+      String: "Sniper Rifle, Assault Rifle"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6933361884883435169
+    }
+  }
+}
+Objects {
   Id: 13669835515452790330
   Name: "GainResourcePerWin"
   Transform {
@@ -14,7 +83,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9801204907903082354
+  ParentId: 13138358784662362285
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceAmount"
@@ -47,7 +116,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9801204907903082354
+  ParentId: 13138358784662362285
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceAmount"
@@ -64,35 +133,6 @@ Objects {
     ScriptAsset {
       Id: 10435159693565710253
     }
-  }
-}
-Objects {
-  Id: 13138358784662362285
-  Name: "Inventory"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9801204907903082354
-  ChildIds: 8394516224349749871
-  ChildIds: 720682339743236609
-  ChildIds: 17569581099006955057
-  ChildIds: 7657910465275653997
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
   }
 }
 Objects {
@@ -991,6 +1031,10 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+        Overrides {
+          Name: "cs:DeadAutoSwitchDelay"
+          Float: 1.5
         }
       }
     }

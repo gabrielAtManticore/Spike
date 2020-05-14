@@ -3,6 +3,7 @@ local ABI = require(script:GetCustomProperty("ABI"))
 local trigger = script:GetCustomProperty("Trigger"):WaitForObject()
 local weaponTemplate = script:GetCustomProperty("WeaponTemplate")
 
+
 function OnInteracted(whichTrigger, player)
 	trigger.isEnabled = false
 	

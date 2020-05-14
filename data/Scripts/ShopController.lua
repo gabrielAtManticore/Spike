@@ -36,11 +36,15 @@ function API.TryBuy(player, itemData)
 		local allowDuplicate = ITEM_MODEL.GetAllowBuyDuplicate(itemData)
 		if allowDuplicate or not DoesPlayerHaveEquipment(player, template) then
 			
+			local itemUniqueId = ITEM_MODEL.GetUniqueId(itemData)
+			
 			local itemInstance = World.SpawnAsset(template)
+			itemInstance.serverUserData.uniqueId = itemUniqueId
+			
 			INVENTORY_SYSTEM.AddEquipment(player, itemInstance)
 			
 			-- Bought items are set as a resource for use by ShopStorage
-			player:AddResource(ITEM_MODEL.GetUniqueId(itemData), 1)
+			player:AddResource(itemUniqueId, 1)
 		else
 			return API.BuyResult.ALREADY_OWNED
 		end

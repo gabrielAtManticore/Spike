@@ -17,6 +17,8 @@ function OnTeamWon(whichTeam)
 	if RESOURCE_AMOUNT == 0 then return end
 	if TEAM ~= 0 and whichTeam ~= TEAM then return end
 	
+	if (#Game.GetPlayers() < 2) then return end
+	
 	for _,player in ipairs(Game.GetPlayers()) do
 		if player.team == whichTeam then
 			if RESOURCE_AMOUNT > 0 then
