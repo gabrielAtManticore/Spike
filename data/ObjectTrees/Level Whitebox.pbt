@@ -2924,14 +2924,14 @@ Objects {
   Transform {
     Location {
       X: 1150
-      Y: -100
+      Y: -240
     }
     Rotation {
     }
     Scale {
       X: 6
-      Y: 16
-      Z: 14.000001
+      Y: 13.1
+      Z: 14.500001
     }
   }
   ParentId: 8220931655639317171

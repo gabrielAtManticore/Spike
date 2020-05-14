@@ -152,6 +152,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17091585152308057626
+  Name: "Curb 2m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_curb_2m_001"
+  }
+}
+Assets {
   Id: 16965777294932964901
   Name: "Cube - Polished"
   PlatformAssetType: 1
@@ -440,6 +449,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14582790818618070150
+  Name: "Asphalt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_asphault_001"
+  }
+}
+Assets {
   Id: 14472498222332431353
   Name: "Metal Basic 01"
   PlatformAssetType: 2
@@ -500,6 +518,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_curve90_003"
+  }
+}
+Assets {
+  Id: 13945643525820076061
+  Name: "Air Conditioned Room Tone Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_air_condition_room_tone_loop_01_Cue_ref"
   }
 }
 Assets {
@@ -1115,6 +1142,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9122789709490702857
+  Name: "Road Sidewalk Corner - In"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_road_sidewalk-corner-in_001"
+  }
+}
+Assets {
   Id: 9117384065423546074
   Name: "Modern Weapon - Sight Rear 01"
   PlatformAssetType: 1
@@ -1301,6 +1337,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_floor_001_8x8"
+  }
+}
+Assets {
+  Id: 7554798829825408079
+  Name: "Road Edge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_road_edge_straight_001"
   }
 }
 Assets {
@@ -1652,6 +1697,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gem_radiant_polished_001"
+  }
+}
+Assets {
+  Id: 4223009053017033892
+  Name: "Ambience Nature Waterflow Set 01 SFX"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "sfxabp_waterflow_ref"
   }
 }
 Assets {
