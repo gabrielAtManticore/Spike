@@ -393,6 +393,7 @@ Assets {
           Volume: 4
           Falloff: -1
           Radius: -1
+          FadeOutTime: 3
         }
       }
       Objects {
