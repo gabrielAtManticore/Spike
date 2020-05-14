@@ -32,8 +32,8 @@ Assets {
           Overrides {
             Name: "cs:EquipmentColor"
             Color {
-              R: 0.340000033
-              G: 0.162119225
+              R: 0.648
+              G: 0.367200047
               A: 1
             }
           }
@@ -236,7 +236,7 @@ Assets {
       }
       Objects {
         Id: 8884132754582143180
-        Name: "Slash 1"
+        Name: "Slash"
         Transform {
           Location {
           }
@@ -446,7 +446,7 @@ Assets {
           Overrides {
             Name: "cs:Icon"
             AssetReference {
-              Id: 15201232689808388272
+              Id: 5941051186629687235
             }
           }
         }
@@ -464,7 +464,7 @@ Assets {
       }
       Objects {
         Id: 16331643054349514966
-        Name: "Slash 2"
+        Name: "Slash"
         Transform {
           Location {
           }
@@ -671,7 +671,7 @@ Assets {
           Overrides {
             Name: "cs:Icon"
             AssetReference {
-              Id: 15201232689808388272
+              Id: 5941051186629687235
             }
           }
         }
@@ -1360,15 +1360,6 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "Icon_WeaponKnife"
-      }
-    }
-    Assets {
-      Id: 15201232689808388272
-      Name: "Icon Weapon Sword"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_WeaponSword"
       }
     }
     Assets {

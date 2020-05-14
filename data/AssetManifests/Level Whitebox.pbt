@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16933361490793048899
+  Name: "Metal Iron Rusted 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_003"
+  }
+}
+Assets {
   Id: 16447630291553548532
   Name: "Metal Basic Steel"
   PlatformAssetType: 2
@@ -71,6 +80,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11572157823613737469
+  Name: "Cube - Chamfered Small Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_003"
+  }
+}
+Assets {
   Id: 6317093348408192352
   Name: "Concrete Panels 02"
   PlatformAssetType: 2
@@ -95,14 +113,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weapons_grenade_teeth_001"
-  }
-}
-Assets {
-  Id: 3825395968872580990
-  Name: "Bricks Concrete Cinder Block 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_concrete_001"
   }
 }
