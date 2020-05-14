@@ -72,6 +72,8 @@ function AnimateCountdown()
 		elseif (i == LIGHT_COUNT) then
 			propExplosion1SFX:Play()
 			propExplosion2SFX:Play()
+			Task.Wait()
+			propExplosion2SFX:Stop()
 		end
 		
 		Task.Wait(TIME_PER_LIGHT)
