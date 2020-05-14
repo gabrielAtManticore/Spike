@@ -26,15 +26,14 @@ Assets {
           Overrides {
             Name: "cs:EquipmentIcon"
             AssetReference {
-              Id: 6204889811508906268
+              Id: 5941051186629687235
             }
           }
           Overrides {
             Name: "cs:EquipmentColor"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.340000033
+              G: 0.162119225
               A: 1
             }
           }
@@ -372,7 +371,7 @@ Assets {
           Overrides {
             Name: "cs:AttackPlayerImpact"
             AssetReference {
-              Id: 7473039137614056492
+              Id: 17611980116047838985
             }
           }
           Overrides {
@@ -597,7 +596,7 @@ Assets {
           Overrides {
             Name: "cs:AttackPlayerImpact"
             AssetReference {
-              Id: 7473039137614056492
+              Id: 17611980116047838985
             }
           }
           Overrides {
@@ -1355,7 +1354,7 @@ Assets {
       }
     }
     Assets {
-      Id: 6204889811508906268
+      Id: 5941051186629687235
       Name: "Icon Weapon Knife"
       PlatformAssetType: 9
       PrimaryAsset {

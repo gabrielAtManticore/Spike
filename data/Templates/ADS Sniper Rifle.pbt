@@ -249,7 +249,8 @@ Assets {
               Value: "mc:ereticletype:none"
             }
             MaxAmmo: 5
-            AmmoType: "rounds"
+            AmmoType: "ammo_762"
+            IsFiniteAmmo: true
             MultiShot: 1
             ProjectileSpeed: 100000
             ProjectileLifeSpan: 6

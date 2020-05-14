@@ -1,5 +1,5 @@
 Assets {
-  Id: 7473039137614056492
+  Id: 17611980116047838985
   Name: "PlayerBloodImpact"
   PlatformAssetType: 5
   TemplateAsset {
@@ -93,7 +93,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 16039011261841658489
+            Id: 7628097165165581423
           }
           Vfx {
             AutoPlay: true
@@ -173,7 +173,7 @@ Assets {
       }
     }
     Assets {
-      Id: 16039011261841658489
+      Id: 7628097165165581423
       Name: "Generic Player Impact VFX"
       PlatformAssetType: 8
       PrimaryAsset {

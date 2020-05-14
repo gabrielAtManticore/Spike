@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15986320784133630650
+  Name: "Modern Weapon - Sight 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_sight_002"
+  }
+}
+Assets {
   Id: 13442965192408425307
   Name: "Modern Weapon Accessory - Rail 01"
   PlatformAssetType: 1
@@ -59,6 +68,33 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_acc_rail_002"
+  }
+}
+Assets {
+  Id: 12095835209017042614
+  Name: "Cube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_002"
+  }
+}
+Assets {
+  Id: 11271481624711501534
+  Name: "Outline Object"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_local_outline"
+  }
+}
+Assets {
+  Id: 9826710443425479508
+  Name: "Modern Weapon - Bullet 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_ammo_bullet_tip_001"
   }
 }
 Assets {
@@ -134,12 +170,30 @@ Assets {
   }
 }
 Assets {
+  Id: 5351428073291024820
+  Name: "Opaque Emissive"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_opaque_emissive"
+  }
+}
+Assets {
   Id: 4865030435811274479
   Name: "Modern Weapon - Body 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_body_002"
+  }
+}
+Assets {
+  Id: 4304367195622956278
+  Name: "Modern Weapon Ammo - Bullet 01 Casing"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_ammo_bullet_case_001"
   }
 }
 Assets {
@@ -158,6 +212,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_mag_003"
+  }
+}
+Assets {
+  Id: 2168240361010595988
+  Name: "Modern Weapon - Scope 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_scope_002"
   }
 }
 Assets {

@@ -89,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9826710443425479508
+  Name: "Modern Weapon - Bullet 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_ammo_bullet_tip_001"
+  }
+}
+Assets {
   Id: 9468343199086191247
   Name: "Modern Weapon - Barrel Tip 02"
   PlatformAssetType: 1
@@ -176,6 +185,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_body_002"
+  }
+}
+Assets {
+  Id: 4304367195622956278
+  Name: "Modern Weapon Ammo - Bullet 01 Casing"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_ammo_bullet_case_001"
   }
 }
 Assets {

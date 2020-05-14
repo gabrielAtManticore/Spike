@@ -29,6 +29,10 @@ function API.SetObjectIcon(object, icon)
 	object.clientUserData.APIObjectIcons_Icon = icon
 end
 
+function API.SetObjectColor(object, color)
+	object.clientUserData.APIObjectIcons_Color = color
+end
+
 -- <string> GetObjectIcon(CoreObject) [Client]
 -- Returns the MUID of the icon or nil
 function API.GetObjectIcon(object)
@@ -37,6 +41,14 @@ function API.GetObjectIcon(object)
 	end
 
 	return object.clientUserData.APIObjectIcons_Icon
+end
+
+function API.GetObjectColor(object)
+	if not object or not Object.IsValid(object) then
+		return nil
+	end
+
+	return object.clientUserData.APIObjectIcons_Color
 end
 
 return API

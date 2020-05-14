@@ -1,13 +1,13 @@
 Assets {
-  Id: 307406115803496087
-  Name: "Generic Impact Player Effect"
+  Id: 12107734285812188601
+  Name: "Generic Sound Reload"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11352976760511440785
+      RootId: 17846170435686736886
       Objects {
-        Id: 11352976760511440785
-        Name: "Client Context"
+        Id: 17846170435686736886
+        Name: "Generic Sound Reload"
         Transform {
           Scale {
             X: 1
@@ -15,9 +15,37 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 12801116442223059089
-        ChildIds: 15368370472108963347
+        ParentId: 12436546004889713338
+        ChildIds: 902047587094345629
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 902047587094345629
+        Name: "Client Context"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17846170435686736886
+        ChildIds: 4272344084064824150
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -31,8 +59,8 @@ Assets {
         }
       }
       Objects {
-        Id: 12801116442223059089
-        Name: "Generic Player Impact VFX"
+        Id: 4272344084064824150
+        Name: "Gun Weapon Reload Set 01 SFX"
         Transform {
           Location {
           }
@@ -44,13 +72,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11352976760511440785
+        ParentId: 902047587094345629
         UnregisteredParameters {
           Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.950000048
-              A: 1
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:esfx_gunreloads:50"
             }
           }
         }
@@ -62,65 +89,27 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 7628097165165581423
+            Id: 11279392096978883335
           }
-          Vfx {
+          AudioBP {
             AutoPlay: true
+            Volume: 1
+            Falloff: 1000
+            Radius: 100
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
           }
-        }
-      }
-      Objects {
-        Id: 15368370472108963347
-        Name: "Bullet Body Impact SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11352976760511440785
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 7866413056776856701
-          }
-          AutoPlay: true
-          Volume: 1
-          Falloff: 3600
-          Radius: 400
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
         }
       }
     }
     Assets {
-      Id: 7628097165165581423
-      Name: "Generic Player Impact VFX"
-      PlatformAssetType: 8
+      Id: 11279392096978883335
+      Name: "Gun Weapon Reload Set 01 SFX"
+      PlatformAssetType: 10
       PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_player_impact"
-      }
-    }
-    Assets {
-      Id: 7866413056776856701
-      Name: "Bullet Body Impact SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_bullet_impact_body"
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_reloads_ref"
       }
     }
     PrimaryAssetId {

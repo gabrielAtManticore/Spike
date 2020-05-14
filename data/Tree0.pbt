@@ -22,8 +22,8 @@ Objects {
   ChildIds: 420844597151223222
   ChildIds: 17260790320867754668
   ChildIds: 5450254723250463512
-  ChildIds: 8342061107480532378
-  ChildIds: 3101486352721114744
+  ChildIds: 43301202733877880
+  ChildIds: 9153694885547399550
   ChildIds: 11941763916313311798
   ChildIds: 7886552916974763108
   ChildIds: 8220931655639317171
@@ -154,16 +154,13 @@ Objects {
   }
 }
 Objects {
-  Id: 3101486352721114744
-  Name: "Buy 2"
+  Id: 9153694885547399550
+  Name: "Shop - Defense"
   Transform {
     Location {
-      X: 5250
-      Y: -1900
-      Z: 2650
-    }
-    Rotation {
-      Yaw: 179.999985
+      X: 5779.9585
+      Y: -2035.15686
+      Z: 2521.01343
     }
     Scale {
       X: 1
@@ -180,19 +177,20 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Buy 2"
+    FilePartitionName: "Shop - Defense"
   }
 }
 Objects {
-  Id: 8342061107480532378
-  Name: "Buy 1"
+  Id: 43301202733877880
+  Name: "Shop - Attack"
   Transform {
     Location {
-      X: -7850
-      Y: -1900
-      Z: 2650
+      X: -8275
+      Y: -1870
+      Z: 2521.01343
     }
     Rotation {
+      Yaw: 180
     }
     Scale {
       X: 1
@@ -209,7 +207,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Buy 1"
+    FilePartitionName: "Shop - Attack"
   }
 }
 Objects {

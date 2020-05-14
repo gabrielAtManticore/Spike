@@ -35,7 +35,7 @@ end
 
 function MeleeAttack(other)
     if other == ABILITY.owner then return end
-	if Teams.AreTeamsFriendly(other.team, ABILITY.owner.team) then return end
+	if other.team ~= nil and Teams.AreTeamsFriendly(other.team, ABILITY.owner.team) then return end
 
     -- Avoid hitting the same player multiple times in a single swing
     if (other:IsA("Player") and ignoreList[other] ~= 1) then

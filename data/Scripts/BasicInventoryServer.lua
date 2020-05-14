@@ -389,7 +389,9 @@ end
 function OnPlayerLeft(player)
 	for i, equipment in pairs(inventories[player]) do
 --		if DESTROY_DROPPED_EQUIPMENT then
+		if Object.IsValid(equipment) then
 			equipment:Destroy()
+		end
 --		else
 --			equipment.visibility = Visibility.INHERIT
 --			equipment.collision = Collision.INHERIT

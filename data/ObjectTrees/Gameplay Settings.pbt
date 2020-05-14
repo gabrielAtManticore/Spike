@@ -1,6 +1,72 @@
 Name: "Gameplay Settings"
 RootId: 9801204907903082354
 Objects {
+  Id: 13669835515452790330
+  Name: "GainResourcePerWin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9801204907903082354
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceAmount"
+      Int: 4
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11579308072506578387
+    }
+  }
+}
+Objects {
+  Id: 1662956380745632459
+  Name: "GainResourcePerKill"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9801204907903082354
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceAmount"
+      Int: 10
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10435159693565710253
+    }
+  }
+}
+Objects {
   Id: 13138358784662362285
   Name: "Inventory"
   Transform {
@@ -17,7 +83,7 @@ Objects {
   ParentId: 9801204907903082354
   ChildIds: 8394516224349749871
   ChildIds: 720682339743236609
-  ChildIds: 98707382762470242
+  ChildIds: 17569581099006955057
   ChildIds: 7657910465275653997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -61,12 +127,6 @@ Objects {
         Id: 8256451410084658235
       }
     }
-    Overrides {
-      Name: "cs:Item3"
-      AssetReference {
-        Id: 4858933102386001352
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -81,7 +141,7 @@ Objects {
   }
 }
 Objects {
-  Id: 98707382762470242
+  Id: 17569581099006955057
   Name: "Resource Icons Manager"
   Transform {
     Location {
@@ -95,43 +155,408 @@ Objects {
     }
   }
   ParentId: 13138358784662362285
+  ChildIds: 12081663639090143385
+  ChildIds: 10892005230860940972
+  ChildIds: 3024215494517617478
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9624275477013504998
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Resource Icons Manager"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 17569581099006955057
+    SubobjectId: 9624275477013504998
+    InstanceId: 98707382762470242
+    TemplateId: 6657921366064206637
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 3024215494517617478
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17569581099006955057
+  ChildIds: 9974703221954103268
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 3024215494517617478
+    SubobjectId: 6898336614689988241
+    InstanceId: 98707382762470242
+    TemplateId: 6657921366064206637
+  }
+}
+Objects {
+  Id: 9974703221954103268
+  Name: "ResourceIconsManagerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3024215494517617478
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 13528263650723469884
       }
     }
-    TemplateAsset {
-      Id: 6657921366064206637
+    Overrides {
+      Name: "cs:Resources"
+      ObjectReference {
+        SelfId: 12081663639090143385
+      }
     }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14086683417684533741
+    }
+  }
+  InstanceHistory {
+    SelfId: 9974703221954103268
+    SubobjectId: 18171664790476974643
+    InstanceId: 98707382762470242
+    TemplateId: 6657921366064206637
+  }
+}
+Objects {
+  Id: 10892005230860940972
+  Name: "ResourceIconsManagerServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17569581099006955057
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 13528263650723469884
+      }
+    }
+    Overrides {
+      Name: "cs:Resources"
+      ObjectReference {
+        SelfId: 12081663639090143385
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15307432627684686546
+    }
+  }
+  InstanceHistory {
+    SelfId: 10892005230860940972
+    SubobjectId: 16243312251467406203
+    InstanceId: 98707382762470242
+    TemplateId: 6657921366064206637
+  }
+}
+Objects {
+  Id: 12081663639090143385
+  Name: "Resources"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17569581099006955057
+  ChildIds: 16367059067899520872
+  ChildIds: 15863076415153234869
+  ChildIds: 10802748481287309262
+  ChildIds: 14663903750888265471
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12081663639090143385
+    SubobjectId: 15125702683411221838
+    InstanceId: 98707382762470242
+    TemplateId: 6657921366064206637
+  }
+}
+Objects {
+  Id: 14663903750888265471
+  Name: "Grenades"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12081663639090143385
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "grenades"
+    }
+    Overrides {
+      Name: "cs:ResourceName"
+      String: "Grenades"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 841534158063459245
+      }
+    }
+    Overrides {
+      Name: "cs:IconColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 14663903750888265471
+    SubobjectId: 13673875864619072296
+    InstanceId: 98707382762470242
+    TemplateId: 6657921366064206637
+  }
+}
+Objects {
+  Id: 10802748481287309262
+  Name: "ammo_762"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12081663639090143385
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "ammo_762"
+    }
+    Overrides {
+      Name: "cs:ResourceName"
+      String: "7.62 Ammo"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10706581398584674728
+      }
+    }
+    Overrides {
+      Name: "cs:IconColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15863076415153234869
+  Name: "ammo_556"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12081663639090143385
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "ammo_556"
+    }
+    Overrides {
+      Name: "cs:ResourceName"
+      String: "5.56 Ammo"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10706581398584674728
+      }
+    }
+    Overrides {
+      Name: "cs:IconColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 15863076415153234869
+    SubobjectId: 12278796747757276770
+    InstanceId: 98707382762470242
+    TemplateId: 6657921366064206637
+  }
+}
+Objects {
+  Id: 16367059067899520872
+  Name: "Light"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12081663639090143385
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "light"
+    }
+    Overrides {
+      Name: "cs:ResourceName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 13792699748244539037
+      }
+    }
+    Overrides {
+      Name: "cs:IconColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 16367059067899520872
+    SubobjectId: 10763747023009221311
+    InstanceId: 98707382762470242
+    TemplateId: 6657921366064206637
   }
 }
 Objects {
@@ -740,6 +1165,7 @@ Objects {
   Settings {
     GameSettings {
       RagdollOnDeath: true
+      EnablePlayerStorage: true
     }
   }
 }

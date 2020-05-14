@@ -7238,46 +7238,6 @@ Objects {
   }
 }
 Objects {
-  Id: 1185963373991569374
-  Name: "World Text"
-  Transform {
-    Location {
-      X: -5151.92
-      Y: -300
-      Z: 400
-    }
-    Rotation {
-      Yaw: 179.999969
-    }
-    Scale {
-      X: 3.22434759
-      Y: 3.22434759
-      Z: 3.22434759
-    }
-  }
-  ParentId: 8220931655639317171
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Text {
-    Text: "<- ATTACK ->"
-    Color {
-      A: 1
-    }
-    HorizontalSize: 1
-    VerticalSize: 1
-    HorizontalAlignment {
-      Value: "mc:ecoretexthorizontalalign:center"
-    }
-    VerticalAlignment {
-      Value: "mc:ecoretextverticalalign:center"
-    }
-  }
-}
-Objects {
   Id: 15625399690899980301
   Name: "World Text"
   Transform {
