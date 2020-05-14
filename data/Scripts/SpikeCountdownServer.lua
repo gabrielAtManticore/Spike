@@ -112,7 +112,7 @@ gameStateChangedListener = Events.Connect("GameStateChanged", OnGameStateChanged
 
 -------------------------------
 if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
-	ABGS.SetTimeRemainingInState(TIMER_DURATION + 5)
+	ABGS.SetTimeRemainingInState(TIMER_DURATION + 0.5)
 end
 
 Task.Wait(TIMER_DURATION)
