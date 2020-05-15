@@ -314,6 +314,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15949290598817695165
+  Name: "Hill 05"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_005"
+  }
+}
+Assets {
   Id: 15796735955700053120
   Name: "Modern Weapon - Foregrip 02"
   PlatformAssetType: 1
@@ -419,6 +428,15 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_ptp_electrical_beam"
+  }
+}
+Assets {
+  Id: 14729889740518676032
+  Name: "Arch"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arch_001"
   }
 }
 Assets {
@@ -1106,6 +1124,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9539636687891683149
+  Name: "Ring - Beveled Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ring_faceted_002"
+  }
+}
+Assets {
   Id: 9497337568714563558
   Name: "Modern Weapon - Sight 01"
   PlatformAssetType: 1
@@ -1529,6 +1556,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5675943514962987019
+  Name: "Pipe - Quarter Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter-pipe_002"
+  }
+}
+Assets {
   Id: 5562338347275175119
   Name: "Large Girder 8m x 6m"
   PlatformAssetType: 1
@@ -1715,6 +1751,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_pole_002"
+  }
+}
+Assets {
+  Id: 4063202958742453182
+  Name: "Small Open Crate"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_narrow_open_simple_160cm_001"
   }
 }
 Assets {
@@ -2006,6 +2051,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1832894999287324335
+  Name: "Small Crate Lid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_narrow_lid_simple_160cm_001"
+  }
+}
+Assets {
   Id: 1763920700836873880
   Name: "Wooden Barrel"
   PlatformAssetType: 1
@@ -2228,6 +2282,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_matte_001"
+  }
+}
+Assets {
+  Id: 105923753094820232
+  Name: "Pipe - 90-Degree Short Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve90_004"
   }
 }
 Assets {
