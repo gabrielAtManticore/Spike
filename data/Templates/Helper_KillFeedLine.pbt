@@ -15,8 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2774506596943404180
-        ChildIds: 13711715689263970279
+        ParentId: 12650245047976557178
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -45,7 +44,6 @@ Assets {
             Justification {
               Value: "mc:etextjustify:right"
             }
-            ClipTextToSize: true
           }
           AnchorLayout {
             SelfAnchor {
@@ -59,33 +57,6 @@ Assets {
               }
             }
           }
-        }
-      }
-      Objects {
-        Id: 13711715689263970279
-        Name: "Group"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11340123600846676812
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
         }
       }
     }

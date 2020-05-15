@@ -15,13 +15,32 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER I
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
 
+-- Internal custom properties
+local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
+
+-- User exposed properties
+local SHOW_EQUIPMENT_NAME = COMPONENT_ROOT:GetCustomProperty("ShowEquipmentName")
+
+-- string GetShortId(CoreObject)
+-- Returns the id of the object without the human-readable name on the end for networking
+-- Example: "842B77E668FD9258" instead of "842B77E668FD9258:Capture Point Assault"
+function GetShortId(object)
+	return string.sub(object.id, 1, string.find(object.id, ":") - 1)
+end
+
 -- nil OnPlayerDied(Player, Damage)
 -- Fires an event for the client to add a line to the kill feed
 function OnPlayerDied(player, damage)
 	if damage.sourceAbility then
-		Events.BroadcastToAllPlayers("AddKillFeedKill_Internal", damage.sourcePlayer, player, damage.sourceAbility.name)
+		local equipment = damage.sourceAbility:FindAncestorByType("Equipment")
+
+		if SHOW_EQUIPMENT_NAME and equipment then
+			Events.BroadcastToAllPlayers("PlayerKilled", damage.sourcePlayer, player, GetShortId(equipment))
+		else
+			Events.BroadcastToAllPlayers("PlayerKilled", damage.sourcePlayer, player, GetShortId(damage.sourceAbility))
+		end
 	else
-		Events.BroadcastToAllPlayers("AddKillFeedKill_Internal", damage.sourcePlayer, player, nil)
+		Events.BroadcastToAllPlayers("PlayerKilled", damage.sourcePlayer, player, nil)
 	end
 end
 

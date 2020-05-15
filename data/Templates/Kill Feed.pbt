@@ -1,5 +1,5 @@
 Assets {
-  Id: 5727966106291142840
+  Id: 13949199473154444265
   Name: "Kill Feed"
   PlatformAssetType: 5
   TemplateAsset {
@@ -15,12 +15,16 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6344321037654884984
+        ParentId: 14256649674182269152
         ChildIds: 4282101098513356928
         ChildIds: 7991991925041459746
         UnregisteredParameters {
           Overrides {
             Name: "cs:ShowJoinAndLeave"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:ShowEquipmentName"
             Bool: true
           }
           Overrides {
@@ -96,6 +100,12 @@ Assets {
         }
         ParentId: 2956060663263325828
         UnregisteredParameters {
+          Overrides {
+            Name: "cs:ComponentRoot"
+            ObjectReference {
+              SubObjectId: 2956060663263325828
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -186,7 +196,7 @@ Assets {
       }
       Objects {
         Id: 13312736867720001555
-        Name: "Container"
+        Name: "Canvas"
         Transform {
           Location {
           }

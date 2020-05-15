@@ -1,6 +1,69 @@
 Name: "UI Settings"
 RootId: 9927501312709583198
 Objects {
+  Id: 9843092882761618123
+  Name: "Kill Feed"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9927501312709583198
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2956060663263325828
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Kill Feed"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2983204099323802530
+      value {
+        Overrides {
+          Name: "UIY"
+          Float: 55
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13949199473154444265
+    }
+  }
+}
+Objects {
   Id: 4981930548235611793
   Name: "SingleResourceUI"
   Transform {

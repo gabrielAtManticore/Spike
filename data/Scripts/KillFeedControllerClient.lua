@@ -77,10 +77,15 @@ function OnPlayerLeft(player)
 	AddLine(string.format("%s left the game", player.name), TEXT_COLOR)
 end
 
--- nil OnAddKillFeedKill(string, string, <string>)
+-- nil OnKill(string, string, <string>)
 -- Catches the event from the server and adds a line
-function OnAddKillFeedKill(killerPlayer, killedPlayer, abilityName)
+function OnKill(killerPlayer, killedPlayer, sourceObjectId)
 	local lineColor = TEXT_COLOR
+	local sourceObject = nil
+
+	if sourceObjectId then
+		sourceObject = World.FindObjectById(sourceObjectId)
+	end
 
 	if killerPlayer == LOCAL_PLAYER or killedPlayer == LOCAL_PLAYER then
 		lineColor = SELF_TEXT_COLOR
@@ -88,6 +93,8 @@ function OnAddKillFeedKill(killerPlayer, killedPlayer, abilityName)
 
 	if not killerPlayer then
 		AddLine(string.format("%s died", killedPlayer.name), lineColor)
+	elseif sourceObject then
+		AddLine(string.format("%s killed %s with %s", killerPlayer.name, killedPlayer.name, sourceObject.name), lineColor)
 	else
 		AddLine(string.format("%s killed %s", killerPlayer.name, killedPlayer.name), lineColor)
 	end
@@ -118,7 +125,7 @@ for i = 1, NUM_LINES do
 	lineTemplates[i]:SetColor(Color.TRANSPARENT)
 end
 
-Events.Connect("AddKillFeedKill_Internal", OnAddKillFeedKill)
+Events.Connect("PlayerKilled", OnKill)
 
 if SHOW_JOIN_AND_LEAVE then
 	Game.playerJoinedEvent:Connect(OnPlayerJoined)
