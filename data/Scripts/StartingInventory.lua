@@ -34,6 +34,9 @@ function OnPlayerJoined(player)
 	
 	--print("Size = " .. tostring(#equipment))
 	
+	Task.Wait(0.2)
+	if not Object.IsValid(player) then return end
+	
 	for _,e in ipairs(equipment) do
 		ABI.AddEquipment(player, e)
 	end
