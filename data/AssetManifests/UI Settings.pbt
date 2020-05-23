@@ -1,13 +1,4 @@
 Assets {
-  Id: 16060214784296519809
-  Name: "Plane 1m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_1m_001"
-  }
-}
-Assets {
   Id: 13355030054475333593
   Name: "BG Flat 004"
   PlatformAssetType: 9

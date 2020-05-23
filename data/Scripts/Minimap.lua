@@ -1,11 +1,29 @@
+--[[
+Minimap UI
+v1.0
+by: standardcombo
+
+1. Place the Minimap UI template into your hierarchy.
+2. Edit the contents of the "3D" folder, to match the level design of your game.
+3. Use Plane 1m or World Text objects. For the Planes, only rotate them on Z or it will look incorrect.
+
+Tips:
+- It's fast to get a rough minimap working, but fine tuning all the edges takes time and patience.
+- Change the color of the map elements by editing the "Tint" custom property on the 3D objects.
+- When not working on the minimap geometry, toggle its visibility and lock it in the hierarchy.
+
+--]]
+
 local ROOT = script.parent
 local MAP_PANEL = script:GetCustomProperty("UIPanel"):WaitForObject()
 local MAP_PIECE_TEMPLATE = script:GetCustomProperty("MinimapPiece")
 local LABEL_TEMPLATE = script:GetCustomProperty("MinimapLabel")
 local PLAYER_TEMPLATE = script:GetCustomProperty("MinimapPlayer")
+local GRADIENT_HEIGHT = script:GetCustomProperty("GradientHeight")
 local COLOR_LOW = script:GetCustomProperty("ColorLow")
 local COLOR_HIGH = script:GetCustomProperty("ColorHigh")
-local BORDER_SIZE = 2
+local BORDER_COLOR = script:GetCustomProperty("BorderColor")
+local BORDER_SIZE = script:GetCustomProperty("BorderSize")
 
 local worldShapes = ROOT:FindDescendantsByType("StaticMesh")
 local worldTexts = ROOT:FindDescendantsByType("WorldText")
@@ -86,20 +104,29 @@ function AddForShape(shape)
 	
 	return mapPiece
 end
+
 -- Border
 for _,shape in ipairs(worldShapes) do
 	local mapPiece = AddForShape(shape)
 	mapPiece.width = mapPiece.width + BORDER_SIZE * 2
 	mapPiece.height = mapPiece.height + BORDER_SIZE * 2
-	mapPiece:SetColor(Color.BLACK)
+	-- Color
+	mapPiece:SetColor(BORDER_COLOR)
 end
+
 -- Fill
 for _,shape in ipairs(worldShapes) do
 	local mapPiece = AddForShape(shape)
-	local posZ = shape:GetWorldPosition().z
-	local heightNormalized = (posZ - boundsLow) / (boundsHigh - boundsLow)
-	local color = Color.Lerp(COLOR_LOW, COLOR_HIGH, heightNormalized)
-	mapPiece:SetColor(color)
+	-- Color
+	local baseColor = shape:GetCustomProperty("Tint") or Color.WHITE
+	if GRADIENT_HEIGHT then
+		local posZ = shape:GetWorldPosition().z
+		local heightNormalized = (posZ - boundsLow) / (boundsHigh - boundsLow)
+		local color = Color.Lerp(COLOR_LOW, COLOR_HIGH, heightNormalized)
+		mapPiece:SetColor(color * baseColor)
+	else
+		mapPiece:SetColor(baseColor)
+	end
 end
 
 -- Labels
