@@ -202,7 +202,6 @@ Assets {
         Control {
           Width: 41
           Height: 41
-          UIX: 1
           UIY: 8
           RenderTransformPivot {
             Anchor {

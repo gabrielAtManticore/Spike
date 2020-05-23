@@ -3,6 +3,8 @@ local MAP_PANEL = script:GetCustomProperty("UIPanel"):WaitForObject()
 local MAP_PIECE_TEMPLATE = script:GetCustomProperty("MinimapPiece")
 local LABEL_TEMPLATE = script:GetCustomProperty("MinimapLabel")
 local PLAYER_TEMPLATE = script:GetCustomProperty("MinimapPlayer")
+local COLOR_LOW = script:GetCustomProperty("ColorLow")
+local COLOR_HIGH = script:GetCustomProperty("ColorHigh")
 local BORDER_SIZE = 2
 
 local worldShapes = ROOT:FindDescendantsByType("StaticMesh")
@@ -93,7 +95,11 @@ for _,shape in ipairs(worldShapes) do
 end
 -- Fill
 for _,shape in ipairs(worldShapes) do
-	AddForShape(shape)
+	local mapPiece = AddForShape(shape)
+	local posZ = shape:GetWorldPosition().z
+	local heightNormalized = (posZ - boundsLow) / (boundsHigh - boundsLow)
+	local color = Color.Lerp(COLOR_LOW, COLOR_HIGH, heightNormalized)
+	mapPiece:SetColor(color)
 end
 
 -- Labels

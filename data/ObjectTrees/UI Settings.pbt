@@ -94,7 +94,6 @@ Objects {
     }
   }
   ParentId: 17909902940936170564
-  ChildIds: 7343927389319439634
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -102,10 +101,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 230
-    Height: 230
-    UIX: 40
-    UIY: 70
+    Width: 265
+    Height: 265
+    UIX: 37
+    UIY: 83
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -124,52 +123,6 @@ Objects {
           Value: "mc:euianchor:topleft"
         }
       }
-    }
-  }
-}
-Objects {
-  Id: 7343927389319439634
-  Name: "MinimapLabel"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14776463561921584797
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2137290313580307038
-      value {
-        Overrides {
-          Name: "Name"
-          String: "MinimapLabel"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1344.07324
-            Y: 9864.88184
-            Z: -5620
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90.0000153
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 17819458090552894868
     }
   }
 }
@@ -1668,14 +1621,14 @@ Objects {
   Transform {
     Location {
       X: -8530
-      Y: 670
+      Y: 690
       Z: -20
     }
     Rotation {
     }
     Scale {
       X: 14.0000048
-      Y: 17.25
+      Y: 17.5
       Z: 1
     }
   }
@@ -1746,14 +1699,14 @@ Objects {
   Transform {
     Location {
       X: -9380
-      Y: 1960
+      Y: 1964.34766
       Z: 127.766846
     }
     Rotation {
     }
     Scale {
       X: 3
-      Y: 13
+      Y: 13.1283207
       Z: 1
     }
   }
@@ -2532,7 +2485,7 @@ Objects {
   Name: "Plane 1m"
   Transform {
     Location {
-      X: -7050
+      X: -7052.20752
       Y: -7350
     }
     Rotation {
@@ -3235,15 +3188,15 @@ Objects {
   Name: "Plane 1m"
   Transform {
     Location {
-      X: -3440
+      X: -3432.34985
       Y: -4560
       Z: -20
     }
     Rotation {
     }
     Scale {
-      X: 4.75
-      Y: 2
+      X: 4.97908
+      Y: 2.44583
       Z: 1
     }
   }
@@ -5216,6 +5169,24 @@ Objects {
       Name: "cs:MinimapPlayer"
       AssetReference {
         Id: 16558883041904640816
+      }
+    }
+    Overrides {
+      Name: "cs:ColorLow"
+      Color {
+        R: 0.251000017
+        G: 0.251000017
+        B: 0.251000017
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:ColorHigh"
+      Color {
+        R: 0.804
+        G: 0.804
+        B: 0.804
+        A: 1
       }
     }
   }
