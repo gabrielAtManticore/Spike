@@ -16,6 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 6739606293966140887
         ChildIds: 4657119197678931968
         ChildIds: 5382434206862491043
         ChildIds: 7509948360020567706
@@ -255,6 +256,43 @@ Assets {
             ReloadAbility {
               SubObjectId: 10433296450246513255
             }
+          }
+        }
+      }
+      Objects {
+        Id: 6739606293966140887
+        Name: "WeaponWallBang"
+        Transform {
+          Location {
+            X: -150.000015
+            Y: -750.000061
+            Z: 125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 2401814779510463663
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:WallBang"
+            Float: 3
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17395965524379287915
           }
         }
       }

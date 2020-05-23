@@ -359,6 +359,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15608917045575953985
+  Name: "Trash Can - Urban 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_trash_public_001"
+  }
+}
+Assets {
   Id: 15544421471882846940
   Name: "Trim Top 8m 02"
   PlatformAssetType: 1
@@ -374,6 +383,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_girder_medium_4m_1-5m_001"
+  }
+}
+Assets {
+  Id: 15254774749497714619
+  Name: "Bush 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_001"
   }
 }
 Assets {
@@ -1619,6 +1637,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4967093292306326664
+  Name: "Cone - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_001"
+  }
+}
+Assets {
   Id: 4958159230505716118
   Name: "Road Ramp Bottom Center"
   PlatformAssetType: 1
@@ -2201,6 +2228,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_mag_002"
+  }
+}
+Assets {
+  Id: 588881991680217981
+  Name: "Cone - Truncated Hollow Wide Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_hollow_005"
   }
 }
 Assets {
