@@ -633,9 +633,13 @@ Objects {
   }
 }
 Objects {
-  Id: 4994092641737956079
+  Id: 16217498175564700714
   Name: "Basic Game State Manager"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -643,6 +647,91 @@ Objects {
     }
   }
   ParentId: 1464612430936567761
+  ChildIds: 14704901950997034185
+  ChildIds: 14425234924106816084
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LobbyHasDuration"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:LobbyDuration"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:RoundHasDuration"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:RoundDuration"
+      Float: 120
+    }
+    Overrides {
+      Name: "cs:RoundEndHasDuration"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:RoundEndDuration"
+      Float: 7
+    }
+    Overrides {
+      Name: "cs:LobbyHasDuration:tooltip"
+      String: "Lobby phase has a maximum duration"
+    }
+    Overrides {
+      Name: "cs:LobbyDuration:tooltip"
+      String: "Lobby duration (if LobbyHasDuration)"
+    }
+    Overrides {
+      Name: "cs:RoundHasDuration:tooltip"
+      String: "Round phase has a maximum duration"
+    }
+    Overrides {
+      Name: "cs:RoundDuration:tooltip"
+      String: "Round duration (if RoundHasDuration)"
+    }
+    Overrides {
+      Name: "cs:RoundEndHasDuration:tooltip"
+      String: "Round end phase has a maximum duration"
+    }
+    Overrides {
+      Name: "cs:RoundEndDuration:tooltip"
+      String: "Round end duration (if RoundEndHasDuration)"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 16217498175564700714
+    SubobjectId: 16086570097188718822
+    InstanceId: 4994092641737956079
+    TemplateId: 3683989391263939746
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 14425234924106816084
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16217498175564700714
+  ChildIds: 6450257353010202725
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -651,56 +740,131 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16086570097188718822
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Basic Game State Manager"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:LobbyHasDuration"
-          Bool: true
-        }
-        Overrides {
-          Name: "cs:RoundHasDuration"
-          Bool: true
-        }
-        Overrides {
-          Name: "cs:LobbyDuration"
-          Float: 30
-        }
-        Overrides {
-          Name: "cs:RoundDuration"
-          Float: 180
-        }
-        Overrides {
-          Name: "cs:RoundEndDuration"
-          Float: 7
-        }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 14425234924106816084
+    SubobjectId: 17734718294272544408
+    InstanceId: 4994092641737956079
+    TemplateId: 3683989391263939746
+  }
+}
+Objects {
+  Id: 6450257353010202725
+  Name: "GameStateManagerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14425234924106816084
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 11974742996071064388
       }
     }
-    TemplateAsset {
-      Id: 3683989391263939746
+    Overrides {
+      Name: "cs:ServerScript"
+      ObjectReference {
+        SelfId: 14704901950997034185
+      }
     }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13768914357262734965
+    }
+  }
+  InstanceHistory {
+    SelfId: 6450257353010202725
+    SubobjectId: 7470680187010079913
+    InstanceId: 4994092641737956079
+    TemplateId: 3683989391263939746
+  }
+}
+Objects {
+  Id: 14704901950997034185
+  Name: "BasicGameStateManagerServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16217498175564700714
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 16217498175564700714
+      }
+    }
+    Overrides {
+      Name: "cs:State"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:StateHasDuration"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StateEndTime"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:State:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:StateHasDuration:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:StateEndTime:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2116866938673166392
+    }
+  }
+  InstanceHistory {
+    SelfId: 14704901950997034185
+    SubobjectId: 17454989556266754053
+    InstanceId: 4994092641737956079
+    TemplateId: 3683989391263939746
   }
 }

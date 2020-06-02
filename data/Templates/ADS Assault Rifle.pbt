@@ -229,7 +229,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 30
-            BurstDuration: 5.5
+            BurstDuration: 7
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
@@ -249,7 +249,7 @@ Assets {
             ProjectileRadius: 5
             SpreadMax: 3.5
             SpreadDecreaseSpeed: 5.5
-            SpreadIncreasePerShot: 0.5
+            SpreadIncreasePerShot: 0.1
             SpreadPenaltyPerShot: 1
             DefaultAbility {
               SubObjectId: 1295057997060522332
@@ -688,6 +688,12 @@ Assets {
               Y: 0.1
             }
           }
+          Overrides {
+            Name: "cs:AttackAbility"
+            ObjectReference {
+              SubObjectId: 1295057997060522332
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -697,7 +703,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 6795852902416672862
+            Id: 9969509539844301900
           }
         }
       }
@@ -1479,7 +1485,7 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.1
+            Duration: 0.03
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -1498,7 +1504,7 @@ Assets {
             IsTargetDataUpdated: true
           }
           CooldownPhaseSettings {
-            Duration: 0.2
+            Duration: 0.1
             CanMove: true
             CanJump: true
             CanRotate: true

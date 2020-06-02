@@ -15,8 +15,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14776463561921584797
+        ParentId: 4781671109827199097
         ChildIds: 5272210985794039454
+        ChildIds: 5759336645188000755
         ChildIds: 14185852490345710174
         ChildIds: 8263424786566123171
         ChildIds: 13442765102198107866
@@ -69,6 +70,12 @@ Assets {
         ParentId: 13851484905233708050
         UnregisteredParameters {
           Overrides {
+            Name: "cs:CircleLocalPlayerBG"
+            ObjectReference {
+              SubObjectId: 5759336645188000755
+            }
+          }
+          Overrides {
             Name: "cs:Circle"
             ObjectReference {
               SubObjectId: 14185852490345710174
@@ -108,6 +115,69 @@ Assets {
         Script {
           ScriptAsset {
             Id: 15941085647600355279
+          }
+        }
+      }
+      Objects {
+        Id: 5759336645188000755
+        Name: "Circle - Local Player BG"
+        Transform {
+          Location {
+            X: 4220
+            Y: -280
+            Z: 2870
+          }
+          Rotation {
+            Yaw: 44.9999924
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13851484905233708050
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 21
+          Height: 21
+          UIX: -2
+          UIY: -2
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 17476121550048471155
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+              UseTeamColor: true
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
           }
         }
       }
@@ -438,12 +508,12 @@ Assets {
               Id: 18056787318024051379
             }
             Color {
-              G: 0.600993276
-              B: 0.75
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
             TeamSettings {
-              UseTeamColor: true
             }
           }
           AnchorLayout {

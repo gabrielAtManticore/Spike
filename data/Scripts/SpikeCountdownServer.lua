@@ -26,6 +26,8 @@ local wasDisarmed = false
 local gameStateChangedListener = nil
 
 function StartPlayerDisarming(trigger, player)
+	if player.isDead then return end
+	
 	if not (currentPlayerDisarming == nil and canBeDisarmed) then
 		-- display message?
 		return

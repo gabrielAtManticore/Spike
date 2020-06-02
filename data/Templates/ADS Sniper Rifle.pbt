@@ -701,6 +701,12 @@ Assets {
               Y: 0.1
             }
           }
+          Overrides {
+            Name: "cs:AttackAbility"
+            ObjectReference {
+              SubObjectId: 3220865336854932128
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -710,7 +716,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 6795852902416672862
+            Id: 9969509539844301900
           }
         }
       }

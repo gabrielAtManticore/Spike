@@ -1,6 +1,56 @@
 Name: "UI Settings"
 RootId: 9927501312709583198
 Objects {
+  Id: 8113409650849791703
+  Name: "Kill Feedback UI"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9927501312709583198
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10841648012521892966
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Kill Feedback UI"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16172898017146012767
+    }
+  }
+}
+Objects {
   Id: 6663653796990903979
   Name: "Minimap UI"
   Transform {

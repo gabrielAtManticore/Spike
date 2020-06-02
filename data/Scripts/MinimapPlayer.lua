@@ -1,5 +1,6 @@
 
 local ROOT = script.parent
+local CIRCLE_BG = script:GetCustomProperty("CircleLocalPlayerBG"):WaitForObject()
 local CIRCLE = script:GetCustomProperty("Circle"):WaitForObject()
 local NAME = script:GetCustomProperty("Name"):WaitForObject()
 local DEAD = script:GetCustomProperty("Dead"):WaitForObject()
@@ -16,6 +17,8 @@ function SetPlayer(player)
 	initialized = true
 	
 	ROOT.visibility = Visibility.INHERIT
+	
+	CIRCLE_BG.isEnabled = (player == Game.GetLocalPlayer())
 	
 	-- Set player's initial name letter
 	NAME.text = string.sub(player.name, 1, 1)

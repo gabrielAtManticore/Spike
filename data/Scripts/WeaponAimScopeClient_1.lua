@@ -120,6 +120,11 @@ end
     if not Object.IsValid(player) then
         return nil
     end
+    
+    if not player.GetOverrideCamera then
+	    print("WeaponAimScopeClient::GetPlayerActiveCamera() player = " .. tostring(player.name))
+	    print("type = " .. type(player))
+	end
 
     if player:GetOverrideCamera() then
         return player:GetOverrideCamera()

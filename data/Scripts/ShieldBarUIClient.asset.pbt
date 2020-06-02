@@ -1,5 +1,5 @@
-Id: 13511250510657008800
-Name: "WeaponAimScopeClient"
+Id: 11281481323157058790
+Name: "ShieldBarUIClient"
 PlatformAssetType: 3
 TextAsset {
 }
