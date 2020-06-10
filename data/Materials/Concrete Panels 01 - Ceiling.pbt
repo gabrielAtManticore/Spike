@@ -2,7 +2,7 @@ Assets {
   Id: 11659836712566155965
   Name: "Concrete Panels 01 - Ceiling"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 5626782184882959226
     ParameterOverrides {

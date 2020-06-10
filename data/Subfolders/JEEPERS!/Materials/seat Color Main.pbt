@@ -2,7 +2,7 @@ Assets {
   Id: 6787345281975320916
   Name: "seat Color Main"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 682351618575682493
     ParameterOverrides {

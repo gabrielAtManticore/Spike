@@ -2,7 +2,7 @@ Assets {
   Id: 3170478967259757240
   Name: "Plastic Shiny - Grey"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 333546222680264289
     ParameterOverrides {

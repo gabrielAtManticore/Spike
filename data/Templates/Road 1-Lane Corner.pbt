@@ -425,5 +425,5 @@ Assets {
       AssetId: "Road_1-Lane_Corner"
     }
   }
-  SerializationVersion: 59
+  SerializationVersion: 60
 }

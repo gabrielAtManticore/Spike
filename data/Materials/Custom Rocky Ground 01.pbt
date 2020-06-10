@@ -2,7 +2,7 @@ Assets {
   Id: 4993581983966303549
   Name: "Custom Rocky Ground 01"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 844648772463915808
     ParameterOverrides {

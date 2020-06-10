@@ -3,4 +3,4 @@ Name: "Debug_Suicide"
 PlatformAssetType: 3
 TextAsset {
 }
-SerializationVersion: 59
+SerializationVersion: 60

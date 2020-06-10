@@ -2,7 +2,7 @@ Assets {
   Id: 2649192524149284872
   Name: "Trash Bag Mat"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 8710715888505693468
     ParameterOverrides {

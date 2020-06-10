@@ -244,8 +244,8 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -474.996796
-      Y: 1299.99609
+      X: -474.996857
+      Y: 1179.98926
     }
     Rotation {
       Yaw: -6.10351563e-05

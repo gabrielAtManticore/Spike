@@ -76,5 +76,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 59
+  SerializationVersion: 60
 }

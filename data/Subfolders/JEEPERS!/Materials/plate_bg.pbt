@@ -2,7 +2,7 @@ Assets {
   Id: 11240713656253039977
   Name: "plate_bg"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 11436023202306815330
     ParameterOverrides {

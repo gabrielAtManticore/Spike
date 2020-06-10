@@ -2,7 +2,7 @@ Assets {
   Id: 3083239006110667959
   Name: "Custom Curb from Road Sidewalk"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 13859453645779562546
     ParameterOverrides {

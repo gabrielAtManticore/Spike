@@ -2,7 +2,7 @@ Assets {
   Id: 1194619917710533955
   Name: "Metal Basic 01 - Pipes Gold"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 14472498222332431353
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 11522218964974960439
   Name: "Tech Panel 01 - Orange Exterior"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 11606875632753878390
     ParameterOverrides {

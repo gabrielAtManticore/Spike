@@ -44,5 +44,5 @@ Assets {
     OwnerAccountId: "b4c6e32137e54571814b5e8f27aa2fcd"
     OwnerName: "standardcombo"
   }
-  SerializationVersion: 59
+  SerializationVersion: 60
 }

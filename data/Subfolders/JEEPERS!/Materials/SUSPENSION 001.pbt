@@ -2,7 +2,7 @@ Assets {
   Id: 10895352965926092489
   Name: "SUSPENSION 001"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 15078138207104647870
     ParameterOverrides {

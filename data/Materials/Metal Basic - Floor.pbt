@@ -2,7 +2,7 @@ Assets {
   Id: 11926159572632325925
   Name: "Metal Basic - Floor"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 14472498222332431353
     ParameterOverrides {

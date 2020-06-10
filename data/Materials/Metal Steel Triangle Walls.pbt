@@ -2,7 +2,7 @@ Assets {
   Id: 2130761079470766205
   Name: "Metal Steel Triangle Walls"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 15167407577097334093
     ParameterOverrides {

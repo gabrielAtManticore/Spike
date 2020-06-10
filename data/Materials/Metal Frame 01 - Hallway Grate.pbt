@@ -2,7 +2,7 @@ Assets {
   Id: 2709059175135050073
   Name: "Metal Frame 01 - Hallway Grate"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 6733769891071500735
     ParameterOverrides {

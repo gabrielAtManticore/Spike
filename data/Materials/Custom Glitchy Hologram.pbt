@@ -2,7 +2,7 @@ Assets {
   Id: 18385514386380896678
   Name: "Custom Glitchy Hologram"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 9868207231925736915
     ParameterOverrides {

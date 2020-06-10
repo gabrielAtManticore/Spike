@@ -2,7 +2,7 @@ Assets {
   Id: 2968845765104975339
   Name: "Tech Panel 05 - Bottom Wall"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 16145661754464637676
     ParameterOverrides {

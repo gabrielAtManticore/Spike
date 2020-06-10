@@ -2,7 +2,7 @@ Assets {
   Id: 195298936725771994
   Name: "Tech Panel 01 - Green Exterior"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 11606875632753878390
     ParameterOverrides {

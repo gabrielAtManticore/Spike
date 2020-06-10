@@ -2,7 +2,7 @@ Assets {
   Id: 6991767454715116792
   Name: "Custom Detail 1 from Modern Weapon Ammo - Cannister 01"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 12937475712846327848
     ParameterOverrides {

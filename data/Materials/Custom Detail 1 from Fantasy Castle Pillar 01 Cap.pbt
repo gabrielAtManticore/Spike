@@ -2,7 +2,7 @@ Assets {
   Id: 16068644696600678190
   Name: "Custom Detail 1 from Fantasy Castle Pillar 01 Cap"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 8091092968865407762
     ParameterOverrides {

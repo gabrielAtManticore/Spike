@@ -2,7 +2,7 @@ Assets {
   Id: 17138852141963069220
   Name: "Custom Detail 2 from Modern Weapon - Scope 01"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 5071365825023015807
     ParameterOverrides {

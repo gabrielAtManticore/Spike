@@ -2,7 +2,7 @@ Assets {
   Id: 9715769507361233511
   Name: "Sci-fi Circuits Ring 02 - Green"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 7562540384002025785
     ParameterOverrides {

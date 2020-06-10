@@ -323,6 +323,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15897705887741699672
+  Name: "Urban Pipe Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_straight_001_ref"
+  }
+}
+Assets {
   Id: 15796735955700053120
   Name: "Modern Weapon - Foregrip 02"
   PlatformAssetType: 1
@@ -1583,6 +1592,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5626782184882959226
+  Name: "Concrete Panels 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_panels_001"
+  }
+}
+Assets {
   Id: 5562338347275175119
   Name: "Large Girder 8m x 6m"
   PlatformAssetType: 1
@@ -1805,6 +1823,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_wall_int_001_cap"
+  }
+}
+Assets {
+  Id: 3933510544501141176
+  Name: "Fantasy Castle Stairs 01 - 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_stairs_001_150cm"
   }
 }
 Assets {

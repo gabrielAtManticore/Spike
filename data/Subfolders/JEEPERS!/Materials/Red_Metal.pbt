@@ -2,7 +2,7 @@ Assets {
   Id: 12708771845672619649
   Name: "Red_Metal"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 8848890013785341561
     ParameterOverrides {

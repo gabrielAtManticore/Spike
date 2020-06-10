@@ -2,7 +2,7 @@ Assets {
   Id: 3255196454772860622
   Name: "Warehouse Brick Multicolor 01"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 10956975033498639929
     ParameterOverrides {

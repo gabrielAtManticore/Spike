@@ -2,7 +2,7 @@ Assets {
   Id: 3931772875280310258
   Name: "Concrete Tiles Plaza 01"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 102109285946859029
     ParameterOverrides {

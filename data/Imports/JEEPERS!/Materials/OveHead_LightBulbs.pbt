@@ -2,7 +2,7 @@ Assets {
   Id: 17236976347207394830
   Name: "OveHead_LightBulbs"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 4722912119346492871
     ParameterOverrides {

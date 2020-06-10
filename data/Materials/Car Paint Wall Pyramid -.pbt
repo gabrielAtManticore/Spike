@@ -2,7 +2,7 @@ Assets {
   Id: 5519243344221734932
   Name: "Car Paint Wall Pyramid - "
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 2540234172483328202
     ParameterOverrides {

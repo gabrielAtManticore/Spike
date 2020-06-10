@@ -186,10 +186,10 @@ Assets {
           BlueprintAsset {
             Id: 11887549032181544333
           }
+          TeamSettings {
+          }
           Vfx {
             AutoPlay: true
-            TeamSettings {
-            }
           }
         }
       }
@@ -267,5 +267,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 59
+  SerializationVersion: 60
 }

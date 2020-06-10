@@ -2,7 +2,7 @@ Assets {
   Id: 14447931231904560909
   Name: "Tech Panel 04 - Upper Wall"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 1207050380273690021
     ParameterOverrides {

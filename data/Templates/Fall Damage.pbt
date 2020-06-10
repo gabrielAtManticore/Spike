@@ -155,5 +155,5 @@ Assets {
       AssetId: "Fall_Damage"
     }
   }
-  SerializationVersion: 59
+  SerializationVersion: 60
 }

@@ -371,5 +371,5 @@ Assets {
       AssetId: "Road_1-Lane_Intersection_4-way"
     }
   }
-  SerializationVersion: 59
+  SerializationVersion: 60
 }

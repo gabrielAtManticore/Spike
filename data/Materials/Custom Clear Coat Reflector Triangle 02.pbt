@@ -2,7 +2,7 @@ Assets {
   Id: 9210293118052927938
   Name: "Custom Clear Coat Reflector Triangle 02"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 9223122662224641243
     ParameterOverrides {

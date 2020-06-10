@@ -2,7 +2,7 @@ Assets {
   Id: 7638649392397114758
   Name: "Custom Metal Old Beaten Gold 02"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 3621584444422797804
     ParameterOverrides {

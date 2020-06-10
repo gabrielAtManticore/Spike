@@ -2,7 +2,7 @@ Assets {
   Id: 9146207239163629235
   Name: "Metal Basic Steel - Gold Trim"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 16447630291553548532
     ParameterOverrides {

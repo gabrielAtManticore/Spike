@@ -2,7 +2,7 @@ Assets {
   Id: 305476445750433232
   Name: "Concrete Basic 01 - Upscaled"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 4590600675160144925
     ParameterOverrides {

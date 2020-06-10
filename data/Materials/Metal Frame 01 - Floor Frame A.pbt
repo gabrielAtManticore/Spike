@@ -2,7 +2,7 @@ Assets {
   Id: 5267162926196940274
   Name: "Metal Frame 01 - Floor Frame A"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 6733769891071500735
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 9113236532551444372
   Name: "Metal Basic Steel Matte - Grey"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 16447630291553548532
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 1575264626414665576
   Name: "Diamond Plate Gold"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 12135438069707176431
     ParameterOverrides {

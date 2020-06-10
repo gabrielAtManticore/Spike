@@ -2,7 +2,7 @@ Assets {
   Id: 2982098571557118025
   Name: "Edgeline Wavy Object Fade Advanced - GREEN"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 9809258377904754748
     ParameterOverrides {

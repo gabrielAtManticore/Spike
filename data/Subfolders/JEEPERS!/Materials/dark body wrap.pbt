@@ -2,7 +2,7 @@ Assets {
   Id: 6088503547183821470
   Name: "dark body wrap"
   PlatformAssetType: 13
-  SerializationVersion: 59
+  SerializationVersion: 60
   CustomMaterialAsset {
     BaseMaterialId: 10991739993140155313
     ParameterOverrides {
